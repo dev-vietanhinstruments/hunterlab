@@ -7,7 +7,7 @@ import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Carousel() {
+export default function Carousel({ images }) {
 	const settings = {
 		dots: false,
 		infinite: true,
@@ -18,8 +18,6 @@ export default function Carousel() {
 		autoplay: true,
 		autoplaySpeed: 1000,
 	}
-
-	const images = ['/banner_1.png', '/banner_2.png', '/banner_3.png']
 
 	return (
 		<section className='w-full'>
