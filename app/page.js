@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="flex bg-slate-200 flex-col">
       <Header />
-      {/* <Carousel images={banners}/> */}
+      <Carousel images={banners}/>
       <div>
         helololo
       </div>

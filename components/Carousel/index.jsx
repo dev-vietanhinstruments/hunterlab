@@ -15,12 +15,13 @@ export default function Carousel({ images }) {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		adaptiveHeight: false,
+		pauseOnFocus: true,
 		autoplay: true,
 		autoplaySpeed: 1000,
 	}
 
 	return (
-		<section className='w-full'>
+		<section className='w-full overflow-hidden outline-none'>
 				<Slider {...settings}>
 					{images.map((image, index) => (
 						<div key={index}>
