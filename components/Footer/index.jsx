@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Footer() {
 	return (
 		<footer className='flex flex-col justify-center items-center w-full bg-[#242769] py-16 px-8'>
-			<div className='flex flex-row w-full max-w-[1376px] gap-12 justify-between text-base font-light text-[#8F92C1]'>
+			<div className='flex flex-col tablet:flex-row w-full max-w-[1376px] gap-12 justify-between text-base font-light text-[#8F92C1]'>
 				<div className='flex flex-col gap-6 max-w-[392px]'>
 					<h2 className='text-2xl font-semibold uppercase text-white'>
 						Công ty CP Thiết Bị Việt Anh
@@ -74,7 +74,7 @@ export default function Footer() {
 				</div>
 
 				<div className='flex flex-col gap-9'>
-					<div className='flex flex-row gap-16'>
+					<div className='tablet:flex flex-row gap-12 flex-wrap hidden'>
 						<div className='flex flex-col gap-4'>
 							<h4 className='text-lg font-semibold text-white'>Sản phẩm</h4>
 							<div className='flex flex-row gap-12'>
