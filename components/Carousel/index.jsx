@@ -21,18 +21,17 @@ export default function Carousel({ images }) {
 	}
 
 	return (
-		<section className='w-full overflow-hidden outline-none'>
+		<section id="banner" className='w-full overflow-hidden'>
 				<Slider {...settings}>
 					{images.map((image, index) => (
-						<div key={index}>
-							<Image
-								src={image}
-								alt={`Banner ${index + 1}`}
-								width={1920}
-								height={680}
-                                className="w-full h-auto"
-							/>
-						</div>
+						<Image
+							key={index}
+							src={image}
+							alt={`Banner ${index + 1}`}
+							width={1920}
+							height={680}
+							className="w-full h-auto"
+						/>
 					))}
 				</Slider>
 		</section>
