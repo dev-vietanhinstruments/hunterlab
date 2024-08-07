@@ -5,16 +5,27 @@ export default function Header() {
 	return (
 		<header className='flex flex-col justify-center items-center w-full bg-white border-t-[8px] border-solid border-[#242769] border-top py-4 px-8'>
 			<div className='flex flex-row w-full max-w-[1376px] justify-between'>
-				<div className='flex items-center gap-3 text-2xl font-medium text-[#242769]'>
-					<Image
-						className='w-auto h-auto'
-						src='/logo_vietanh.png'
-						alt='VietAnh Logo'
-						width={64}
-						height={64}
-						priority={true}
-					/>
-					<h3>Việt Anh</h3>
+				<div className='flex flex-col tablet:flex-row gap-1 tablet:gap-3'>
+					<div className='flex items-center'>
+						<Image
+							className='w-auto h-12'
+							src='/logo_hunterlab.png'
+							alt='HunterLab Logo'
+							width={280}
+							height={88}
+							priority={true}
+						/>
+					</div>
+					<div className='flex items-center tablet:pl-2 tablet:border-l tablet:border-[#CDCDCD]'>
+						<Image
+							className='w-auto h-8'
+							src='/logo_vietanh.png'
+							alt='VietAnh Logo'
+							width={253}
+							height={62}
+							priority={true}
+						/>
+					</div>
 				</div>
 				<nav className='flex gap-8 items-center text-base font-light text-[#0D0D0D]'>
 					<div className='hidden desktop:flex gap-8'>
