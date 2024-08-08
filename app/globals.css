@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-#partners .slick-slide > div {
+/* #partners .slick-slide > div {
   margin: 0 10px;
 }
 #partners .slick-list {
   margin: 0 -10px;
+} */
+
+#banner .slick-dots {
+  bottom: 10px;
 }

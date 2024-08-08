@@ -10,6 +10,10 @@ module.exports = {
       'tablet': '640px',
       'desktop': '992px',
     },
+    backgroundImage: {
+      'support': "url('/support/support.png')",
+      'maintain': "url('/support/maintain.png')",
+    }
   },
   plugins: [],
 };

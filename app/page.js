@@ -1,8 +1,8 @@
 import Header from './../components/Header/index'
 import Footer from './../components/Footer/index'
-import { BANNERS, PARTNERS, STANDARDS } from '@/consts/homepage'
+import { BANNERS, PARTNERS, STANDARDS, SUPPORTS } from '@/consts/homepage'
 import { PRODUCTS } from '@/consts/products'
-import ProductCard, { IndustryCard, StandardCard } from '@/components/Card'
+import ProductCard, { IndustryCard, StandardCard, SupportCard } from '@/components/Card'
 import { INDUSTRIES } from '@/consts/industries'
 import BannersCarousel, { PartnersCarousel } from '@/components/Carousel'
 import Image from 'next/image'
@@ -92,11 +92,37 @@ export default function Home() {
 				</section>
 				<section
 					id='partners'
-					className='flex flex-col justify-center items-center w-full desktop:py-20 px-8'>
+					className='flex flex-col justify-center items-center w-full desktop:py-20 px-16'>
+						<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
+							<h2 className='text-3xl tablet:text-4xl desktop:text-5xl font-semibold text-[#242769] text-center'>
+								Đối tác của HunterLab
+							</h2>
+							<PartnersCarousel images={PARTNERS} />
+						</div>
+				</section>
+				<section
+					id='support'
+					className='flex flex-col justify-center items-center w-full py-20 px-8'>
+					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
+						<h4 className='text-xl tablet:text-2xl desktop:text-3xl font-semibold mb-4 text-center'>
+							Bạn cần hỗ trợ?
+						</h4>
 						<h2 className='text-3xl tablet:text-4xl desktop:text-5xl font-semibold text-[#242769] text-center'>
-							Đối tác của HunterLab
+							Liên hệ với chúng tôi.
 						</h2>
-					<PartnersCarousel images={PARTNERS} />
+						<div className='grid grid-flow-row gap-6 grid-cols-1 tablet:grid-cols-3 w-full mt-10'>
+							{SUPPORTS.map((support, index) => (
+								<div key={index}>
+									<SupportCard
+										name={support.name}
+										imagePath={support.icon}
+										info={support.info}
+										url={support.url}
+									/>
+								</div>
+							))}
+						</div>
+					</div>
 				</section>
 			</main>
 			<Footer />

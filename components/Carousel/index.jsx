@@ -7,11 +7,32 @@ import Image from 'next/image'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
+function NextArrow(props) {
+	const { className, style, onClick, css } = props;
+	return (
+	  <div
+		className={className + ' before:!text-[#242769] before:!text-4xl z-30'}
+		style={{ ...style, display: "block", ...css }}
+		onClick={onClick}
+	  />
+	);
+  }
+  
+  function PrevArrow(props) {
+	const { className, style, onClick, css } = props;
+	return (
+	  <div
+		className={className + ' before:!text-[#242769] before:!text-4xl z-30'}
+		style={{ ...style, display: "block", ...css }}
+		onClick={onClick}
+	  />
+	);
+  }
+
 export default function BannersCarousel({ images }) {
 	const settings = {
-		dots: false,
+		dots: true,
 		infinite: true,
-		arrows: false,
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -19,6 +40,8 @@ export default function BannersCarousel({ images }) {
 		pauseOnFocus: true,
 		autoplay: true,
 		autoplaySpeed: 1000,
+		prevArrow: <PrevArrow css={{ left: '10px' }} />,
+		nextArrow: <NextArrow css={{ right: '25px' }} />,
 	}
 
 	return (
@@ -41,7 +64,6 @@ export function PartnersCarousel({ images }) {
 	const settings = {
 		dots: true,
 		infinite: true,
-		arrows: false,
 		speed: 500,
 		slidesToShow: 4,
 		slidesToScroll: 4,
@@ -49,6 +71,8 @@ export function PartnersCarousel({ images }) {
 		pauseOnFocus: true,
 		autoplay: true,
 		autoplaySpeed: 3000,
+		prevArrow: <PrevArrow />,
+		nextArrow: <NextArrow />,
 		responsive: [
 			{
 				breakpoint: 992,
@@ -68,12 +92,12 @@ export function PartnersCarousel({ images }) {
 	}
 
 	return (
-		<div className='w-full max-w-[1376px] justify-center items-center mt-10'>
+		<div className='w-full h-full justify-center items-center mt-10'>
 			<Slider {...settings}>
 				{images.map((image, index) => (
 					<div
 						key={index}
-						className='relative h-[100px] tablet:h-[120px] desktop:h-[180px] focus:outline-none'>
+						className='relative h-[100px] tablet:h-[120px] desktop:h-[140px] focus:outline-none'>
 						<Image
 							fill
 							src={image}

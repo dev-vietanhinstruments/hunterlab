@@ -34,3 +34,24 @@ export const PARTNERS = [
 	'/partners/Pfizer_Logo_Color_RGB.webp',
 	'/partners/tesla-logo-2200x2800.webp',
 ]
+
+export const SUPPORTS = [
+	{
+		name: 'Tư vấn',
+		icon: '/support/support.svg',
+		info: 'Đăng ký nhận tư vấn về các giải pháp từ Việt Anh.',
+		url: '',
+	},
+	{
+		name: 'Bảo hành',
+		icon: '/support/maintain.svg',
+		info: 'Nhận thêm 3 tháng bảo hành khi đăng ký sản phẩm mới.',
+		url: '',
+	},
+	{
+		name: 'Liên hệ',
+		icon: '/support/contact.svg',
+		info: 'Liên hệ ngay với Việt Anh về sản phẩm, dịch vụ hoặc vấn đề kỹ thuật.',
+		url: '',
+	},
+]
