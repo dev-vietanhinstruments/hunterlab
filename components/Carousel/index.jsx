@@ -54,6 +54,7 @@ export default function BannersCarousel({ images }) {
 					width={1920}
 					height={680}
 					className='w-full h-auto'
+					priority
 				/>
 			))}
 		</Slider>
@@ -92,7 +93,7 @@ export function PartnersCarousel({ images }) {
 	}
 
 	return (
-		<div className='w-full h-full justify-center items-center mt-10'>
+		<div className='w-[90%] h-full justify-center items-center mt-10'>
 			<Slider {...settings}>
 				{images.map((image, index) => (
 					<div

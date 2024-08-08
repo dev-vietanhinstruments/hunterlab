@@ -92,7 +92,7 @@ export default function Home() {
 				</section>
 				<section
 					id='partners'
-					className='flex flex-col justify-center items-center w-full desktop:py-20 px-16'>
+					className='flex flex-col justify-center items-center w-full desktop:py-20 px-8'>
 						<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 							<h2 className='text-3xl tablet:text-4xl desktop:text-5xl font-semibold text-[#242769] text-center'>
 								Đối tác của HunterLab
