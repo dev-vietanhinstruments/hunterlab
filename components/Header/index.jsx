@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Header() {
 	return (
-		<header className='flex flex-col justify-center items-center w-full bg-white border-t-[8px] border-solid border-[#242769] border-top py-4 px-8'>
+		<header className='flex flex-col justify-center items-center w-full bg-white border-t-[8px] border-solid border-[#242769] border-top py-4 px-8 sticky top-0 left-0 z-50 shadow-sm'>
 			<div className='flex flex-row w-full max-w-[1376px] justify-between'>
 				<div className='flex flex-col tablet:flex-row gap-1 tablet:gap-3'>
 					<div className='flex items-center'>

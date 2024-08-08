@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-slide > div {
+#partners .slick-slide > div {
   margin: 0 10px;
 }
-.slick-list {
+#partners .slick-list {
   margin: 0 -10px;
 }
