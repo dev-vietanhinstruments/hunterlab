@@ -36,7 +36,7 @@ export default function ProductCard({
 					src={imagePath}
 					alt={`${name}`}
 					className='object-contain'
-					sizes='30vw, 30vw'
+					sizes='10vw, 10vw'
 				/>
 			</div>
 			<div className='text-base tablet:text-lg desktop:text-xl font-light text-center'>

@@ -1,16 +1,20 @@
 import Header from './../components/Header/index'
-import Carousel from '@/components/Carousel'
 import Footer from './../components/Footer/index'
-import { BANNERS, STANDARDS } from '@/consts/homepage'
+import { BANNERS, PARTNERS, STANDARDS } from '@/consts/homepage'
 import { PRODUCTS } from '@/consts/products'
 import ProductCard, { IndustryCard, StandardCard } from '@/components/Card'
 import { INDUSTRIES } from '@/consts/industries'
+import BannersCarousel, { PartnersCarousel } from '@/components/Carousel'
 
 export default function Home() {
 	return (
 		<div className='flex flex-col'>
 			<Header />
-			<Carousel images={BANNERS} />
+			<section
+				id='banner'
+				className='w-full overflow-hidden'>
+				<BannersCarousel images={BANNERS} />
+			</section>
 			<section
 				id='intro'
 				className='flex flex-col justify-center items-center w-full py-20 px-8'>
@@ -83,6 +87,14 @@ export default function Home() {
 						))}
 					</div>
 				</div>
+			</section>
+			<section
+				id='partners'
+				className='flex flex-col justify-center items-center w-full py-20 px-8'>
+					<h2 className='text-3xl tablet:text-4xl desktop:text-5xl font-medium text-[#242769] text-center'>
+						Đối tác của HunterLab
+					</h2>
+				<PartnersCarousel images={PARTNERS} />
 			</section>
 			<Footer />
 		</div>
