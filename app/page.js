@@ -65,6 +65,25 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
+			<section
+				id='industry'
+				className='flex flex-col justify-center items-center w-full py-20 px-8'>
+				<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
+					<h2 className='text-3xl tablet:text-4xl desktop:text-5xl font-medium text-[#242769] text-center'>
+						Cung cấp giải pháp đo màu cho nhiều ngành
+					</h2>
+					<div className='grid grid-flow-row grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-5 mt-10 gap-6 w-full'>
+						{INDUSTRIES.map((industry, index) => (
+							<div key={index}>
+								<IndustryCard
+									name={industry.name}
+									imagePath={industry.icon}
+								/>
+							</div>
+						))}
+					</div>
+				</div>
+			</section>
 			<Footer />
 		</div>
 	)
