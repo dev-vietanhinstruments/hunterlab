@@ -38,7 +38,7 @@ export default function BannersCarousel({ images }) {
 		slidesToScroll: 1,
 		adaptiveHeight: false,
 		pauseOnFocus: true,
-		autoplay: true,
+		// autoplay: true,
 		autoplaySpeed: 1000,
 		prevArrow: <PrevArrow css={{ left: '10px' }} />,
 		nextArrow: <NextArrow css={{ right: '25px' }} />,

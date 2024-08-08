@@ -12,3 +12,11 @@
 #banner .slick-dots {
   bottom: 10px;
 }
+
+#banner .slick-dots > li > button:before {
+  font-size: 12px;
+}
+
+#partners .slick-dots > li > button:before {
+  font-size: 12px;
+}
