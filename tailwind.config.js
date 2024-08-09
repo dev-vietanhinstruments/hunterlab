@@ -6,14 +6,16 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      'tablet': '640px',
-      'desktop': '992px',
+    extend: {
+      screens: {
+        'tablet': '640px',
+        'desktop': '992px',
+      },
+      backgroundImage: {
+        'support': "url('/support/support.png')",
+        'maintain': "url('/support/maintain.png')",
+      },
     },
-    backgroundImage: {
-      'support': "url('/support/support.png')",
-      'maintain': "url('/support/maintain.png')",
-    }
   },
   plugins: [],
 };

@@ -1,12 +1,12 @@
 export const INDUSTRIES = [
     {
         id: '1',
-        name: 'Đồ ăn',
+        name: 'Thực phẩm',
         icon: '/industries/food.svg',
     },
     {
         id: '2',
-        name: 'Nước uống',
+        name: 'Đồ uống',
         icon: '/industries/drink.svg',
     },
     {
@@ -31,12 +31,12 @@ export const INDUSTRIES = [
     },
     {
         id: '7',
-        name: 'Mỹ thuật',
+        name: 'Sơn và lớp phủ',
         icon: '/industries/arts.svg',
     },
     {
         id: '8',
-        name: 'In ấn',
+        name: 'Giấy',
         icon: '/industries/printing.svg',
     },
     {

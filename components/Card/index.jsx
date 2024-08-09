@@ -13,7 +13,7 @@ export function StandardCard({ name, imagePath, text }) {
 					sizes='50vw, 50vw'
 				/>
 			</div>
-			<div className='text-base tablet:text-lg desktop:text-xl font-light text-justify'>
+			<div className='text-base font-light text-justify'>
 				{text}
 			</div>
 		</div>
@@ -33,7 +33,7 @@ export default function ProductCard({ name, imagePath }) {
 					sizes='10vw, 10vw'
 				/>
 			</div>
-			<p className='text-base tablet:text-lg desktop:text-xl font-light text-center'>
+			<p className='text-base font-light text-center'>
 				{name}
 			</p>
 		</div>
@@ -43,7 +43,7 @@ export default function ProductCard({ name, imagePath }) {
 export function IndustryCard({ name, imagePath }) {
 	return (
 		<div
-			className={`flex flex-row col-span-1 w-full h-full px-6 py-6 gap-4 bg-white rounded-lg shadow-md`}>
+			className={`flex flex-row col-span-1 w-full h-full p-6 gap-4 bg-white rounded-lg shadow-md items-center`}>
 			<div>
 				<Image
 					src={imagePath}
@@ -53,7 +53,7 @@ export function IndustryCard({ name, imagePath }) {
 					className='h-8 w-8'
 				/>
 			</div>
-			<p className='text-base tablet:text-lg desktop:text-xl font-light text-center'>
+			<p className='text-base font-light text-center'>
 				{name}
 			</p>
 		</div>
@@ -76,12 +76,12 @@ export function SupportCard({ name, imagePath, url, info }) {
 					className='h-10 w-10'
 					/>
 				</div>
-				<p className='text-base tablet:text-lg desktop:text-xl font-light'>
+				<p className='text-base font-light'>
 					{info}
 				</p>
 			</div>
 			<div className='flex flex-row items-center gap-3'>
-				<div className='text-base tablet:text-lg desktop:text-xl font-light'>
+				<div className='text-base font-light'>
 					Tìm hiểu thêm
 				</div>
 				<div>
