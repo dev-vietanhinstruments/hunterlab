@@ -47,7 +47,7 @@ export default function Home() {
 				</section>
 				<section
 					id='product'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8 bg-[#EBEBF3]'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
 							Thiết bị và giải pháp
@@ -73,7 +73,7 @@ export default function Home() {
 				</section>
 				<section
 					id='industry'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8 bg-[#EBEBF3]'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
 							Cung cấp giải pháp đo màu cho nhiều ngành
@@ -102,7 +102,7 @@ export default function Home() {
 				</section>
 				<section
 					id='support'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
+					className='flex flex-col justify-center items-center w-full pt-8 sm:pt-10 lg:pt-12 pb-12 sm:pb-16 lg:pb-20 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold mb-1 text-center'>
 							Bạn cần hỗ trợ?
