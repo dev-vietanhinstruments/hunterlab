@@ -19,7 +19,7 @@ export default function Home() {
 				</section>
 				<section
 					id='intro'
-					className='flex flex-col justify-center items-center w-full py-20 px-8'>
+					className='flex flex-col justify-center items-center w-full pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 lg:pb-12 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h1 className='text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#242769]'>
 							HunterLab
@@ -32,7 +32,7 @@ export default function Home() {
 						<h4 className='text-xl tablet:text-2xl desktop:text-3xl font-semibold text-[#242769] mt-16 text-center'>
 							Đáp ứng các tiêu chuẩn
 						</h4>
-						<div className='flex flex-row gap-6 flex-wrap justify-center mt-6'>
+						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center mt-6'>
 							{STANDARDS.map((standard, index) => (
 								<div key={index}>
 									<StandardCard
@@ -47,7 +47,7 @@ export default function Home() {
 				</section>
 				<section
 					id='product'
-					className='flex flex-col justify-center items-center w-full desktop:py-20 px-8'>
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
 							Thiết bị và giải pháp
@@ -55,7 +55,7 @@ export default function Home() {
 						<p className='mt-2 text-lg sm:text-xl lg:text-2xl font-light text-center'>
 							Hiệu quả, tinh gọn và chính xác
 						</p>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-10 gap-6'>
+						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
 							{PRODUCTS.map((product, index) => (
 								<div key={index}>
 									<ProductCard
@@ -73,12 +73,12 @@ export default function Home() {
 				</section>
 				<section
 					id='industry'
-					className='flex flex-col justify-center items-center w-full py-20 px-8'>
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
 							Cung cấp giải pháp đo màu cho nhiều ngành
 						</h2>
-						<div className='grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-10 gap-6 w-full'>
+						<div className='grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6 w-full'>
 							{INDUSTRIES.map((industry, index) => (
 								<div key={index}>
 									<IndustryCard
@@ -92,7 +92,7 @@ export default function Home() {
 				</section>
 				<section
 					id='partners'
-					className='flex flex-col justify-center items-center w-full desktop:py-20 px-8'>
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
 						<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 							<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
 								Đối tác của HunterLab
@@ -102,7 +102,7 @@ export default function Home() {
 				</section>
 				<section
 					id='support'
-					className='flex flex-col justify-center items-center w-full py-20 px-8'>
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
 						<h4 className='text-xl sm:text-2xl lg:text-3xl font-semibold mb-2 text-center'>
 							Bạn cần hỗ trợ?
@@ -110,7 +110,7 @@ export default function Home() {
 						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
 							Liên hệ với chúng tôi.
 						</h2>
-						<div className='grid grid-flow-row gap-6 grid-cols-1 sm:grid-cols-3 w-full mt-10'>
+						<div className='grid grid-flow-row gap-6 grid-cols-1 sm:grid-cols-3 w-full mt-6'>
 							{SUPPORTS.map((support, index) => (
 								<div key={index}>
 									<SupportCard

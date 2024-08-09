@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 export function StandardCard({ name, imagePath, text }) {
 	return (
-		<div className={`flex flex-col max-w-[400px] px-6 py-6 gap-4`}>
-			<div className='relative w-full h-[180px]'>
+		<div className={`flex flex-col col-span-1 h-full p-6 gap-4`}>
+			<div className='relative w-full h-[120px] sm:h-[160px] lg:h-[180px]'>
 				<Image
 					fill
 					src={imagePath}
 					alt={`Standard ${name}`}
 					className='object-contain'
-					sizes='50vw, 50vw'
+					sizes='30vw, 30vw'
 				/>
 			</div>
 			<div className='text-base font-light text-justify'>
@@ -23,8 +23,8 @@ export function StandardCard({ name, imagePath, text }) {
 export default function ProductCard({ name, imagePath }) {
 	return (
 		<div
-			className={`flex flex-col col-span-1 h-full px-6 py-6 gap-4 bg-white rounded-lg shadow-md`}>
-			<div className='relative w-full h-[100px] tablet:h-[160px]'>
+			className={`flex flex-col col-span-1 h-full p-6 gap-4 bg-white rounded-lg shadow-md`}>
+			<div className='relative w-full h-[100px] sm:h-[160px]'>
 				<Image
 					fill
 					src={imagePath}
@@ -65,7 +65,7 @@ export function SupportCard({ name, imagePath, url, info }) {
 		<div className='flex flex-col col-span-1 h-full p-6 bg-white rounded-lg shadow-md justify-between gap-8'>
 			<div>
 				<div className='flex flex-row justify-between items-center mb-2'>
-					<h4 className='text-xl tablet:text-2xl desktop:text-3xl font-semibold'>
+					<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold'>
 						{name}
 					</h4>
 					<Image
@@ -73,7 +73,7 @@ export function SupportCard({ name, imagePath, url, info }) {
 					alt={`${name}`}
 					width={64}
 					height={64}
-					className='h-10 w-10'
+					className='h-8 w-8'
 					/>
 				</div>
 				<p className='text-base font-light'>
