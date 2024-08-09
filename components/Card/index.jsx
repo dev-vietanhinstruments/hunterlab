@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function StandardCard({ name, imagePath, text }) {
 	return (
-		<div className={`flex flex-col col-span-1 h-full p-6 gap-4`}>
+		<div className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
 			<div className='relative w-full h-[120px] sm:h-[160px] lg:h-[180px]'>
 				<Image
 					fill

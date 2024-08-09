@@ -24,7 +24,7 @@ export default function Home() {
 						<h1 className='text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#242769]'>
 							HunterLab
 						</h1>
-						<p className='mt-4 text-xl sm:text-2xl lg:text-3xl font-light text-center'>
+						<p className='md:w-[75%] mt-4 text-lg sm:text-xl lg:text-2xl font-light text-center text-'>
 							Với hơn 70 năm kinh nghiệm, HunterLab tự tin là nhà sản
 							xuất hàng đầu trong trong việc sản xuất và cung cấp các
 							thiết bị đo màu.
@@ -32,7 +32,7 @@ export default function Home() {
 						<h4 className='text-xl tablet:text-2xl desktop:text-3xl font-semibold text-[#242769] mt-16 text-center'>
 							Đáp ứng các tiêu chuẩn
 						</h4>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center mt-6'>
+						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center mt-6 gap-6'>
 							{STANDARDS.map((standard, index) => (
 								<div key={index}>
 									<StandardCard
@@ -104,7 +104,7 @@ export default function Home() {
 					id='support'
 					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h4 className='text-xl sm:text-2xl lg:text-3xl font-semibold mb-2 text-center'>
+						<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold mb-1 text-center'>
 							Bạn cần hỗ trợ?
 						</h4>
 						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
