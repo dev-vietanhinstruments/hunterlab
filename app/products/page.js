@@ -1,8 +1,8 @@
 import Header from '@/components/Header/index'
 import Footer from '@/components/Footer/index'
 import { BANNERS } from '@/consts/homepage'
-import ProductCard from '@/components/Card'
-import BannersCarousel, { PartnersCarousel } from '@/components/Carousel'
+import ProductCard, { DocCard } from '@/components/Card'
+import BannersCarousel from '@/components/Carousel'
 import { PRODUCTS } from '@/consts/products'
 
 export default function Products() {
@@ -86,6 +86,24 @@ export default function Products() {
 										</div>
 									)
 							)}
+						</div>
+					</div>
+				</section>
+				<section
+					id='docs'
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
+					<div className='flex flex-col w-full max-w-[1376px]'>
+						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
+                            Tài liệu
+						</h2>
+						<div className='grid grid-flow-col mt-6 gap-6'>
+							<div>
+                                <DocCard title="Màu sắc và hình thức" url="https://www.hunterlab.com/media/documents/an-1033-00-color-versus-appearance.pdf" />
+                                <DocCard title="Nhận thức và ý nghĩa màu sắc" url="https://www.hunterlab.com/blog/spectrophotometers-facilitate-color-communication-across-languages-and-cultures/" />
+                                <DocCard title="Đo lường các thuộc tính hình học của sản phẩm" url="https://support.hunterlab.com/hc/en-us/articles/203420399-Measuring-the-Geometric-Attributes-of-Your-Products-AN-1007b" />
+                                <DocCard title="Các tài liệu ứng dụng" url="https://www.hunterlab.com/en/learn/application-notes/" />
+                                <DocCard title="Các phương pháp đo lường" url="https://www.hunterlab.com/en/learn/measurement-methods/" />
+                            </div>
 						</div>
 					</div>
 				</section>

@@ -90,3 +90,16 @@ export function SupportCard({ name, imagePath, url, info }) {
 		</div>
 	)
 }
+
+export function DocCard({ title, url }) {
+	return (
+		<Link href={String(url)}>
+			<div
+				className={`flex flex-row w-full p-1 border-b-2 border-[#CDCDCD] items-center`}>
+					<div className='flex flex-row w-full items-center justify-between p-4 hover:bg-white rounded-lg font-light hover:font-semibold gap-4'>
+						<div className='text-base sm:text-lg lg:text-xl flex-wrap'>{title}</div>
+					</div>
+			</div>
+		</Link>
+	)
+}
