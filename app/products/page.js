@@ -1,12 +1,11 @@
-import Header from './../components/Header/index'
-import Footer from './../components/Footer/index'
-import { BANNERS, PARTNERS, STANDARDS, SUPPORTS, PRODUCTS } from '@/consts/homepage'
-import ProductCard, { IndustryCard, StandardCard, SupportCard } from '@/components/Card'
-import { INDUSTRIES } from '@/consts/industries'
+import Header from '@/components/Header/index'
+import Footer from '@/components/Footer/index'
+import { BANNERS } from '@/consts/homepage'
+import ProductCard from '@/components/Card'
 import BannersCarousel, { PartnersCarousel } from '@/components/Carousel'
-import Image from 'next/image'
+import { PRODUCTS } from '@/consts/products'
 
-export default function Home() {
+export default function Products() {
 	return (
 		<div className='flex flex-col relative'>
 			<Header />
@@ -17,62 +16,80 @@ export default function Home() {
 					<BannersCarousel images={BANNERS} />
 				</section>
 				<section
-					id='intro'
+					id='benchtop'
 					className='flex flex-col justify-center items-center w-full pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 lg:pb-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h1 className='text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#242769]'>
-							HunterLab
-						</h1>
-						<p className='md:w-[75%] mt-8 text-lg sm:text-xl lg:text-2xl font-light text-center text-'>
-							Với hơn 70 năm kinh nghiệm, HunterLab tự tin là nhà sản
-							xuất hàng đầu trong việc sản xuất và cung cấp các
-							thiết bị đo màu.
-						</p>
-						<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold text-[#242769] mt-8 text-center'>
-							Đáp ứng các tiêu chuẩn
-						</h4>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center mt-6 gap-6'>
-							{STANDARDS.map((standard, index) => (
-								<div key={index}>
-									<StandardCard
-										name={standard.name}
-										imagePath={standard.image}
-										text={standard.info}
-									/>
-								</div>
-							))}
-						</div>
-					</div>
-				</section>
-				<section
-					id='product'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
-							Thiết bị và giải pháp
+					<div className='flex flex-col w-full max-w-[1376px]'>
+						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
+							Máy đo quang phổ để bàn
 						</h2>
-						<p className='mt-2 text-lg sm:text-xl lg:text-2xl font-light text-center'>
-							Hiệu quả, tinh gọn và chính xác
+						<p className='mt-4 text-lg sm:text-xl lg:text-2xl font-light'>
+							HunterLab cung cấp các giải pháp đo màu cho protein
+							thực vật, sữa thực vật, thịt thực vật và nhiều loại
+							thực phẩm có nguồn gốc thực vật khác.
 						</p>
 						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
-							{PRODUCTS.map((product, index) => (
-								<div key={index}>
-									<ProductCard
-										name={product.name}
-										imagePath={product.image}
-										href={product.href}
-									/>
-								</div>
-							))}
-							<ProductCard
-								name='Tất cả sản phẩm'
-								imagePath='/products/all-products.png'
-								href="/products"
-							/>
+							{PRODUCTS.map(
+								(product, index) =>
+									product.category === 1 && (
+										<div key={index}>
+											<ProductCard
+												name={product.name}
+												imagePath={product.image}
+												href={`/products/${product.id}`}
+											/>
+										</div>
+									)
+							)}
 						</div>
 					</div>
 				</section>
 				<section
+					id='portable'
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
+					<div className='flex flex-col w-full max-w-[1376px]'>
+						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
+                            Máy Đo Màu Di Động MiniScan EZ
+						</h2>
+						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+							{PRODUCTS.map(
+								(product, index) =>
+									product.category === 2 && (
+										<div key={index}>
+											<ProductCard
+												name={product.name}
+												imagePath={product.image}
+												href={`/products/${product.id}`}
+											/>
+										</div>
+									)
+							)}
+						</div>
+					</div>
+				</section>
+				<section
+					id='control'
+					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
+					<div className='flex flex-col w-full max-w-[1376px]'>
+						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
+                            Thiết Bị và Phần Mềm Kiểm Soát Chất Lượng Màu
+						</h2>
+						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+							{PRODUCTS.map(
+								(product, index) =>
+									product.category === 3 && (
+										<div key={index}>
+											<ProductCard
+												name={product.name}
+												imagePath={product.image}
+												href={`/products/${product.id}`}
+											/>
+										</div>
+									)
+							)}
+						</div>
+					</div>
+				</section>
+				{/* <section
 					id='industry'
 					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
 					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
@@ -124,7 +141,7 @@ export default function Home() {
 							))}
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</main>
 			<Footer />
 		</div>

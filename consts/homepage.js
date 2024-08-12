@@ -21,6 +21,29 @@ export const STANDARDS = [
 	},
 ]
 
+export const PRODUCTS = [
+    {
+        name: "Máy Quang Phổ Để Bàn",
+        image: "/products/agera_spectrophotometer-hunterlab.png",
+        href: "/products#benchtop",
+    },
+    {
+        name: "Máy Quang Phổ Cầm Tay",
+        image: "/products/miniscan-ez-spectrophotometer.png",
+		href: "/products#portable",
+    },
+    {
+        name: "Thiết Bị Phân Tích Màu Sắc Và Kiểm Soát Quy Trình",
+        image: "/products/spectratrend-ht-spectrophotometer.png",
+		href: "/products#control",
+    },
+    {
+        name: "Phần Mềm Kiểm Soát Chất Lượng Màu",
+        image: "/products/easymatch-qc-product.png",
+		href: "/products#control",
+    },
+]
+
 export const PARTNERS = [
 	'/partners/3M-Logo.webp',
 	'/partners/bristol-myers-squibb-new-logo.webp',

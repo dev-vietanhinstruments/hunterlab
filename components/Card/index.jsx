@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function StandardCard({ name, imagePath, text }) {
 	return (
@@ -13,30 +14,28 @@ export function StandardCard({ name, imagePath, text }) {
 					sizes='30vw, 30vw'
 				/>
 			</div>
-			<div className='text-base font-light text-justify'>
-				{text}
-			</div>
+			<div className='text-base font-light text-justify'>{text}</div>
 		</div>
 	)
 }
 
-export default function ProductCard({ name, imagePath }) {
+export default function ProductCard({ name, imagePath, href }) {
 	return (
-		<div
-			className={`flex flex-col col-span-1 h-full p-6 gap-4 bg-white rounded-lg shadow-md`}>
-			<div className='relative w-full h-[100px] sm:h-[160px]'>
-				<Image
-					fill
-					src={imagePath}
-					alt={`${name}`}
-					className='object-contain'
-					sizes='10vw, 10vw'
-				/>
+		<Link href={String(href)}>
+			<div
+				className={`flex flex-col col-span-1 h-full p-6 gap-4 bg-white rounded-lg shadow-md border-2 border-white hover:border-[#242769]`}>
+				<div className='relative w-full h-[100px] sm:h-[160px]'>
+					<Image
+						fill
+						src={imagePath}
+						alt={`${name}`}
+						className='object-contain'
+						sizes='10vw, 10vw'
+					/>
+				</div>
+				<p className='text-base font-light text-center'>{name}</p>
 			</div>
-			<p className='text-base font-light text-center'>
-				{name}
-			</p>
-		</div>
+		</Link>
 	)
 }
 
@@ -53,9 +52,7 @@ export function IndustryCard({ name, imagePath }) {
 					className='h-8 w-8'
 				/>
 			</div>
-			<p className='text-base font-light text-center'>
-				{name}
-			</p>
+			<p className='text-base font-light text-center'>{name}</p>
 		</div>
 	)
 }
@@ -69,21 +66,17 @@ export function SupportCard({ name, imagePath, url, info }) {
 						{name}
 					</h4>
 					<Image
-					src={imagePath}
-					alt={`${name}`}
-					width={64}
-					height={64}
-					className='h-8 w-8'
+						src={imagePath}
+						alt={`${name}`}
+						width={64}
+						height={64}
+						className='h-8 w-8'
 					/>
 				</div>
-				<p className='text-base font-light'>
-					{info}
-				</p>
+				<p className='text-base font-light'>{info}</p>
 			</div>
 			<div className='flex flex-row items-center gap-3'>
-				<div className='text-base font-light'>
-					Tìm hiểu thêm
-				</div>
+				<div className='text-base font-light'>Tìm hiểu thêm</div>
 				<div>
 					<Image
 						src='/arrow-right.svg'
