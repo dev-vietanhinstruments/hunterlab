@@ -7,17 +7,17 @@ export const STANDARDS = [
 	{
 		name: 'tappi',
 		image: '/standards/tappi.webp',
-		info: 'Hiệp hội Giấy và Bột giấy Hoa Kỳ (TAPPI) đặt ra các tiêu chuẩn về chất lượng giấy, bạn có thể dễ dàng xác minh bằng máy quang phổ.',
+		desc: 'Hiệp hội Giấy và Bột giấy Hoa Kỳ (TAPPI) đặt ra các tiêu chuẩn về chất lượng giấy, bạn có thể dễ dàng xác minh bằng máy quang phổ.',
 	},
 	{
 		name: 'astm',
 		image: '/standards/astm.webp',
-		info: 'ASTM công bố các tiêu chuẩn cho nhiều ngành công nghiệp khác nhau, bao gồm dệt may, nhựa và sơn. Bằng cách xác nhận chất lượng thông qua máy quang phổ, bạn có thể đảm bảo sản phẩm của mình đạt tiêu chuẩn.',
+		desc: 'ASTM công bố các tiêu chuẩn cho nhiều ngành công nghiệp khác nhau, bao gồm dệt may, nhựa và sơn. Bằng cách xác nhận chất lượng thông qua máy quang phổ, bạn có thể đảm bảo sản phẩm của mình đạt tiêu chuẩn.',
 	},
 	{
 		name: 'iso',
 		image: '/standards/iso.webp',
-		info: 'Từ việc kiểm tra an toàn thực phẩm đến thử nghiệm và hiệu chuẩn, phương pháp quang phổ có thể giúp tổ chức của bạn đáp ứng nhiều tiêu chuẩn kiểm soát chất lượng của Tổ chức Tiêu chuẩn hóa Quốc tế (ISO).',
+		desc: 'Từ việc kiểm tra an toàn thực phẩm đến thử nghiệm và hiệu chuẩn, phương pháp quang phổ có thể giúp tổ chức của bạn đáp ứng nhiều tiêu chuẩn kiểm soát chất lượng của Tổ chức Tiêu chuẩn hóa Quốc tế (ISO).',
 	},
 ]
 
@@ -61,19 +61,19 @@ export const SUPPORTS = [
 	{
 		name: 'Tư vấn',
 		icon: '/support/support.svg',
-		info: 'Đăng ký nhận tư vấn về các giải pháp từ Việt Anh.',
-		url: '',
+		desc: 'Đăng ký nhận tư vấn về các giải pháp từ Việt Anh.',
+		href: '',
 	},
 	{
 		name: 'Bảo hành',
 		icon: '/support/maintain.svg',
-		info: 'Nhận thêm 3 tháng bảo hành khi đăng ký sản phẩm mới.',
-		url: '',
+		desc: 'Nhận thêm 3 tháng bảo hành khi đăng ký sản phẩm mới.',
+		href: '',
 	},
 	{
 		name: 'Liên hệ',
 		icon: '/support/contact.svg',
-		info: 'Liên hệ ngay với Việt Anh về sản phẩm, dịch vụ hoặc vấn đề kỹ thuật.',
-		url: '',
+		desc: 'Liên hệ ngay với Việt Anh về sản phẩm, dịch vụ hoặc vấn đề kỹ thuật.',
+		href: '',
 	},
 ]

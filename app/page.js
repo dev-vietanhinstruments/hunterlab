@@ -36,8 +36,8 @@ export default function Home() {
 								<div key={index}>
 									<StandardCard
 										name={standard.name}
-										imagePath={standard.image}
-										text={standard.info}
+										image={standard.image}
+										desc={standard.desc}
 									/>
 								</div>
 							))}
@@ -54,21 +54,16 @@ export default function Home() {
 						<p className='mt-2 text-lg sm:text-xl lg:text-2xl font-light text-center'>
 							Hiệu quả, tinh gọn và chính xác
 						</p>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mt-6 gap-6'>
 							{PRODUCTS.map((product, index) => (
 								<div key={index}>
 									<ProductCard
 										name={product.name}
-										imagePath={product.image}
+										image={product.image}
 										href={product.href}
 									/>
 								</div>
 							))}
-							<ProductCard
-								name='Tất cả sản phẩm'
-								imagePath='/products/all-products.png'
-								href="/products"
-							/>
 						</div>
 					</div>
 				</section>

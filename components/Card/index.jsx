@@ -2,38 +2,38 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function StandardCard({ name, imagePath, text }) {
+export function StandardCard({ name, image, desc }) {
 	return (
 		<div className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
 			<div className='relative w-full h-[120px] sm:h-[160px] lg:h-[180px]'>
 				<Image
 					fill
-					src={imagePath}
-					alt={`Standard ${name}`}
+					src={image}
+					alt={`${name}`}
 					className='object-contain'
-					sizes='30vw, 30vw'
+					sizes='100vw, 100vw'
 				/>
 			</div>
-			<div className='text-base font-light text-justify'>{text}</div>
+			<div className='text-base text-justify'>{desc}</div>
 		</div>
 	)
 }
 
-export default function ProductCard({ name, imagePath, href }) {
+export default function ProductCard({ name, image, href }) {
 	return (
 		<Link href={String(href)}>
 			<div
-				className={`flex flex-col col-span-1 h-full p-6 gap-4 bg-white rounded-lg shadow-md border-2 border-white hover:border-[#242769]`}>
-				<div className='relative w-full h-[100px] sm:h-[160px]'>
+				className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
+				<div className='relative w-full h-[180px] sm:h-[180px]'>
 					<Image
 						fill
-						src={imagePath}
+						src={image}
 						alt={`${name}`}
-						className='object-contain'
-						sizes='10vw, 10vw'
+						className='object-contain hover:scale-110 transition-all duration-300 ease-in-out'
+						sizes='100vw, 100vw'
 					/>
 				</div>
-				<p className='text-base font-light text-center'>{name}</p>
+				<p className='text-lg md:text-xl font-semibold text-center'>{name}</p>
 			</div>
 		</Link>
 	)
@@ -126,3 +126,4 @@ export function ProductCardWithDesc({ name, imagePath, href, desc }) {
 		</Link>
 	)
 }
+
