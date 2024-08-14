@@ -39,21 +39,23 @@ export default function ProductCard({ name, imagePath, href }) {
 	)
 }
 
-export function IndustryCard({ name, imagePath }) {
+export function IndustryCard({ name, imagePath, url }) {
 	return (
-		<div
-			className={`flex flex-row col-span-1 w-full h-full p-6 gap-4 bg-white rounded-lg shadow-md items-center`}>
-			<div>
-				<Image
-					src={imagePath}
-					alt={`${name}`}
-					width={64}
-					height={64}
-					className='h-8 w-8'
-				/>
+		<Link href={String(url)}>
+			<div
+				className={`flex flex-row col-span-1 w-full h-full p-6 gap-4 bg-white rounded-lg shadow-md items-center`}>
+				<div>
+					<Image
+						src={imagePath}
+						alt={`${name}`}
+						width={64}
+						height={64}
+						className='h-8 w-8'
+					/>
+				</div>
+				<p className='text-base font-light text-center'>{name}</p>
 			</div>
-			<p className='text-base font-light text-center'>{name}</p>
-		</div>
+		</Link>
 	)
 }
 
@@ -99,6 +101,27 @@ export function DocCard({ title, url }) {
 					<div className='flex flex-row w-full items-center justify-between p-4 hover:bg-white rounded-lg font-light hover:font-semibold gap-4'>
 						<div className='text-base sm:text-lg lg:text-xl flex-wrap'>{title}</div>
 					</div>
+			</div>
+		</Link>
+	)
+}
+
+export function ProductCardWithDesc({ name, imagePath, href, desc }) {
+	return (
+		<Link href={String(href)}>
+			<div
+				className={`flex flex-col col-span-1 h-full p-6 gap-4 bg-white rounded-lg shadow-md border-2 border-white hover:border-[#242769]`}>
+				<div className='relative w-full h-[100px] sm:h-[160px]'>
+					<Image
+						fill
+						src={imagePath}
+						alt={`${name}`}
+						className='object-contain'
+						sizes='10vw, 10vw'
+					/>
+				</div>
+				<p className='text-base font-bold text-center'>{name}</p>
+				<p className='text-base font-light text-center'>{desc}</p>
 			</div>
 		</Link>
 	)

@@ -85,6 +85,7 @@ export default function Home() {
 									<IndustryCard
 										name={industry.name}
 										imagePath={industry.icon}
+										url={`/industries/${industry.id}`}
 									/>
 								</div>
 							))}

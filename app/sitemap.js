@@ -6,5 +6,11 @@ export default function sitemap() {
         changeFrequency: 'yearly',
         priority: 1,
       },
+      {
+        url: 'https://hunterlab-vietanh.vercel.app/products',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 1,
+      },
     ]
   }
