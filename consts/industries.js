@@ -3,11 +3,11 @@ export const INDUSTRIES = [
         id: '1',
         name: 'Thực phẩm',
         icon: '/industries/food.svg',
-        cover: '',
-        // application: {
-        //     desc: "HunterLab cung cấp các giải pháp đo màu cho protein thực vật, sữa thực vật, thịt thực vật và nhiều loại thực phẩm có nguồn gốc thực vật khác.",
-        //     lists: ["Thực phẩm ăn nhẹ", "Sản phẩm ngũ cốc", "Dầu ăn", "Chất béo rắn và đường bổ sung", "Thức ăn cho thú cưng", "Sản phẩm sữa", "Sản phẩm rau quả", "Thành phần thực phẩm", "Sản phẩm protein"],
-        // },
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "HunterLab cung cấp các giải pháp đo màu cho protein thực vật, sữa thực vật, thịt thực vật và nhiều loại thực phẩm có nguồn gốc thực vật khác.",
+            items: ["Thực phẩm ăn nhẹ", "Sản phẩm ngũ cốc", "Dầu ăn", "Chất béo rắn và đường bổ sung", "Thức ăn cho thú cưng", "Sản phẩm sữa", "Sản phẩm rau quả", "Thành phần thực phẩm", "Sản phẩm protein"],
+        },
         products: [
             {
                 id: '6',

@@ -24,7 +24,7 @@ export default function ProductCard({ name, image, href, ...props }) {
 		<Link href={String(href)} {...props}>
 			<div
 				className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
-				<div className='relative w-full h-[180px] sm:h-[180px]'>
+				<div className='relative w-full h-[180px]'>
 					<Image
 						fill
 						src={image}
@@ -77,7 +77,7 @@ export function SupportCard({ name, image, href, desc, ...props }) {
 				</div>
 				<p className='text-lg lg:text-xl'>{desc}</p>
 			</div>
-			<button className='font-semibold text-primary border-2 border-primary hover:bg-primary hover:text-white px-8 py-5 rounded-full text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out'>
+			<button className='font-semibold text-primary border-2 border-primary hover:bg-primary hover:text-white px-8 py-4 rounded-full text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out'>
 			Tìm hiểu thêm
 			</button>
 		</div>
@@ -89,7 +89,7 @@ export function DocCard({ title, href }) {
 		<Link href={String(href)}>
 			<div className='bg-card py-4 px-6 rounded-md group hover:bg-primary transition-all duration-300 ease-in-out'>
 				<div className='flex flex-row items-center gap-3 text-lg lg:text-xl group-hover:text-white'>
-					Tìm hiểu thêm
+					{title}
 					<Image
 						src='/arrow-right.svg'
 						alt='Right arrow'
@@ -98,28 +98,34 @@ export function DocCard({ title, href }) {
 						className='size-6 group-hover:invert group-hover:translate-x-6 transition-all duration-300 ease-in-out'
 					/>
 				</div>
-
 			</div>
 		</Link>
 	)
 }
 
-export function ProductCardWithDesc({ name, imagePath, href, desc }) {
+export function ProductCardWithDesc({ name, image, href, desc, ...props }) {
 	return (
-		<Link href={String(href)}>
+		<Link href={String(href)} {...props}>
 			<div
-				className={`flex flex-col col-span-1 h-full p-6 gap-4 bg-white rounded-lg shadow-md border-2 border-white hover:border-[#242769]`}>
-				<div className='relative w-full h-[100px] sm:h-[160px]'>
+				className={`grid grid-col sm:grid-row sm:grid-cols-[30%_70%] w-full h-full p-6 gap-4`}>
+				<div className='relative w-full h-[180px] sm:h-[180px]'>
 					<Image
 						fill
-						src={imagePath}
+						src={image}
 						alt={`${name}`}
-						className='object-contain'
-						sizes='10vw, 10vw'
+						className='object-contain hover:scale-110 transition-all duration-300 ease-in-out'
+						sizes='100vw, 100vw'
 					/>
 				</div>
-				<p className='text-base font-bold text-center'>{name}</p>
-				<p className='text-base font-light text-center'>{desc}</p>
+				<div className=''>
+					<h4 className='text-xl md:text-2xl font-semibold mb-2'>
+						{name}
+					</h4>
+					<p className='text-base md:text-lg'>{desc}</p>
+					<button className='mt-3 font-semibold text-primary border-2 border-primary hover:bg-primary hover:text-white px-8 py-4 rounded-full text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out'>
+					Tìm hiểu thêm
+					</button>
+				</div>
 			</div>
 		</Link>
 	)

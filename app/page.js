@@ -13,7 +13,7 @@ export default function Home() {
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<Intro className='bg-homepage-intro h-[calc(100vh-124px)] bg-no-repeat bg-cover sm:h-[560px] px-8 py-0'>
+				<Intro className='bg-homepage-intro h-[calc(100vh-124px)] sm:h-[680px] px-8'>
 				<div className='flex flex-col w-full max-w-[1024px] justify-center items-center px-4'>
 						<h1 className='text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-8'>
 							HunterLab
@@ -23,7 +23,7 @@ export default function Home() {
 							sản xuất hàng đầu trong việc sản xuất và cung cấp
 							các thiết bị đo màu.
 						</p>
-						<button className='font-semibold text-white border-2 border-white hover:text-primary hover:bg-white px-8 py-5 rounded-full text-lg lg:text-xl transition-all duration-300 ease-in-out'>
+						<button className='font-semibold text-white border-2 border-white hover:text-primary hover:bg-white px-8 py-4 rounded-full text-lg lg:text-xl transition-all duration-300 ease-in-out'>
 							Tìm hiểu thêm
 						</button>
 					</div>
