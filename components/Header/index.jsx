@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 export default function Header() {
 	return (
-		<header className='flex flex-col justify-center items-center w-full bg-white border-t-[8px] border-solid border-[#242769] border-top py-4 px-8 sticky top-0 left-0 z-50 shadow-sm'>
-			<div className='flex flex-row w-full max-w-[1376px] justify-between'>
-				<div className='flex flex-col tablet:flex-row gap-1 tablet:gap-3'>
+		<header className='flex flex-col justify-center items-center w-full bg-white border-t-[8px] border-solid border-primary border-top py-4 px-8 sticky top-0 left-0 z-50 shadow-sm'>
+			<div className='flex flex-row w-full max-w-[80rem] justify-between'>
+				<div className='flex flex-col sm:flex-row gap-1 sm:gap-3'>
 					<div className='flex items-center'>
 						<Link href="/">
 							<Image
@@ -19,7 +19,7 @@ export default function Header() {
 							/>
 						</Link>
 					</div>
-					<div className='flex items-center tablet:pl-2 tablet:border-l tablet:border-[#CDCDCD]'>
+					<div className='flex items-center sm:pl-2 sm:border-l sm:border-gray'>
 						<Link href="/">
 							<Image
 								className='w-auto h-8'
@@ -32,13 +32,13 @@ export default function Header() {
 						</Link>
 					</div>
 				</div>
-				<nav className='flex gap-8 items-center text-base font-light text-[#0D0D0D]'>
-					<div className='hidden desktop:flex gap-8'>
-						<div>Sản phẩm</div>
-						<div>Hỗ trợ</div>
-						<div>Về chúng tôi</div>
-						<div>Tin tức</div>
-						<div>Liên hệ</div>
+				<nav className='flex gap-8 items-center text-base md:text-lg'>
+					<div className='hidden lg:flex gap-8'>
+						<Link href='/products' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Sản phẩm</Link>
+						<Link href='/' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Lĩnh vực</Link>
+						<Link href='/' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Về chúng tôi</Link>
+						<Link href='/' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Tin tức</Link>
+						<Link href='/' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Liên hệ</Link>
 					</div>
 					<div>
 						<svg

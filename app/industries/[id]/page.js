@@ -18,7 +18,6 @@ export default function Page({ params }) {
 	const industry = INDUSTRIES.find((industry) => industry.id === params.id)
 	const products = industry.products
 	const application = industry.application
-	console.log(`url('${industry.cover}') `)
 
 	return (
 		<div className='flex flex-col relative'>
