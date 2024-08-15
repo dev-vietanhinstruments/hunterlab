@@ -29,3 +29,17 @@ export function TagButton({ href, className, children, ...props }) {
         </Link>
 	)
 }
+
+export function FloatingButton({ href, className, children, ...props }) {
+	return (
+		<Link
+			className={twMerge(
+				'fixed bottom-4 left-4 rounded-full shadow-lg',
+				className
+			)}
+			href={href}
+			{...props}>
+            {children}
+        </Link>
+	)
+}
