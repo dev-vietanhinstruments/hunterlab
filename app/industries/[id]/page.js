@@ -13,7 +13,7 @@ export async function generateStaticParams() {
   }
 
 export default function Page({ params }) {
-	const industry = INDUSTRIES.filter((industry) => industry.id === params.id)[0]
+	const industry = INDUSTRIES.find((industry) => industry.id === params.id)
 	const products = industry.products
 
 	return (
