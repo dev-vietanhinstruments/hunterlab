@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function StandardCard({ name, image, desc }) {
+export function StandardCard({ name, image, desc, ...props }) {
 	return (
-		<div className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
+		<div className={`flex flex-col col-span-1 h-full p-3 gap-4`} {...props}>
 			<div className='relative w-full h-[120px] sm:h-[160px] lg:h-[180px]'>
 				<Image
 					fill
@@ -19,9 +19,9 @@ export function StandardCard({ name, image, desc }) {
 	)
 }
 
-export default function ProductCard({ name, image, href }) {
+export default function ProductCard({ name, image, href, ...props }) {
 	return (
-		<Link href={String(href)}>
+		<Link href={String(href)} {...props}>
 			<div
 				className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
 				<div className='relative w-full h-[180px] sm:h-[180px]'>
@@ -33,62 +33,53 @@ export default function ProductCard({ name, image, href }) {
 						sizes='100vw, 100vw'
 					/>
 				</div>
-				<p className='text-lg md:text-xl font-semibold text-center'>{name}</p>
+				<p className='text-lg lg:text-xl font-semibold text-center'>{name}</p>
 			</div>
 		</Link>
 	)
 }
 
-export function IndustryCard({ name, imagePath, url }) {
+export function IndustryCard({ name, image, href, ...props }) {
 	return (
-		<Link href={String(url)}>
+		<Link href={String(href)} {...props}>
 			<div
-				className={`flex flex-row col-span-1 w-full h-full p-6 gap-4 bg-white rounded-lg shadow-md items-center`}>
+				className={`group flex flex-col col-span-1 w-full h-full p-6 gap-4 bg-card rounded-md items-center hover:bg-primary hover:text-white transition-all duration-300 ease-in-out`}>
 				<div>
 					<Image
-						src={imagePath}
+						src={image}
 						alt={`${name}`}
 						width={64}
 						height={64}
-						className='h-8 w-8'
+						className='size-6 lg:size-8 group-hover:invert'
 					/>
 				</div>
-				<p className='text-base font-light text-center'>{name}</p>
+				<p className='text-lg lg:text-xl font-semibold text-center'>{name}</p>
 			</div>
 		</Link>
 	)
 }
 
-export function SupportCard({ name, imagePath, url, info }) {
+export function SupportCard({ name, image, href, desc, ...props }) {
 	return (
-		<div className='flex flex-col col-span-1 h-full p-6 bg-white rounded-lg shadow-md justify-between gap-8'>
+		<div className='flex flex-col col-span-1 h-full p-3 justify-between gap-8' {...props}>
 			<div>
-				<div className='flex flex-row justify-between items-center mb-2'>
-					<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold'>
+				<div className='flex flex-row justify-between items-center mb-3'>
+					<h4 className='text-xl md:text-2xl font-semibold'>
 						{name}
 					</h4>
 					<Image
-						src={imagePath}
+						src={image}
 						alt={`${name}`}
 						width={64}
 						height={64}
-						className='h-8 w-8'
+						className='size-8'
 					/>
 				</div>
-				<p className='text-base font-light'>{info}</p>
+				<p className='text-lg lg:text-xl'>{desc}</p>
 			</div>
-			<div className='flex flex-row items-center gap-3'>
-				<div className='text-base font-light'>Tìm hiểu thêm</div>
-				<div>
-					<Image
-						src='/arrow-right.svg'
-						alt='Right arrow'
-						width={64}
-						height={64}
-						className='h-5 w-5'
-					/>
-				</div>
-			</div>
+			<button className='font-semibold text-primary border-2 border-primary hover:bg-primary hover:text-white px-8 py-5 rounded-full text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out'>
+			Tìm hiểu thêm
+			</button>
 		</div>
 	)
 }

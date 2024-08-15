@@ -5,122 +5,88 @@ import ProductCard, { IndustryCard, StandardCard, SupportCard } from '@/componen
 import { INDUSTRIES } from '@/consts/industries'
 import BannersCarousel, { PartnersCarousel } from '@/components/Carousel'
 import Image from 'next/image'
+import Section from '@/components/Layout/Section'
+import Intro from '@/components/Layout/Intro'
 
 export default function Home() {
 	return (
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<section
-					id='banner'
-					className='w-full overflow-hidden'>
-					<BannersCarousel images={BANNERS} />
-				</section>
-				<section
-					id='intro'
-					className='flex flex-col justify-center items-center w-full pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 lg:pb-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h1 className='text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#242769]'>
+				<Intro className='bg-homepage-intro h-[calc(100vh-124px)] bg-no-repeat bg-cover sm:h-[560px] px-8 py-0'>
+				<div className='flex flex-col w-full max-w-[1024px] justify-center items-center px-4'>
+						<h1 className='text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-8'>
 							HunterLab
 						</h1>
-						<p className='md:w-[75%] mt-8 text-lg sm:text-xl lg:text-2xl font-light text-center text-'>
-							Với hơn 70 năm kinh nghiệm, HunterLab tự tin là nhà sản
-							xuất hàng đầu trong việc sản xuất và cung cấp các
-							thiết bị đo màu.
+						<p className='text-xl lg:text-2xl text-center text-white mb-5'>
+							Với hơn 70 năm kinh nghiệm, HunterLab tự tin là nhà
+							sản xuất hàng đầu trong việc sản xuất và cung cấp
+							các thiết bị đo màu.
 						</p>
-						<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold text-[#242769] mt-8 text-center'>
-							Đáp ứng các tiêu chuẩn
-						</h4>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center mt-6 gap-6'>
+						<button className='font-semibold text-white border-2 border-white hover:text-primary hover:bg-white px-8 py-5 rounded-full text-lg lg:text-xl transition-all duration-300 ease-in-out'>
+							Tìm hiểu thêm
+						</button>
+					</div>
+				</Intro>
+				<Section className='pt-16 sm:pt-20 lg:pt-24'>
+					<Section.Heading>Đáp ứng các tiêu chuẩn</Section.Heading>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center gap-6'>
 							{STANDARDS.map((standard, index) => (
-								<div key={index}>
 									<StandardCard
+										key={index}
 										name={standard.name}
 										image={standard.image}
 										desc={standard.desc}
 									/>
-								</div>
 							))}
 						</div>
-					</div>
-				</section>
-				<section
-					id='product'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
-							Thiết bị và giải pháp
-						</h2>
-						<p className='mt-2 text-lg sm:text-xl lg:text-2xl font-light text-center'>
-							Hiệu quả, tinh gọn và chính xác
-						</p>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mt-6 gap-6'>
+				</Section>
+				<Section>
+					<Section.Heading>Thiết bị và giải pháp</Section.Heading>
+					<Section.Subtext>Hiệu quả, tinh gọn và chính xác</Section.Subtext>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6'>
 							{PRODUCTS.map((product, index) => (
-								<div key={index}>
 									<ProductCard
+									key={index}
 										name={product.name}
 										image={product.image}
 										href={product.href}
 									/>
-								</div>
 							))}
 						</div>
-					</div>
-				</section>
-				<section
-					id='industry'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
-							Cung cấp giải pháp đo màu cho nhiều ngành
-						</h2>
-						<div className='grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6 w-full'>
+				</Section>
+				<Section>
+					<Section.Heading>Lĩnh vực</Section.Heading>
+					<Section.Subtext>Cung cấp giải pháp đo màu cho nhiều lĩnh vực</Section.Subtext>
+					<div className='grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-6 w-full'>
 							{INDUSTRIES.map((industry, index) => (
-								<div key={index}>
 									<IndustryCard
+									key={index}
 										name={industry.name}
-										imagePath={industry.icon}
-										url={`/industries/${industry.id}`}
+										image={industry.icon}
+										href={`/industries/${industry.id}`}
 									/>
-								</div>
 							))}
 						</div>
-					</div>
-				</section>
-				<section
-					id='partners'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-						<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-							<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
-								Đối tác của HunterLab
-							</h2>
-							<PartnersCarousel images={PARTNERS} />
-						</div>
-				</section>
-				<section
-					id='support'
-					className='flex flex-col justify-center items-center w-full pt-8 sm:pt-10 lg:pt-12 pb-12 sm:pb-16 lg:pb-20 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px] justify-center items-center'>
-						<h4 className='text-lg sm:text-xl lg:text-2xl font-semibold mb-1 text-center'>
-							Bạn cần hỗ trợ?
-						</h4>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769] text-center'>
-							Liên hệ với chúng tôi.
-						</h2>
-						<div className='grid grid-flow-row gap-6 grid-cols-1 sm:grid-cols-3 w-full mt-6'>
+				</Section>
+				<Section>
+					<Section.Heading>Đối tác của HunterLab</Section.Heading>
+					<PartnersCarousel images={PARTNERS} />
+				</Section>
+				<Section className='pb-16 sm:pb-20 lg:pb-24'>
+					<Section.Heading>Liên hệ với chúng tôi</Section.Heading>
+					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
 							{SUPPORTS.map((support, index) => (
-								<div key={index}>
 									<SupportCard
+									key={index}
 										name={support.name}
-										imagePath={support.icon}
-										info={support.info}
-										url={support.url}
+										image={support.icon}
+										desc={support.desc}
+										href={support.url}
 									/>
-								</div>
 							))}
 						</div>
-					</div>
-				</section>
+				</Section>
 			</main>
 			<Footer />
 		</div>

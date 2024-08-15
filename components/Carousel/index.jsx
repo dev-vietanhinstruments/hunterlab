@@ -63,17 +63,18 @@ export default function BannersCarousel({ images }) {
 
 export function PartnersCarousel({ images }) {
 	const settings = {
-		dots: true,
+		// dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 4,
 		slidesToScroll: 4,
 		adaptiveHeight: false,
-		pauseOnFocus: true,
+		// pauseOnFocus: true,
 		autoplay: true,
 		autoplaySpeed: 3000,
-		prevArrow: <PrevArrow />,
-		nextArrow: <NextArrow />,
+		arrows: false,
+		// prevArrow: <PrevArrow />,
+		// nextArrow: <NextArrow />,
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -100,7 +101,7 @@ export function PartnersCarousel({ images }) {
 	}
 
 	return (
-		<div className='w-[90%] h-full justify-center items-center m-6'>
+		<div className='w-full h-full justify-center items-center'>
 			<Slider {...settings}>
 				{images.map((image, index) => (
 					<div

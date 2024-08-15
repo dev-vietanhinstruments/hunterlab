@@ -5,7 +5,7 @@ export default function Section({ children, className, ...props }) {
 	return (
 		<section
 			className={twMerge(
-				'flex flex-col justify-center items-center w-full pt-16 sm:pt-20 lg:pt-24 pb-8 sm:pb-10 lg:pb-12 px-8',
+				'flex flex-col justify-center items-center w-full py-8 sm:py-10 lg:py-12 px-8',
 				className
 			)}
 			{...props}>
