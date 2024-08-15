@@ -41,3 +41,11 @@ Section.Subtext = function Subtext({ children, className, ...props }) {
 		</h2>
 	)
 }
+
+Section.List = function List({ children, className, ...props }) {
+	return (
+		<ul className={twMerge('text-lg lg:text-xl list-disc list-inside mb-8', className)} {...props}>
+			{children}
+		</ul>
+	)
+}

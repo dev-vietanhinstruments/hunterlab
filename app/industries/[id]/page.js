@@ -6,7 +6,7 @@ import BannersCarousel from '@/components/Carousel'
 import { PRODUCTS } from '@/consts/products'
 import { INDUSTRIES } from '@/consts/industries'
 import Section from '@/components/Layout/Section'
-import Intro from '@/components/Layout/Intro';
+import Intro from '@/components/Layout/Intro'
 
 export async function generateStaticParams() {
 	return INDUSTRIES.map((industry) => ({
@@ -23,22 +23,26 @@ export default function Page({ params }) {
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<Intro className='h-[300px] md:h-[320px] px-8 justify-end'
-				style={{ backgroundImage: `url(${industry.cover})`}}>
-				<div className='w-full max-w-[80rem] px-4'>
+				<Intro
+					className='h-[300px] md:h-[320px] px-8 justify-end'
+					style={{ backgroundImage: `url(${industry.cover})` }}>
+					<div className='w-full max-w-[80rem] px-4'>
 						<h1 className='text-3xl sm:text-4xl lg:text-5xl text-white mb-8'>
-							Giải pháp đo màu cho ngành <span className='font-semibold text-primary'>{industry.name}</span>
+							Giải pháp đo màu cho ngành{' '}
+							<span className='font-bold text-white'>
+								{industry.name}
+							</span>
 						</h1>
 					</div>
 				</Intro>
 				<Section className='pt-16 sm:pt-20 lg:pt-24'>
 					<Section.Heading>Ứng dụng</Section.Heading>
 					<Section.Subtext>{application.desc}</Section.Subtext>
-					<ul className='text-lg lg:text-xl list-disc list-inside'>
+					<Section.List>
 						{application.items.map((item, index) => (
 							<li key={index}>{item}</li>
 						))}
-					</ul>
+					</Section.List>
 				</Section>
 				<Section className='pb-16 sm:pb-20 lg:pb-24'>
 					<Section.Heading>

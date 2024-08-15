@@ -24,7 +24,7 @@ export default function Products() {
 						vật, sữa thực vật, thịt thực vật và nhiều loại thực phẩm
 						có nguồn gốc thực vật khác.
 					</Section.Subtext>
-					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
 						{PRODUCTS.map(
 							(product, index) =>
 								product.category === '1' && (
@@ -45,7 +45,7 @@ export default function Products() {
 						Máy quang phổ cầm tay của chúng tôi cho phép bạn đo khi
 						đang di chuyển để có sự tiện lợi tối đa khi thử nghiệm.
 					</Section.Subtext>
-					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
 						{PRODUCTS.map(
 							(product, index) =>
 								product.category === '2' && (
@@ -64,7 +64,7 @@ export default function Products() {
 					<Section.Heading>
 						Thiết Bị và Phần Mềm Kiểm Soát Chất Lượng Màu
 					</Section.Heading>
-					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
 						{PRODUCTS.map(
 							(product, index) =>
 								product.category === '3' && (

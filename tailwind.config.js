@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         'primary': '#1E1464',
+        'secondary': '#007784',
         'card': '#F2F2F8',
         'notation': '#373D40',
         'heading': '#000000',

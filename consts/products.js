@@ -5,6 +5,12 @@ export const PRODUCTS = [
         image: "/products/agera_spectrophotometer-hunterlab.png",
         category: "1",
         industries: ["3", "4", "7", "8", "9"],
+        model: "Agera",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "Từ nhà sản xuất hàng đầu thế giới về công nghệ đo màu, Agera của Hunterlab mang đến hình ảnh đầy đủ về chất lượng ngoại hình mẫu của bạn. Agera mang đến các phép đo đồng thời về màu sắc phản chiếu, độ bóng trong một phép đo đơn giản. Đèn LED cung cấp độ chính xác màu sắc và độ lặp lại vượt trội. Máy đo độ bóng tích hợp cho kết quả chính xác cao phù hợp với tiêu chuẩn quốc tế. Camera 5 megapixel đảm bảo định vị mẫu thích hợp trong khi chụp và lưu trữ hình ảnh như một phần của bản ghi dữ liệu. Máy đo màu quang phổ Agera với giao diện người dùng hiện đại, phần mềm kiểm soát chất lượng mạnh mẽ và các tùy chọn quản lý dữ liệu hiện đại mang đến tính linh hoạt đặc biệt và dễ sử dụng.",
+        features: ["Đo màu và độ bóng đồng thời", "Hình học circumferential 0º/45ºc mô phỏng tầm nhìn của con người", "Nhiều khay để phù hợp với nhiều kích thước mẫu", "Kết nối USB và Ethernet", "Màn hình cảm ứng với giao diện người dùng hiện đại", "Phần mềm EasyMatch Essentials QC tích hợp"],
+
     },
     {
         id: "2",

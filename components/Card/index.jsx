@@ -1,10 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import Button from '@/components/Button'
 
 export function StandardCard({ name, image, desc, ...props }) {
 	return (
-		<div className={`flex flex-col col-span-1 h-full p-3 gap-4`} {...props}>
+		<div
+			className={`flex flex-col col-span-1 h-full p-3 gap-4`}
+			{...props}>
 			<div className='relative w-full h-[120px] sm:h-[160px] lg:h-[180px]'>
 				<Image
 					fill
@@ -21,9 +24,10 @@ export function StandardCard({ name, image, desc, ...props }) {
 
 export default function ProductCard({ name, image, href, ...props }) {
 	return (
-		<Link href={String(href)} {...props}>
-			<div
-				className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
+		<Link
+			href={String(href)}
+			{...props}>
+			<div className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
 				<div className='relative w-full h-[180px]'>
 					<Image
 						fill
@@ -33,7 +37,9 @@ export default function ProductCard({ name, image, href, ...props }) {
 						sizes='100vw, 100vw'
 					/>
 				</div>
-				<p className='text-lg lg:text-xl font-semibold text-center'>{name}</p>
+				<p className='text-lg lg:text-xl font-semibold text-center'>
+					{name}
+				</p>
 			</div>
 		</Link>
 	)
@@ -41,7 +47,9 @@ export default function ProductCard({ name, image, href, ...props }) {
 
 export function IndustryCard({ name, image, href, ...props }) {
 	return (
-		<Link href={String(href)} {...props}>
+		<Link
+			href={String(href)}
+			{...props}>
 			<div
 				className={`group flex flex-col col-span-1 w-full h-full p-6 gap-4 bg-card rounded-md items-center hover:bg-primary hover:text-white transition-all duration-300 ease-in-out`}>
 				<div>
@@ -53,7 +61,9 @@ export function IndustryCard({ name, image, href, ...props }) {
 						className='size-6 lg:size-8 group-hover:invert'
 					/>
 				</div>
-				<p className='text-lg lg:text-xl font-semibold text-center'>{name}</p>
+				<p className='text-lg lg:text-xl font-semibold text-center'>
+					{name}
+				</p>
 			</div>
 		</Link>
 	)
@@ -61,7 +71,9 @@ export function IndustryCard({ name, image, href, ...props }) {
 
 export function SupportCard({ name, image, href, desc, ...props }) {
 	return (
-		<div className='flex flex-col col-span-1 h-full p-3 justify-between gap-8' {...props}>
+		<div
+			className='flex flex-col col-span-1 h-full p-3 justify-between'
+			{...props}>
 			<div>
 				<div className='flex flex-row justify-between items-center mb-3'>
 					<h4 className='text-xl md:text-2xl font-semibold'>
@@ -77,9 +89,7 @@ export function SupportCard({ name, image, href, desc, ...props }) {
 				</div>
 				<p className='text-lg lg:text-xl'>{desc}</p>
 			</div>
-			<button className='font-semibold text-primary border-2 border-primary hover:bg-primary hover:text-white px-8 py-4 rounded-full text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out'>
-			Tìm hiểu thêm
-			</button>
+			<Button href={href}>Tìm hiểu thêm</Button>
 		</div>
 	)
 }
@@ -105,10 +115,9 @@ export function DocCard({ title, href }) {
 
 export function ProductCardWithDesc({ name, image, href, desc, ...props }) {
 	return (
-		<Link href={String(href)} {...props}>
 			<div
-				className={`grid grid-col sm:grid-row sm:grid-cols-[30%_70%] w-full h-full p-6 gap-4`}>
-				<div className='relative w-full h-[180px] sm:h-[180px]'>
+				className={`grid grid-col md:grid-row md:grid-cols-[30%_70%] w-full h-full p-3 gap-6`} {...props}>
+				<div className='relative w-full h-[180px]'>
 					<Image
 						fill
 						src={image}
@@ -117,17 +126,13 @@ export function ProductCardWithDesc({ name, image, href, desc, ...props }) {
 						sizes='100vw, 100vw'
 					/>
 				</div>
-				<div className=''>
+				<div className='flex flex-col'>
 					<h4 className='text-xl md:text-2xl font-semibold mb-2'>
 						{name}
 					</h4>
 					<p className='text-base md:text-lg'>{desc}</p>
-					<button className='mt-3 font-semibold text-primary border-2 border-primary hover:bg-primary hover:text-white px-8 py-4 rounded-full text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out'>
-					Tìm hiểu thêm
-					</button>
+					<Button href={href}>Tìm hiểu thêm</Button>
 				</div>
 			</div>
-		</Link>
 	)
 }
-
