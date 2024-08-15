@@ -4,109 +4,106 @@ import { BANNERS } from '@/consts/homepage'
 import ProductCard, { DocCard } from '@/components/Card'
 import BannersCarousel from '@/components/Carousel'
 import { PRODUCTS } from '@/consts/products'
+import Intro from '@/components/Layout/Intro'
+import Section from '@/components/Layout/Section'
 
 export default function Products() {
 	return (
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<section
-					id='banner'
-					className='w-full overflow-hidden'>
+				<Intro className='block p-0 sm:p-0 lg:p-0'>
 					<BannersCarousel images={BANNERS} />
-				</section>
-				<section
+				</Intro>
+				<Section
 					id='benchtop'
-					className='flex flex-col justify-center items-center w-full pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 lg:pb-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px]'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
-							Máy đo quang phổ để bàn
-						</h2>
-						<p className='mt-4 text-lg sm:text-xl lg:text-2xl font-light'>
-							HunterLab cung cấp các giải pháp đo màu cho protein
-							thực vật, sữa thực vật, thịt thực vật và nhiều loại
-							thực phẩm có nguồn gốc thực vật khác.
-						</p>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
-							{PRODUCTS.map(
-								(product, index) =>
-									product.category === "1" && (
-										<div key={index}>
-											<ProductCard
-												name={product.name}
-												imagePath={product.image}
-												href={`/products/${product.id}`}
-											/>
-										</div>
-									)
-							)}
-						</div>
+					className='pt-16 sm:pt-20 lg:pt-24'>
+					<Section.Heading>Máy đo quang phổ để bàn</Section.Heading>
+					<Section.Subtext>
+						HunterLab cung cấp các giải pháp đo màu cho protein thực
+						vật, sữa thực vật, thịt thực vật và nhiều loại thực phẩm
+						có nguồn gốc thực vật khác.
+					</Section.Subtext>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+						{PRODUCTS.map(
+							(product, index) =>
+								product.category === '1' && (
+									<div key={index}>
+										<ProductCard
+											name={product.name}
+											image={product.image}
+											href={`/products/${product.id}`}
+										/>
+									</div>
+								)
+						)}
 					</div>
-				</section>
-				<section
-					id='portable'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px]'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
-                            Máy Đo Màu Di Động MiniScan EZ
-						</h2>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
-							{PRODUCTS.map(
-								(product, index) =>
-									product.category === "2" && (
-										<div key={index}>
-											<ProductCard
-												name={product.name}
-												imagePath={product.image}
-												href={`/products/${product.id}`}
-											/>
-										</div>
-									)
-							)}
-						</div>
+				</Section>
+				<Section id='portable'>
+					<Section.Heading>Máy Đo Màu Di Động</Section.Heading>
+					<Section.Subtext>
+						Máy quang phổ cầm tay của chúng tôi cho phép bạn đo khi
+						đang di chuyển để có sự tiện lợi tối đa khi thử nghiệm.
+					</Section.Subtext>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+						{PRODUCTS.map(
+							(product, index) =>
+								product.category === '2' && (
+									<div key={index}>
+										<ProductCard
+											name={product.name}
+											image={product.image}
+											href={`/products/${product.id}`}
+										/>
+									</div>
+								)
+						)}
 					</div>
-				</section>
-				<section
-					id='control'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px]'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
-                            Thiết Bị và Phần Mềm Kiểm Soát Chất Lượng Màu
-						</h2>
-						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
-							{PRODUCTS.map(
-								(product, index) =>
-									product.category === "3" && (
-										<div key={index}>
-											<ProductCard
-												name={product.name}
-												imagePath={product.image}
-												href={`/products/${product.id}`}
-											/>
-										</div>
-									)
-							)}
-						</div>
+				</Section>
+				<Section id='control'>
+					<Section.Heading>
+						Thiết Bị và Phần Mềm Kiểm Soát Chất Lượng Màu
+					</Section.Heading>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
+						{PRODUCTS.map(
+							(product, index) =>
+								product.category === '3' && (
+									<div key={index}>
+										<ProductCard
+											name={product.name}
+											image={product.image}
+											href={`/products/${product.id}`}
+										/>
+									</div>
+								)
+						)}
 					</div>
-				</section>
-				<section
-					id='docs'
-					className='flex flex-col justify-center items-center w-full p-8 sm:p-10 lg:p-12 px-8'>
-					<div className='flex flex-col w-full max-w-[1376px]'>
-						<h2 className='text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#242769]'>
-                            Tài liệu
-						</h2>
-						<div className='grid grid-flow-col mt-6 gap-6'>
-							<div>
-                                <DocCard title="Màu sắc và hình thức" url="https://www.hunterlab.com/media/documents/an-1033-00-color-versus-appearance.pdf" />
-                                <DocCard title="Nhận thức và ý nghĩa màu sắc" url="https://www.hunterlab.com/blog/spectrophotometers-facilitate-color-communication-across-languages-and-cultures/" />
-                                <DocCard title="Đo lường các thuộc tính hình học của sản phẩm" url="https://support.hunterlab.com/hc/en-us/articles/203420399-Measuring-the-Geometric-Attributes-of-Your-Products-AN-1007b" />
-                                <DocCard title="Các tài liệu ứng dụng" url="https://www.hunterlab.com/en/learn/application-notes/" />
-                                <DocCard title="Các phương pháp đo lường" url="https://www.hunterlab.com/en/learn/measurement-methods/" />
-                            </div>
-						</div>
+				</Section>
+				<Section>
+					<Section.Heading>Tài liệu</Section.Heading>
+					<div className='flex flex-col gap-4'>
+						<DocCard
+							title='Màu sắc và hình thức'
+							href='https://www.hunterlab.com/media/documents/an-1033-00-color-versus-appearance.pdf'
+						/>
+						<DocCard
+							title='Nhận thức và ý nghĩa màu sắc'
+							href='https://www.hunterlab.com/blog/spectrophotometers-facilitate-color-communication-across-languages-and-cultures/'
+						/>
+						<DocCard
+							title='Đo lường các thuộc tính hình học của sản phẩm'
+							href='https://support.hunterlab.com/hc/en-us/articles/203420399-Measuring-the-Geometric-Attributes-of-Your-Products-AN-1007b'
+						/>
+						<DocCard
+							title='Các tài liệu ứng dụng'
+							href='https://www.hunterlab.com/en/learn/application-notes/'
+						/>
+						<DocCard
+							title='Các phương pháp đo lường'
+							href='https://www.hunterlab.com/en/learn/measurement-methods/'
+						/>
 					</div>
-				</section>
+				</Section>
 			</main>
 			<Footer />
 		</div>

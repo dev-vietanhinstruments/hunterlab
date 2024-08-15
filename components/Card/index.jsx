@@ -84,14 +84,21 @@ export function SupportCard({ name, image, href, desc, ...props }) {
 	)
 }
 
-export function DocCard({ title, url }) {
+export function DocCard({ title, href }) {
 	return (
-		<Link href={String(url)}>
-			<div
-				className={`flex flex-row w-full p-1 border-b-2 border-[#CDCDCD] items-center`}>
-					<div className='flex flex-row w-full items-center justify-between p-4 hover:bg-white rounded-lg font-light hover:font-semibold gap-4'>
-						<div className='text-base sm:text-lg lg:text-xl flex-wrap'>{title}</div>
-					</div>
+		<Link href={String(href)}>
+			<div className='bg-card py-4 px-6 rounded-md group hover:bg-primary transition-all duration-300 ease-in-out'>
+				<div className='flex flex-row items-center gap-3 text-lg lg:text-xl group-hover:text-white'>
+					Tìm hiểu thêm
+					<Image
+						src='/arrow-right.svg'
+						alt='Right arrow'
+						width={64}
+						height={64}
+						className='size-6 group-hover:invert group-hover:translate-x-6 transition-all duration-300 ease-in-out'
+					/>
+				</div>
+
 			</div>
 		</Link>
 	)

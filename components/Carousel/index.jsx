@@ -31,17 +31,18 @@ function NextArrow(props) {
 
 export default function BannersCarousel({ images }) {
 	const settings = {
-		dots: true,
+		// dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		adaptiveHeight: false,
-		pauseOnFocus: true,
+		// pauseOnFocus: true,
+		// arrows: false,
 		autoplay: true,
-		autoplaySpeed: 1000,
-		prevArrow: <PrevArrow css={{ left: '10px' }} />,
-		nextArrow: <NextArrow css={{ right: '25px' }} />,
+		autoplaySpeed: 3000,
+		// prevArrow: <PrevArrow css={{ left: '10px' }} />,
+		// nextArrow: <NextArrow css={{ right: '25px' }} />,
 	}
 
 	return (
