@@ -32,7 +32,7 @@ export default function Header() {
 						</Link>
 					</div>
 				</div>
-				<nav className='flex gap-8 items-center text-base md:text-lg'>
+				<nav className='flex gap-8 items-center text-base'>
 					<div className='hidden lg:flex gap-8'>
 						<Link href='/products' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Sản phẩm</Link>
 						<Link href='/' className='hover:decoration-primary hover:decoration-2 hover:underline hover:underline-offset-8'>Lĩnh vực</Link>

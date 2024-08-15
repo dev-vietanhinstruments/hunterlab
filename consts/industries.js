@@ -29,46 +29,94 @@ export const INDUSTRIES = [
                 id: '7',
                 desc: 'Vista báo cáo chính xác kết quả RYBN LOVIBOND® 1 inch và 5,25 inch tiêu chuẩn, là công cụ lý tưởng cho việc đo thuốc nhuộm thực phẩm.',
             }
-        ]
+        ],
     },
     {
         id: '2',
         name: 'Đồ uống',
         icon: '/industries/drink.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '3',
         name: 'Nhựa',
         icon: '/industries/plastic.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '4',
         name: 'Hóa học',
         icon: '/industries/chemistry.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '5',
         name: 'Dược phẩm',
         icon: '/industries/medic.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '6',
         name: 'Xây dựng',
         icon: '/industries/building.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '7',
         name: 'Sơn và lớp phủ',
         icon: '/industries/arts.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '8',
         name: 'Giấy',
         icon: '/industries/printing.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
     {
         id: '9',
         name: 'Dệt may',
         icon: '/industries/sew.svg',
+        cover: '/industries/covers/food.png',
+        application: {
+            desc: "",
+            items: [],
+        },
+        products: [],
     },
 ]
