@@ -30,7 +30,7 @@ export default function Products() {
 						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
 							{PRODUCTS.map(
 								(product, index) =>
-									product.category === 1 && (
+									product.category === "1" && (
 										<div key={index}>
 											<ProductCard
 												name={product.name}
@@ -53,7 +53,7 @@ export default function Products() {
 						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
 							{PRODUCTS.map(
 								(product, index) =>
-									product.category === 2 && (
+									product.category === "2" && (
 										<div key={index}>
 											<ProductCard
 												name={product.name}
@@ -76,7 +76,7 @@ export default function Products() {
 						<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 gap-6'>
 							{PRODUCTS.map(
 								(product, index) =>
-									product.category === 3 && (
+									product.category === "3" && (
 										<div key={index}>
 											<ProductCard
 												name={product.name}
