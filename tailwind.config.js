@@ -20,6 +20,7 @@ module.exports = {
         'notation': '#373D40',
         'heading': '#000000',
         'paragraph': '#0A0A0A',
+        'gray': '#CDCDCD',
       }
     },
   },
