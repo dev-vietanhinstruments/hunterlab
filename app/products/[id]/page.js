@@ -8,6 +8,7 @@ import Section from '@/components/Layout/Section'
 import Image from 'next/image'
 import Button, { TagButton } from '@/components/Button'
 import Link from 'next/link'
+import { DocCard } from '@/components/Card'
 
 
 export async function generateStaticParams() {
@@ -22,6 +23,9 @@ export default function Page({ params }) {
 		(category) => product.category === category.id
 	)
 	const industries = product.industries
+	const specifications = product.specifications
+	const assets = product.assets
+	const documents = product.documents
 
 	const industryRecords = industries.map((industry, index) => {
 		const matchedIndustry = INDUSTRIES.find(
@@ -79,19 +83,46 @@ export default function Page({ params }) {
 				</Section>
 				<Section>
 					<Section.Heading>Các thông số</Section.Heading>
+					{specifications.map((spec, index) => {
+						const descLines = spec.desc;
+						return (
+							<Section.Detail key={index} title={spec.title}>
+								{descLines.map((line, i) => (
+									<p index={i}>{line}</p>
+								))}
+							</Section.Detail>
+						)})}
 				</Section>
-				{/* <section
-					id='application'
-					className='flex flex-col justify-center items-center w-full pt-12 sm:pt-16 lg:pt-20 pb-8 sm:pb-10 lg:pb-12 px-8'>
-                    <p>{product.name}</p>
-                    <p>Loại máy: {category.name}</p>
-                    {industries.map((industry, index) => {
-							const matchedIndustry = INDUSTRIES.find((indus) => indus.id === industry);
-							return matchedIndustry && (
-								<p key={index}>{matchedIndustry.name}</p>
-							);
-						})}
-				</section> */}
+				{assets.length && (
+					<Section>
+						<Section.Heading>Hình ảnh</Section.Heading>
+						<div className='flex flex-col gap-2'>
+							{assets.map((asset, index) => (
+								<div key={index} className='relative w-full h-[40vh] md:h-[60vh]'>
+									<Image
+										fill
+										src={asset}
+										alt={`Image ${index}`}
+										className='object-cover'
+										sizes='100vw, 100vw'
+									/>
+								</div>
+							))}
+						</div>
+					</Section>
+				)}
+				<Section className='pb-16 sm:pb-20 lg:pb-24'>
+					<Section.Heading>Tài liệu</Section.Heading>
+					<div className='flex flex-col gap-2'>
+						{documents.map((doc, index) => (
+							<DocCard
+								key={index}
+								title={doc.title}
+								href={doc.href}
+							/>
+						))}
+					</div>
+				</Section>
 			</main>
 			<Footer />
 		</div>

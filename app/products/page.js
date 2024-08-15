@@ -81,7 +81,7 @@ export default function Products() {
 				</Section>
 				<Section className='pb-16 sm:pb-20 lg:pb-24'>
 					<Section.Heading>Tài liệu</Section.Heading>
-					<div className='flex flex-col gap-4'>
+					<div className='flex flex-col gap-2'>
 						<DocCard
 							title='Màu sắc và hình thức'
 							href='https://www.hunterlab.com/media/documents/an-1033-00-color-versus-appearance.pdf'
