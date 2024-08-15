@@ -66,6 +66,24 @@ export const PRODUCTS = [
         image: "/products/colorflex-ez-spectrophotometer.png",
         category: "1",
         industries: ["1", "3", "4", "6"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "3",
@@ -73,62 +91,224 @@ export const PRODUCTS = [
         image: "/products/ColorFlex_EZ_Coffee_2.png",
         category: "1",
         industries: ["2"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "4",
         name: "Máy Đo Màu Quang Phổ ColorFlex ColorFlex EZ Citrus",
         image: "/products/ColorFlex_EZ_Citrus.png",
         category: "1",
-        industries: [2],
+        industries: ["2"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "5",
         name: "Máy Đo Màu Quang Phổ ColorFlex EZ Tomato",
         image: "/products/ColorFlex_EZ_Tomato_3390_2_sauce.png",
         category: "1",
-        industries: [1, 2],
+        industries: ["1", "2"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "6",
         name: "Máy Đo Màu Quang Phổ Hunterlab Aeros",
         image: "/products/aeros-spectrophotometer.png",
         category: "1",
-        industries: [1, 2, 4, 5, 6],
+        industries: ["1", "2", "4", "5", "6"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "7",
         name: "Máy Đo Màu Quang Phổ Hunterlab Vista",
         image: "/products/vista-spectrophotometer.png",
         category: "1",
-        industries: [1, 2, 4],
+        industries: ["1", "2", "4"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "8",
         name: "Máy Đo Màu Quang Phổ UltraScan PRO",
         image: "/products/ultrascan-pro-spectrophotometer.png",
         category: "1",
-        industries: [3, 6, 9],
+        industries: ["3", "6", "9"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "9",
         name: "Máy Đo Màu Di Động MiniScan EZ 4500",
         image: "/products/miniscan-ez-spectrophotometer.png",
         category: "2",
-        industries: [1, 3, 6, 7, 9],
+        industries: ["1", "3", "6", "7", "9"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "8",
         name: "Máy Đo Màu Di Động MiniScan EZ 4000",
         image: "/products/miniscan-ez-spectrophotometer.png",
         category: "2",
-        industries: [6],
+        industries: ["6"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "9",
         name: "Thiết Bị Phân Tích Màu Sắc Và Kiểm Soát Quy Trình SpectraTrend HT",
         image: "/products/spectratrend-ht-spectrophotometer.png",
         category: "3",
-        industries: [1, 3, 7, 8, 9],
+        industries: ["1", "3", "7", "8", "9"],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
     {
         id: "10",
@@ -136,5 +316,23 @@ export const PRODUCTS = [
         image: "/products/easymatch-qc-product.png",
         category: "3",
         industries: [],
+        model: "",
+        supplier: "Hunterlab",
+        country: "Mỹ",
+        desc: "",
+        features: [],
+        specifications: [
+            {
+                title: "",
+                desc: [],
+            },
+        ],
+        documents: [
+            {
+                title: "",
+                href: "",
+            },
+        ],
+        assets: [],
     },
 ]

@@ -58,9 +58,9 @@ export default function Page({ params }) {
 								{product.name}
 							</h4>
 							<div className='flex flex-row gap-2 flex-wrap text-lg lg:text-xl mb-4'>
-								{industryRecords.map((industry, index) => (
+								{industryRecords.length ? industryRecords.map((industry, index) => (
 									<TagButton key={index} href={`/industries/${industry.id}`}>{industry.name}</TagButton>
-								))}
+								)) : <TagButton href="">Khác</TagButton>}
 							</div>
 							<p className='text-lg lg:text-xl'>Model: {product.model}</p>
 							<p className='text-lg lg:text-xl'>Nhà sản xuất: {product.supplier}</p>
