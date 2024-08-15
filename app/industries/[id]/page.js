@@ -40,7 +40,7 @@ export default function Page({ params }) {
 						))}
 					</ul>
 				</Section>
-				<Section>
+				<Section className='pb-16 sm:pb-20 lg:pb-24'>
 					<Section.Heading>
 						Một số công cụ và giải pháp đo màu thực phẩm
 					</Section.Heading>

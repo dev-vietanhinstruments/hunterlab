@@ -79,7 +79,7 @@ export default function Products() {
 						)}
 					</div>
 				</Section>
-				<Section>
+				<Section className='pb-16 sm:pb-20 lg:pb-24'>
 					<Section.Heading>Tài liệu</Section.Heading>
 					<div className='flex flex-col gap-4'>
 						<DocCard
