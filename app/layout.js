@@ -15,13 +15,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>{
       children}
-      <FloatingButton href="https://zalo.me/0916424731" className="p-3 bg-secondary">
+      <FloatingButton href="https://zalo.me/0916424731" className="p-0 bg-white">
         <Image
           src="/logo-zalo.svg"
           alt='zalo'
           width={64}
           height={64}
-          className='size-10 lg:size-12'
+          className='size-14 lg:size-16'
         />
       </FloatingButton>
       {/* <FloatingButton href="tel:0916424731" className="p-3 bg-secondary bottom-[88px] left-4">

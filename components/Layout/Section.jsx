@@ -5,7 +5,7 @@ export default function Section({ children, className, ...props }) {
 	return (
 		<section
 			className={twMerge(
-				'flex flex-col justify-center items-center w-full py-8 sm:py-10 lg:py-12 px-8',
+				'flex flex-col justify-center items-center w-full py-8 px-8 mb-8 sm:mb-12',
 				className
 			)}
 			{...props}>
@@ -18,27 +18,27 @@ export default function Section({ children, className, ...props }) {
 
 Section.Heading = function Heading({ children, className, ...props }) {
 	return (
-		<h4
+		<h2
 			className={twMerge(
-				'text-2xl md:text-3xl font-semibold text-notation pl-4 border-l-4 border-primary mb-8',
+				'text-2xl md:text-3xl font-semibold text-primary pl-4 border-l-4 border-primary mb-8',
 				className
 			)}
 			{...props}>
 			{children}
-		</h4>
+		</h2>
 	)
 }
 
 Section.Subtext = function Subtext({ children, className, ...props }) {
 	return (
-		<h2
+		<h4
 			className={twMerge(
 				'text-lg lg:text-xl text-heading mb-8',
 				className
 			)}
 			{...props}>
 			{children}
-		</h2>
+		</h4>
 	)
 }
 

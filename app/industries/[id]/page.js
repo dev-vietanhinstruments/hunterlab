@@ -48,7 +48,7 @@ export default function Page({ params }) {
 					<Section.Heading>
 						Một số công cụ và giải pháp đo màu thực phẩm
 					</Section.Heading>
-					<div className='flex flex-col gap-6'>
+					<div className='flex flex-col gap-8'>
 						{products.map((product) => {
 							const matchedProduct = PRODUCTS.find(
 								(prod) => prod.id === product.id

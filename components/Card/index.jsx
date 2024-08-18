@@ -116,13 +116,13 @@ export function DocCard({ title, href }) {
 export function ProductCardWithDesc({ name, image, href, desc, ...props }) {
 	return (
 			<div
-				className={`grid grid-col md:grid-row md:grid-cols-[30%_70%] w-full h-full p-3 gap-6`} {...props}>
+				className={`grid grid-col md:grid-row md:grid-cols-[30%_70%] w-full h-full p-3 gap-6 relative`} {...props}>
 				<div className='relative w-full h-[180px]'>
 					<Image
 						fill
 						src={image}
 						alt={`${name}`}
-						className='object-contain hover:scale-110 transition-all duration-300 ease-in-out'
+						className='object-contain'
 						sizes='100vw, 100vw'
 					/>
 				</div>
