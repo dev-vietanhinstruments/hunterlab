@@ -8,12 +8,13 @@ export function StandardCard({ name, image, desc, ...props }) {
 		<div
 			className={`flex flex-col col-span-1 h-full p-3 gap-4`}
 			{...props}>
-			<div className='relative w-full h-[120px] sm:h-[160px] lg:h-[180px]'>
+			<div>
 				<Image
-					fill
+					width={0}
+					height={0}
 					src={image}
 					alt={`${name}`}
-					className='object-contain'
+					className='object-contain w-full h-[120px] sm:h-[160px] lg:h-[180px]'
 					sizes='100vw, 100vw'
 				/>
 			</div>
@@ -28,12 +29,13 @@ export default function ProductCard({ name, image, href, ...props }) {
 			href={String(href)}
 			{...props}>
 			<div className={`flex flex-col col-span-1 h-full p-3 gap-4`}>
-				<div className='relative w-full h-[180px]'>
+				<div>
 					<Image
-						fill
+						width={0}
+						height={0}
 						src={image}
 						alt={`${name}`}
-						className='object-contain hover:scale-110 transition-all duration-300 ease-in-out'
+						className='object-contain hover:scale-110 transition-all duration-300 ease-in-out w-full h-[180px]'
 						sizes='100vw, 100vw'
 					/>
 				</div>
@@ -117,12 +119,13 @@ export function ProductCardWithDesc({ name, image, href, desc, ...props }) {
 	return (
 			<div
 				className={`grid grid-col md:grid-row md:grid-cols-[30%_70%] w-full h-full p-3 gap-6 relative`} {...props}>
-				<div className='relative w-full h-[180px]'>
+				<div>
 					<Image
-						fill
+						width={0}
+						height={0}
 						src={image}
 						alt={`${name}`}
-						className='object-contain'
+						className='object-contain w-full h-[200px]'
 						sizes='100vw, 100vw'
 					/>
 				</div>
