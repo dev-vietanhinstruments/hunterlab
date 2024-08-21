@@ -1,16 +1,16 @@
 import Header from './../components/Header/index'
 import Footer from './../components/Footer/index'
-import { PARTNERS, STANDARDS, SUPPORTS, PRODUCTS } from '@/consts/homepage'
+import { PARTNERS, STANDARDS, PRODUCTS } from '@/consts/homepage'
 import ProductCard, {
 	IndustryCard,
 	StandardCard,
-	SupportCard,
 } from '@/components/Card'
 import { INDUSTRIES } from '@/consts/industries'
 import { PartnersCarousel } from '@/components/Carousel'
 import Section from '@/components/Layout/Section'
 import Intro from '@/components/Layout/Intro'
 import Button from '@/components/Button'
+import SupportSection from '@/components/SupportSection'
 
 export default function Home() {
 	return (
@@ -83,19 +83,7 @@ export default function Home() {
 					<Section.Heading>Đối tác của HunterLab</Section.Heading>
 					<PartnersCarousel images={PARTNERS} />
 				</Section>
-				<Section className='bg-card mb-0 sm:mb-0'>
-					<div className='grid grid-flow-row gap-12 grid-cols-1 lg:grid-cols-3 w-full'>
-						{SUPPORTS.map((support, index) => (
-							<SupportCard
-								key={index}
-								name={support.name}
-								image={support.icon}
-								desc={support.desc}
-								href={String(support.url)}
-							/>
-						))}
-					</div>
-				</Section>
+				<SupportSection />
 			</main>
 			<Footer />
 		</div>

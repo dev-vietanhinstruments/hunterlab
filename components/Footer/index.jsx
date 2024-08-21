@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
 	return (
-		<footer className='flex flex-col justify-center items-center w-full bg-[#242769] py-16 px-8'>
-			<div className='flex flex-col tablet:flex-row w-full max-w-[1376px] gap-12 justify-between text-base font-light text-[#a5a7c1]'>
-				<div className='flex flex-col gap-6 max-w-[392px]'>
-					<h2 className='text-2xl font-semibold uppercase text-white'>
+		<footer className='flex flex-col justify-center items-center w-full bg-primary py-12 px-8'>
+			<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-12 w-full max-w-[80rem] gap-8 sm:gap-12 justify-between text-[#a5a7c1]'>
+				<div className='sm:col-span-4 flex flex-col gap-6'>
+					<h3 className='text-xl md:text-2xl font-semibold uppercase text-white'>
 						Công ty CP Thiết Bị Việt Anh
-					</h2>
+					</h3>
 
 					<div className='flex flex-col gap-4 text-base'>
 						<div>
@@ -73,40 +74,29 @@ export default function Footer() {
 					</div>
 				</div>
 
-				<div className='flex flex-col gap-9'>
-					<div className='tablet:flex flex-row gap-12 flex-wrap hidden'>
-						<div className='flex flex-col gap-4'>
-							<h4 className='text-lg font-semibold text-white'>Sản phẩm</h4>
-							<div className='flex flex-row gap-12'>
-								<div className='flex flex-col gap-2'>
-									<div>Máy so màu</div>
-									<div>Máy phân tích</div>
-									<div>Máy quang phổ</div>
-									<div>Linh phụ kiện</div>
-								</div>
-								<div className='flex flex-col gap-2'>
-									<div>Máy tổng hợp</div>
-									<div>Máy đếm hạt</div>
-									<div>Máy đo nhiệt lượng</div>
-								</div>
+				<div className='sm:col-start-6 sm:col-span-7 flex flex-col gap-6'>
+					<div className='sm:grid grid-cols-2 gap-12 hidden'>
+						<div className='flex flex-col gap-2'>
+							<div className='text-lg lg:text-xl text-white'>
+								Sản phẩm
+							</div>
+							<div className='text-lg lg:text-xl text-white'>
+								Lĩnh vực
+							</div>
+							<div className='text-lg lg:text-xl text-white'>
+								Về chúng tôi
+							</div>
+							<div className='text-lg lg:text-xl text-white'>
+								Tin tức
+							</div>
+							<div className='text-lg lg:text-xl text-white'>
+								Liên hệ
 							</div>
 						</div>
 						<div className='flex flex-col gap-4'>
-							<h4 className='text-lg font-semibold text-white'>
-								Về Việt Anh
-							</h4>
 							<div className='flex flex-col gap-2'>
-								<div>Giới thiệu</div>
-								<div>Tin tức</div>
-								<div>Liên hệ</div>
-								<div>Chính sách bảo hành</div>
-							</div>
-						</div>
-						<div className='flex flex-col gap-4'>
-							<h4 className='text-lg font-semibold text-white'>Hỗ trợ</h4>
-							<div className='flex flex-col gap-2'>
-								<div>Hướng dẫn sử dụng</div>
-								<div>Dịch vụ</div>
+								<div>Chính sách bảo mật</div>
+								<div>Điều khoản sử dụng</div>
 								<div>Đăng ký bảo hành</div>
 							</div>
 						</div>

@@ -8,8 +8,8 @@ import Section from '@/components/Layout/Section'
 import Image from 'next/image'
 import Button, { TagButton } from '@/components/Button'
 import Link from 'next/link'
-import { DocCard, SupportCard } from '@/components/Card'
-import { SUPPORTS } from '@/consts/homepage'
+import { DocCard } from '@/components/Card'
+import SupportSection from '@/components/SupportSection'
 
 
 export async function generateStaticParams() {
@@ -120,19 +120,7 @@ export default function Page({ params }) {
 						))}
 					</div>
 				</Section>
-				<Section className='bg-card mb-0 sm:mb-0'>
-					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
-						{SUPPORTS.map((support, index) => (
-							<SupportCard
-								key={index}
-								name={support.name}
-								image={support.icon}
-								desc={support.desc}
-								href={String(support.url)}
-							/>
-						))}
-					</div>
-				</Section>
+				<SupportSection />
 			</main>
 			<Footer />
 		</div>

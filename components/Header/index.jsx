@@ -82,7 +82,7 @@ export default function Header() {
 					</div>
 				</nav>
 			</div>
-			<div id="mobile-menu" className='flex absolute overflow-hidden top-[116px] sm:top-[80px] w-full h-0 z-40 bg-primary shadow-md transition-all duration-300 ease-in-out'>
+			<div id="mobile-menu" className='flex lg:hidden absolute overflow-hidden top-[116px] sm:top-[80px] w-full h-0 z-40 bg-primary shadow-md transition-all duration-300 ease-in-out'>
 				<div className='flex flex-col px-12 py-4 gap-4 text-lg text-white'>
 					<Link id='products' href='/products' className={`decoration-white decoration-2 hover:underline underline-offset-8 ${pathname === '/products' ? 'underline' : ''}`}>Sản phẩm</Link>
 					<Link id='industries' href='/industries' className={`decoration-white decoration-2 hover:underline underline-offset-8 ${pathname === '/industries' ? 'underline' : ''}`}>Lĩnh vực</Link>
