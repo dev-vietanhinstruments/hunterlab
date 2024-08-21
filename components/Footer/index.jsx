@@ -77,21 +77,21 @@ export default function Footer() {
 				<div className='sm:col-start-6 sm:col-span-7 flex flex-col gap-6'>
 					<div className='sm:grid grid-cols-2 gap-12 hidden'>
 						<div className='flex flex-col gap-2'>
-							<div className='text-lg lg:text-xl text-white'>
+							<Link href="/products" className='text-lg lg:text-xl text-white'>
 								Sản phẩm
-							</div>
-							<div className='text-lg lg:text-xl text-white'>
+							</Link>
+							<Link href="/industries" className='text-lg lg:text-xl text-white'>
 								Lĩnh vực
-							</div>
-							<div className='text-lg lg:text-xl text-white'>
+							</Link>
+							<Link href="/about" className='text-lg lg:text-xl text-white'>
 								Về chúng tôi
-							</div>
-							<div className='text-lg lg:text-xl text-white'>
+							</Link>
+							<Link href="/news" className='text-lg lg:text-xl text-white'>
 								Tin tức
-							</div>
-							<div className='text-lg lg:text-xl text-white'>
+							</Link>
+							<Link href="/contact" className='text-lg lg:text-xl text-white'>
 								Liên hệ
-							</div>
+							</Link>
 						</div>
 						<div className='flex flex-col gap-4'>
 							<div className='flex flex-col gap-2'>
