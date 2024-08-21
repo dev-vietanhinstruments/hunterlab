@@ -16,6 +16,7 @@ export function StandardCard({ name, image, desc, ...props }) {
 					alt={`${name}`}
 					className='object-contain w-full h-[120px] sm:h-[160px] lg:h-[180px]'
 					sizes='100vw, 100vw'
+					priority={true}
 				/>
 			</div>
 			<div className='text-base text-justify'>{desc}</div>
@@ -37,6 +38,7 @@ export default function ProductCard({ name, image, href, ...props }) {
 						alt={`${name}`}
 						className='object-contain hover:scale-110 transition-all duration-300 ease-in-out w-full h-[180px]'
 						sizes='100vw, 100vw'
+						priority={true}
 					/>
 				</div>
 				<p className='text-lg lg:text-xl font-semibold text-center'>
@@ -61,6 +63,7 @@ export function IndustryCard({ name, image, href, ...props }) {
 						width={64}
 						height={64}
 						className='size-6 lg:size-8 group-hover:invert'
+						priority={true}
 					/>
 				</div>
 				<p className='text-lg lg:text-xl font-semibold text-center'>

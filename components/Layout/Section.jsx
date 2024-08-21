@@ -44,7 +44,7 @@ Section.Subtext = function Subtext({ children, className, ...props }) {
 
 Section.List = function List({ children, className, ...props }) {
 	return (
-		<ul className={twMerge('text-lg lg:text-xl list-disc list-inside mb-8', className)} {...props}>
+		<ul className={twMerge('text-lg lg:text-xl list-disc list-inside', className)} {...props}>
 			{children}
 		</ul>
 	)
@@ -53,8 +53,8 @@ Section.List = function List({ children, className, ...props }) {
 Section.Detail = function Detail({ title, children, className, ...props }) {
 	return (
 		<details className={twMerge("bg-card rounded-md group hover:bg-primary open:bg-primary transition-all duration-300 ease-in-out mb-2", className)} {...props}>
-			<summary class="text-lg lg:text-xl group-hover:text-white group-open:text-white px-6 py-4 cursor-pointer">{title}</summary>
-			<div class="text-lg lg:text-xl bg-white px-6 py-4">
+			<summary className="text-lg lg:text-xl group-hover:text-white group-open:text-white px-6 py-4 cursor-pointer">{title}</summary>
+			<div className="text-lg lg:text-xl bg-white px-6 py-4">
 				{children}
 			</div>
 		</details>

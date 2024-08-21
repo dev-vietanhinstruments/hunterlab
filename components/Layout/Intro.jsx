@@ -13,3 +13,11 @@ export default function Intro({ children, className, ...props }) {
 		</section>
 	)
 }
+
+Intro.List = function List({ children, className, ...props }) {
+	return (
+		<ul className={twMerge('text-lg lg:text-xl list-disc list-inside', className)} {...props}>
+			{children}
+		</ul>
+	)
+}

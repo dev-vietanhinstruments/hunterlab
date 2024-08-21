@@ -35,7 +35,7 @@ export default function Page({ params }) {
 						</h1>
 					</div>
 				</Intro>
-				<Section className='pt-16 sm:pt-20 lg:pt-24'>
+				<Section className='mt-8 sm:mt-12'>
 					<Section.Heading>Ứng dụng</Section.Heading>
 					<Section.Subtext>{application.desc}</Section.Subtext>
 					<Section.List>
@@ -46,20 +46,19 @@ export default function Page({ params }) {
 				</Section>
 				<Section className='pb-16 sm:pb-20 lg:pb-24'>
 					<Section.Heading>
-						Một số công cụ và giải pháp đo màu thực phẩm
+						Một số công cụ và giải pháp đo màu
 					</Section.Heading>
-					<div className='flex flex-col gap-8'>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
 						{products.map((product) => {
 							const matchedProduct = PRODUCTS.find(
-								(prod) => prod.id === product.id
+								(prod) => prod.id === product
 							)
 							return (
 								matchedProduct && (
-									<ProductCardWithDesc
+									<ProductCard
 										key={matchedProduct.id}
 										name={matchedProduct.name}
 										image={matchedProduct.image}
-										desc={product.desc}
 										href={`/products/${matchedProduct.id}`}
 									/>
 								)

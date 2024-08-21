@@ -34,7 +34,7 @@ export default function Home() {
 						</Button>
 					</div>
 				</Intro>
-				<Section className='pt-16 sm:pt-20'>
+				<Section className='mt-8 sm:mt-12'>
 					<Section.Heading>Đáp ứng các tiêu chuẩn</Section.Heading>
 					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-3 md:grid-cols-3 justify-center gap-6'>
 						{STANDARDS.map((standard, index) => (
@@ -83,7 +83,7 @@ export default function Home() {
 					<Section.Heading>Đối tác của HunterLab</Section.Heading>
 					<PartnersCarousel images={PARTNERS} />
 				</Section>
-				<Section className='pb-16 sm:pb-20 lg:pb-24'>
+				<Section>
 					<Section.Heading>Liên hệ với chúng tôi</Section.Heading>
 					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
 						{SUPPORTS.map((support, index) => (
