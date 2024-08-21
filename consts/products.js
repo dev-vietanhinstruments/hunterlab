@@ -16,10 +16,10 @@ export const PRODUCTS = [
 		],
 		specifications: [
 			{
-				title: 'Measurement',
+				title: 'Phương Pháp Đo Lường',
 				desc: [
-					'Measurement Principle: Dual-beam Reflectance Spectrophotometer / Gloss meter',
-					'Geometry: 0°/45°c (circumferential) ASTM E1164',
+					'Nguyên lý đo: Máy đo phổ phản xạ hai chùm tia / Máy đo độ bóng.',
+					'Hình học: 0°/45° (chiếu sáng vòng tròn) ASTM E1164.',
 					'Measurement Method: Port up or Port forward',
 					'Read Time: < 3 sec.',
 					'Gloss Geometry: 60-degree (60º)',

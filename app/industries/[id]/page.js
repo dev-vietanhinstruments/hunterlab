@@ -24,7 +24,7 @@ export default function Page({ params }) {
 			<Header />
 			<main>
 				<Intro
-					className='h-[300px] md:h-[320px] px-8 justify-end'
+					className='h-[300px] md:h-[320px] px-4 justify-end'
 					style={{ backgroundImage: `url(${industry.cover})` }}>
 					<div className='w-full max-w-[80rem] px-4'>
 						<h1 className='text-3xl sm:text-4xl lg:text-5xl text-white mb-8'>

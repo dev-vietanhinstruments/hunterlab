@@ -56,9 +56,9 @@ export default function Page({ params }) {
 							<Link className='text-lg md:text-xl text-notation font-semibold mb-3' href={`/products#${category.tag}`}>
 								{category.name}
 							</Link>
-							<h4 className='text-2xl md:text-3xl font-semibold mb-4 text-heading'>
+							<h1 className='text-2xl md:text-3xl font-semibold mb-4 text-heading'>
 								{product.name}
-							</h4>
+							</h1>
 							<div className='flex flex-row gap-2 flex-wrap text-lg lg:text-xl mb-4'>
 								{industryRecords.length ? industryRecords.map((industry, index) => (
 									<TagButton key={index} href={`/industries/${industry.id}`}>{industry.name}</TagButton>
@@ -89,7 +89,7 @@ export default function Page({ params }) {
 							</Section.Detail>
 						)})}
 				</Section>
-				{assets.length && (
+				{assets.length ? (
 					<Section>
 						<Section.Heading>Hình ảnh</Section.Heading>
 						<div className='flex flex-col gap-2'>
@@ -107,7 +107,7 @@ export default function Page({ params }) {
 							))}
 						</div>
 					</Section>
-				)}
+				) : null}
 				<Section>
 					<Section.Heading>Tài liệu</Section.Heading>
 					<div className='flex flex-col gap-2'>

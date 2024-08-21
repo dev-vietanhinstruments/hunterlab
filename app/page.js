@@ -17,7 +17,7 @@ export default function Home() {
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<Intro className='bg-homepage-intro h-[calc(100vh-124px)] sm:h-[560px] px-8'>
+				<Intro className='bg-homepage-intro h-[calc(100vh-124px)] sm:h-[560px] px-4'>
 					<div className='flex flex-col w-full max-w-[1024px] justify-center items-center px-4'>
 						<h1 className='text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-8'>
 							HunterLab
@@ -84,7 +84,7 @@ export default function Home() {
 					<PartnersCarousel images={PARTNERS} />
 				</Section>
 				<Section className='bg-card mb-0 sm:mb-0'>
-					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
+					<div className='grid grid-flow-row gap-12 grid-cols-1 lg:grid-cols-3 w-full'>
 						{SUPPORTS.map((support, index) => (
 							<SupportCard
 								key={index}

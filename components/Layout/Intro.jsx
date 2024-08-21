@@ -5,7 +5,7 @@ export default function Intro({ children, className, ...props }) {
 	return (
 		<section
 			className={twMerge(
-				'flex flex-col justify-center items-center w-full py-8 sm:py-10 lg:py-12 px-8 bg-no-repeat bg-cover',
+				'flex flex-col justify-center items-center w-full py-8 sm:py-10 lg:py-12 px-4 bg-no-repeat bg-cover',
 				className
 			)}
 			{...props}>

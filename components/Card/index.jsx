@@ -6,7 +6,7 @@ import Button from '@/components/Button'
 export function StandardCard({ name, image, desc, ...props }) {
 	return (
 		<div
-			className={`flex flex-col col-span-1 h-full p-3 gap-4`}
+			className={`flex flex-col col-span-1 h-full gap-4`}
 			{...props}>
 			<div>
 				<Image
@@ -41,9 +41,9 @@ export default function ProductCard({ name, image, href, ...props }) {
 						priority={true}
 					/>
 				</div>
-				<p className='text-lg lg:text-xl font-semibold text-center'>
+				<h4 className='text-lg lg:text-xl font-semibold text-center'>
 					{name}
-				</p>
+				</h4>
 			</div>
 		</Link>
 	)
@@ -66,9 +66,9 @@ export function IndustryCard({ name, image, href, ...props }) {
 						priority={true}
 					/>
 				</div>
-				<p className='text-lg lg:text-xl font-semibold text-center'>
+				<h4 className='text-lg lg:text-xl font-semibold text-center'>
 					{name}
-				</p>
+				</h4>
 			</div>
 		</Link>
 	)
@@ -77,24 +77,24 @@ export function IndustryCard({ name, image, href, ...props }) {
 export function SupportCard({ name, image, href, desc, ...props }) {
 	return (
 		<div
-			className='flex flex-col col-span-1 h-full p-3 justify-between'
+			className='flex flex-col col-span-1 h-full justify-between'
 			{...props}>
-			<div>
-				<div className='flex flex-row justify-between items-center mb-3'>
-					<h4 className='text-xl md:text-2xl font-semibold'>
+			<div className='flex flex-row justify-between items-center gap-4'>
+				<div className='flex flex-col justify-between items-start'>
+					<h4 className='text-lg lg:text-xl font-semibold'>
 						{name}
 					</h4>
-					<Image
-						src={image}
-						alt={`${name}`}
-						width={64}
-						height={64}
-						className='size-8'
-					/>
+					<p className='text-base'>{desc}</p>
 				</div>
-				<p className='text-lg lg:text-xl'>{desc}</p>
+				<Image
+					src={image}
+					alt={`${name}`}
+					width={64}
+					height={64}
+					className='size-12'
+				/>
 			</div>
-			<Button href={href}>Tìm hiểu thêm</Button>
+			{/* <Button href={href}>Tìm hiểu thêm</Button> */}
 		</div>
 	)
 }

@@ -13,7 +13,7 @@ export default function Page() {
 			<Header />
 			<main>
 				<Intro
-					className='h-[300px] md:h-[320px] px-8 justify-end'
+					className='h-[300px] md:h-[320px] px-4 justify-end'
 					style={{ backgroundImage: `url(https://www.hunterlab.com/media/original_images/yellow-pieces.jpg)` }}>
 					<div className='w-full max-w-[80rem] px-4'>
                         <p className='text-xl lg:text-2xl text-white mb-3'>HunterLab</p>
