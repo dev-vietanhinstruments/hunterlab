@@ -20,7 +20,7 @@ export function TagButton({ href, className, children, ...props }) {
 	return (
 		<Link
 			className={twMerge(
-				'text-secondary border-2 border-secodary border-secondary hover:bg-secondary hover:text-white rounded-md px-2 py-1 text-lg lg:text-xl w-fit transition-all duration-300 ease-in-out',
+				'text-secondary border-2 border-secodary border-secondary hover:bg-secondary hover:text-white rounded-md px-2 py-1 text-sm lg:text-base w-fit transition-all duration-300 ease-in-out',
 				className
 			)}
 			href={href}

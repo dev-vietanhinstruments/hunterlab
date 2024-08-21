@@ -1,7 +1,7 @@
 import Header from '@/components/Header/index'
 import Footer from '@/components/Footer/index'
-import { BANNERS } from '@/consts/homepage'
-import ProductCard, { DocCard } from '@/components/Card'
+import { BANNERS, SUPPORTS } from '@/consts/homepage'
+import ProductCard, { DocCard, SupportCard } from '@/components/Card'
 import BannersCarousel from '@/components/Carousel'
 import { PRODUCTS } from '@/consts/products'
 import Intro from '@/components/Layout/Intro'
@@ -12,7 +12,7 @@ export default function Products() {
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<Intro className='block p-0 sm:p-0 lg:p-0'>
+				<Intro className='block p-0 sm:p-0 lg:p-0 overflow-hidden'>
 					<BannersCarousel images={BANNERS} />
 				</Intro>
 				<Section
@@ -79,7 +79,7 @@ export default function Products() {
 						)}
 					</div>
 				</Section>
-				<Section className='pb-16 sm:pb-20 lg:pb-24'>
+				<Section>
 					<Section.Heading>Tài liệu</Section.Heading>
 					<div className='flex flex-col gap-2'>
 						<DocCard
@@ -102,6 +102,19 @@ export default function Products() {
 							title='Các phương pháp đo lường'
 							href='https://www.hunterlab.com/en/learn/measurement-methods/'
 						/>
+					</div>
+				</Section>
+				<Section className='bg-card mb-0 sm:mb-0'>
+					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
+						{SUPPORTS.map((support, index) => (
+							<SupportCard
+								key={index}
+								name={support.name}
+								image={support.icon}
+								desc={support.desc}
+								href={String(support.url)}
+							/>
+						))}
 					</div>
 				</Section>
 			</main>

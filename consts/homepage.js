@@ -62,18 +62,18 @@ export const SUPPORTS = [
 		name: 'Tư vấn',
 		icon: '/support/support.svg',
 		desc: 'Đăng ký nhận tư vấn về các giải pháp từ Việt Anh.',
-		href: '',
+		href: 'tel:0916424731',
 	},
 	{
 		name: 'Bảo hành',
 		icon: '/support/maintain.svg',
 		desc: 'Nhận thêm 3 tháng bảo hành khi đăng ký sản phẩm mới.',
-		href: '',
+		href: 'tel:0916424731',
 	},
 	{
 		name: 'Liên hệ',
 		icon: '/support/contact.svg',
 		desc: 'Liên hệ ngay với Việt Anh về sản phẩm, dịch vụ hoặc vấn đề kỹ thuật.',
-		href: '',
+		href: 'tel:0916424731',
 	},
 ]

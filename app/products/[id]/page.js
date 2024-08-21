@@ -8,7 +8,8 @@ import Section from '@/components/Layout/Section'
 import Image from 'next/image'
 import Button, { TagButton } from '@/components/Button'
 import Link from 'next/link'
-import { DocCard } from '@/components/Card'
+import { DocCard, SupportCard } from '@/components/Card'
+import { SUPPORTS } from '@/consts/homepage'
 
 
 export async function generateStaticParams() {
@@ -38,19 +39,20 @@ export default function Page({ params }) {
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<Intro className='bg-card pt-16 sm:pt-20 lg:pt-24'>
+				<Intro className='bg-card'>
 					<div
-						className={`grid grid-col md:grid-row md:grid-cols-[40%_60%] w-full max-w-[1024px] h-full gap-6 px-4`}>
-						<div className='relative w-full h-[300px]'>
+						className={`grid grid-col md:grid-row md:grid-cols-10 w-full max-w-[80rem] h-full gap-12 px-4 items-center`}>
+						<div className='md:col-span-4'>
 							<Image
-								fill
+								width={0}
+								height={0}
 								src={product.image}
 								alt={`${product.name}`}
-								className='object-contain'
+								className='object-contain w-full h-[300px] md:h-[320px]'
 								sizes='100vw, 100vw'
 							/>
 						</div>
-						<div className='flex flex-col justify-center'>
+						<div className='flex flex-col justify-center flex-wrap md:col-span-6'>
 							<Link className='text-lg md:text-xl text-notation font-semibold mb-3' href={`/products#${category.tag}`}>
 								{category.name}
 							</Link>
@@ -62,24 +64,18 @@ export default function Page({ params }) {
 									<TagButton key={index} href={`/industries/${industry.id}`}>{industry.name}</TagButton>
 								)) : <TagButton href="">Khác</TagButton>}
 							</div>
-							<p className='text-lg lg:text-xl'>Model: {product.model}</p>
-							<p className='text-lg lg:text-xl'>Nhà sản xuất: {product.supplier}</p>
-							<p className='text-lg lg:text-xl'>Nơi sản xuất: {product.country}</p>
-							<Button href="/" className='w-full text-center'>Liên hệ ngay</Button>
+							<Intro.List>
+								{product.features.map((item, index) => (
+									<li key={index}>{item}</li>
+								))}
+							</Intro.List>
+							<Button href="tel:0916424731" className='w-full text-center'>Liên hệ ngay</Button>
 						</div>
 					</div>
 				</Intro>
-				<Section>
+				<Section className='mt-8 sm:mt-12'>
 					<Section.Heading>Mô tả</Section.Heading>
 					<Section.Subtext className='mb-0'>{product.desc}</Section.Subtext>
-				</Section>
-				<Section>
-					<Section.Heading>Tính năng nổi bật</Section.Heading>
-					<Section.List className='mb-0'>
-						{product.features.map((item, index) => (
-							<li key={index}>{item}</li>
-						))}
-					</Section.List>
 				</Section>
 				<Section>
 					<Section.Heading>Các thông số</Section.Heading>
@@ -88,7 +84,7 @@ export default function Page({ params }) {
 						return (
 							<Section.Detail key={index} title={spec.title}>
 								{descLines.map((line, i) => (
-									<p index={i}>{line}</p>
+									<p key={i}>{line}</p>
 								))}
 							</Section.Detail>
 						)})}
@@ -98,12 +94,13 @@ export default function Page({ params }) {
 						<Section.Heading>Hình ảnh</Section.Heading>
 						<div className='flex flex-col gap-2'>
 							{assets.map((asset, index) => (
-								<div key={index} className='relative w-full h-[40vh] md:h-[60vh]'>
+								<div key={index}>
 									<Image
-										fill
+										width={0}
+										height={0}
 										src={asset}
 										alt={`Image ${index}`}
-										className='object-cover'
+										className='object-contain w-full h-auto'
 										sizes='100vw, 100vw'
 									/>
 								</div>
@@ -111,7 +108,7 @@ export default function Page({ params }) {
 						</div>
 					</Section>
 				)}
-				<Section className='pb-16 sm:pb-20 lg:pb-24'>
+				<Section>
 					<Section.Heading>Tài liệu</Section.Heading>
 					<div className='flex flex-col gap-2'>
 						{documents.map((doc, index) => (
@@ -119,6 +116,19 @@ export default function Page({ params }) {
 								key={index}
 								title={doc.title}
 								href={doc.href}
+							/>
+						))}
+					</div>
+				</Section>
+				<Section className='bg-card mb-0 sm:mb-0'>
+					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
+						{SUPPORTS.map((support, index) => (
+							<SupportCard
+								key={index}
+								name={support.name}
+								image={support.icon}
+								desc={support.desc}
+								href={String(support.url)}
 							/>
 						))}
 					</div>

@@ -83,8 +83,7 @@ export default function Home() {
 					<Section.Heading>Đối tác của HunterLab</Section.Heading>
 					<PartnersCarousel images={PARTNERS} />
 				</Section>
-				<Section>
-					<Section.Heading>Liên hệ với chúng tôi</Section.Heading>
+				<Section className='bg-card mb-0 sm:mb-0'>
 					<div className='grid grid-flow-row gap-6 grid-cols-1 lg:grid-cols-3 w-full'>
 						{SUPPORTS.map((support, index) => (
 							<SupportCard
