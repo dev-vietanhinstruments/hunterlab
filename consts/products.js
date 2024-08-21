@@ -4,7 +4,7 @@ export const PRODUCTS = [
 		name: 'Máy Đo Màu Quang Phổ Hunterlab Agera',
 		image: '/products/agera_spectrophotometer-hunterlab.png',
 		category: '1',
-		industries: ['3', '4', '7', '8', '9'],
+		industries: ['1', '3', '4', '6', '7', '8', '9'],
 		desc: 'Từ nhà sản xuất hàng đầu thế giới về công nghệ đo màu, Agera của Hunterlab mang đến hình ảnh đầy đủ về chất lượng ngoại hình mẫu của bạn. Agera mang đến các phép đo đồng thời về màu sắc phản chiếu, độ bóng trong một phép đo đơn giản. Đèn LED cung cấp độ chính xác màu sắc và độ lặp lại vượt trội. Máy đo độ bóng tích hợp cho kết quả chính xác cao phù hợp với tiêu chuẩn quốc tế. Camera 5 megapixel đảm bảo định vị mẫu thích hợp trong khi chụp và lưu trữ hình ảnh như một phần của bản ghi dữ liệu. Máy đo màu quang phổ Agera với giao diện người dùng hiện đại, phần mềm kiểm soát chất lượng mạnh mẽ và các tùy chọn quản lý dữ liệu hiện đại mang đến tính linh hoạt đặc biệt và dễ sử dụng.',
 		features: [
 			'Đo màu và độ bóng đồng thời',
@@ -213,7 +213,7 @@ export const PRODUCTS = [
 	},
 	{
 		id: '4',
-		name: 'Máy Đo Màu Quang Phổ ColorFlex ColorFlex EZ Citrus',
+		name: 'Máy Đo Màu Quang Phổ ColorFlex EZ Citrus',
 		image: '/products/ColorFlex_EZ_Citrus.png',
 		category: '1',
 		industries: ['2'],
@@ -395,7 +395,7 @@ export const PRODUCTS = [
 		name: 'Máy Đo Màu Quang Phổ Hunterlab Vista',
 		image: '/products/vista-spectrophotometer.png',
 		category: '1',
-		industries: ['1', '2', '4'],
+		industries: ['1', '2', '3', '4'],
 		desc: 'Vista® là máy đo màu quang phổ truyền ánh sáng khả kiến giàu tính năng, nhỏ gọn đo được cùng lúc màu sắc và độ mù của những mẫu trong suốt/trong mờ. Máy đo màu quang phổ truyền ánh sáng khả kiến giàu tính năng, nhỏ gọn đo được cùng lúc màu sắc và độ mù của những mẫu trong suốt/trong mờ. Được thiết kế nhằm đáp ứng nhu cầu của người dùng về tính đơn giản, sự chính xác, độ tin cậy và giá cả hợp lý, Vista có khả năng đo màu sắc và độ mù của nhiều loại mẫu trong một phép đo dễ dàng, trong khi vẫn cung cấp cho người dùng một giao diện trực quan và dễ sử dụng.',
 		features: [
 			'Đo màu chính xác và nhất quán giúp kiểm tra chất lượng dễ dàng',
@@ -509,7 +509,7 @@ export const PRODUCTS = [
 		name: 'Máy Đo Màu Di Động MiniScan EZ 4500',
 		image: '/products/miniscan-ez-spectrophotometer.png',
 		category: '2',
-		industries: ['1', '3', '6', '7', '9'],
+		industries: ['1', '3', '6', '7', '8', '9'],
 		desc: 'Máy đo màu di động MiniScan EZ 4500 có thiết kế 45 ° / 0 ° với màn hình lớn, trọng lượng nhẹ và được thiết kế công thái học để thao tác bằng một tay. Với phần mềm tích hợp bao gồm hầu hết các thang màu và chỉ số phản xạ công nghiệp chính. MiniScan EZ 4500 cho phép các nhà sản xuất đánh giá dễ dàng và chính xác chất lượng sản phẩm của mình.Hình học 45 ° / 0 ° với chế độ xem khu vực rộng lớn.',
 		features: [
 			'Trọng lượng nhẹ với tay cầm bọc cao su tạo sự thoải mái cho người vận hành',
@@ -562,11 +562,11 @@ export const PRODUCTS = [
 		],
 	},
 	{
-		id: '8',
+		id: '10',
 		name: 'Máy Đo Màu Di Động MiniScan EZ 4000',
 		image: '/products/miniscan-ez-spectrophotometer.png',
 		category: '2',
-		industries: ['6'],
+		industries: ['1', '3', '6', '7', '8', '9'],
 		desc: 'Máy đo màu di động MiniScan EZ 4000 có màn hình lớn, trọng lượng nhẹ và được thiết kế công thái học để thao tác bằng một tay. Với phần mềm tích hợp bao gồm hầu hết các thang màu và chỉ số phản xạ công nghiệp chính. MiniScan EZ 4000 cho phép các nhà sản xuất đánh giá dễ dàng và chính xác chất lượng sản phẩm của mình.',
 		features: [
 			'Trọng lượng nhẹ với tay cầm bọc cao su tạo sự thoải mái cho người vận hành',
@@ -619,11 +619,11 @@ export const PRODUCTS = [
 		],
 	},
 	{
-		id: '9',
+		id: '11',
 		name: 'Thiết Bị Phân Tích Màu Sắc Và Kiểm Soát Quy Trình SpectraTrend HT',
 		image: '/products/spectratrend-ht-spectrophotometer.png',
 		category: '3',
-		industries: ['1', '3', '7', '8', '9'],
+		industries: ['1', '3', '6', '7', '8', '9'],
 		desc: 'Máy so màu SpectraTrend HT hỗ trợ triển khai các chương trình quản lý chất lượng toàn diện ngày nay như LQM, PAT, Six Sigma, DMAIC và các chương trình khác có chung mục tiêu là tạo ra chất lượng sản phẩm nhất quán và giảm lãng phí. Việc sử dụng SpectraTrend HT có thể tạo điều kiện thuận lợi để tăng cường GMP trong doanh nghiệp, giảm rủi ro biến đổi chất lượng màu sắc và các chi phí liên quan thông qua việc giám sát màu sắc theo quy trình trong thời gian thực.',
 		features: [
 			'Hiển thị dữ liệu thời gian thực có thể điều chỉnh',
@@ -670,11 +670,11 @@ export const PRODUCTS = [
 		assets: [],
 	},
 	{
-		id: '10',
+		id: '12',
 		name: 'EasyMatch QC: Phần Mềm Kiểm Soát Chất Lượng Màu',
 		image: '/products/easymatch-qc-product.png',
 		category: '3',
-		industries: [],
+		industries: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
 		desc: 'EasyMatch QC rất dễ sử dụng và có thể được cài đặt để chỉ hiển thị thông tin bạn muốn. EasyMatch QC mang đến khả năng gần như vô hạn để trình bày và so sánh thông tin màu sắc của bạn. Dữ liệu màu và dữ liệu quang phổ được hiển thị bằng số ở dạng bảng tính hoặc đồ họa dưới dạng biểu đồ màu, biểu đồ quang phổ và biểu đồ xu hướng. Màn hình EZ View được đơn giản hóa chỉ hiển thị dữ liệu tiêu chuẩn và mẫu cuối cùng được đo và đạt/không đạt (tuỳ chọn). Color Render mô phỏng trực quan màu sắc trên màn hình máy tính của bạn. EasyMatch QC có khả năng lưu giữ hồ sơ điện tử. Phiên bản phần mềm này bảo vệ và duy trì hồ sơ đầy đủ và chính xác, giới hạn quyền truy cập hệ thống, thực hiện kiểm tra quyền hạn và bao gồm chữ ký điện tử. Nó đáp ứng các yêu cầu phần mềm để tuân thủ 21 CFR Part 11. EasyMatch QC có các ngôn ngữ tiếng Trung, tiếng Anh, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Ý, tiếng Nhật, tiếng Nga và tiếng Tây Ban Nha và tương thích với tất cả các hệ điều hành hiện tại của Microsoft.',
 		features: [
 			'Nhiều chế độ xem dữ liệu có thể định tuỳ chỉnh',
@@ -720,5 +720,52 @@ export const PRODUCTS = [
 			'https://www.hunterlab.com/media/original_images/Data_Views.jpg',
 			'https://www.hunterlab.com/media/original_images/2D_color_plot.jpg',
 		],
+	},
+	{
+		id: '13',
+		name: 'Máy Đo Màu Quang Phổ UltraScan VIS',
+		image: '/products/ultrascan-vis-spectrophotometer.png',
+		category: '1',
+		industries: ['1', '2', '3', '5', '8'],
+		desc: 'Độ chính xác tuyệt vời trên các mẫu mờ, trong suốt, nửa trong suốt và thậm chí là tối và có độ bão hòa cao Máy đo màu quang phổ UltraScan VIS dễ dàng đo màu dạng phản xạ và dạng truyền qua cũng như sự truyền qua lớp phủ và đáp ứng các tiêu chuẩn CIE, ASTM và USP để đo màu chính xác. Do thỏa thuận đặc biệt giữa các thiết bị và tính ổn định lâu dài, bạn có thể tin tưởng rằng sự khác biệt giữa các phép đo là do sự thay đổi màu sắc của sản phẩm, không phải do sự thay đổi của thiết bị. Vật liệu nằm trên đường giới hạn của tiêu chuẩn chấp nhận, sẽ không bị từ chối một cách không cần thiết.',
+		features: [
+			'Đo độ phản xạ, độ truyền qua và lớp phủ',
+			'Dải bước sóng 360 nm – 780 nm',
+			'Độ phân giải quang học và khoảng báo cáo là 10 nm',
+			'Hai vùng đo độ phản xạ của màu',
+			'Thoả thuận đặt biệt giữa các thiết bị',
+			'Hiệu chuẩn và kiểm soát UV tự động',
+			'Khoang truyền động lớn mở trên ba mặt',
+			'Bao gồm phần mềm EasyMatch QC',
+		],
+		specifications: [
+			{
+				title: 'Features',
+				desc: [],
+			},
+			{
+				title: 'Instrument Compatibility',
+				desc: [],
+			},
+			{
+				title: 'Minimum Computer Requirements',
+				desc: [],
+			},
+		],
+		documents: [
+			{
+				title: 'UltraScan VIS Brochure',
+				href: 'https://www.hunterlab.com/media/documents/ultrascan-vis-brochure.pdf',
+			},
+			{
+				title: 'UltraScan Specifications',
+				href: 'https://www.hunterlab.com/media/documents/ultrascan-vis-specifications.pdf',
+			},
+			{
+				title: 'UltraScan VIS Supplemental Manual for EasyMatch QC',
+				href: 'https://www.hunterlab.com/media/documents/Supplemental_Manual_for_EZMQC_UltraScan_VIS.pdf',
+			},
+		],
+		assets: [],
 	},
 ]
