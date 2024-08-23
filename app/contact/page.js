@@ -31,7 +31,7 @@ export default function Page() {
 				<Section className='mt-8 sm:mt-12 pb-16 sm:pb-20 lg:pb-24'>
                     <Section.Heading>Thông tin liên hệ</Section.Heading>
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
-						<div className='group flex flex-col col-span-1 w-full h-full p-6 bg-card rounded-md'>
+						<div className='group flex flex-col col-span-1 h-full p-6 bg-card rounded-md'>
 							<h4 className='text-lg lg:text-xl font-semibold mb-2'>
 								Chi nhánh Hồ Chí Minh
 							</h4>
@@ -42,7 +42,7 @@ export default function Page() {
 							<p>Hotline: 0916 424 731</p>
 							<p>Email: va@vietanh.vn</p>
 						</div>
-						<div className='group flex flex-col col-span-1 w-full h-full p-6 bg-card rounded-md'>
+						<div className='group flex flex-col col-span-1 h-full p-6 bg-card rounded-md'>
 							<h4 className='text-lg lg:text-xl font-semibold mb-2'>
 								Chi nhánh Hà Nội
 							</h4>
@@ -65,15 +65,17 @@ export default function Page() {
 						loading='lazy'
 						referrerpolicy='no-referrer-when-downgrade'></iframe>
                     </div>
-                    <Image
-                    width={0}
-                    height={0}
-                    src="https://vietanh.vn/wp-content/uploads/2020/08/VietAnh46-600x400.jpg"
-                    alt="VietAnh building"
-                    className='object-contain w-full h-auto rounded-md'
-                    sizes='100vw, 100vw'
-                    priority={true}
-                />
+					<div>
+						<Image
+							width={0}
+							height={0}
+							src="https://vietanh.vn/wp-content/uploads/2020/08/VietAnh46-600x400.jpg"
+							alt="VietAnh building"
+							className='object-contain w-full h-auto rounded-md'
+							sizes='100vw, 100vw'
+							priority={true}
+						/>
+                    </div>
 				</Section>
 			</main>
             <SupportSection />

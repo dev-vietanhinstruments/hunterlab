@@ -77,7 +77,7 @@ export function IndustryCard({ name, image, href, ...props }) {
 export function SupportCard({ name, image, href, desc, ...props }) {
 	return (
 		<div
-			className='flex flex-col col-span-1 h-full justify-between'
+			className='relative flex flex-col col-span-1 h-full justify-between'
 			{...props}>
 			<div className='flex flex-row justify-between items-center gap-4'>
 				<div className='flex flex-col justify-between items-start'>
