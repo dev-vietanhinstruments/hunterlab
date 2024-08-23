@@ -76,26 +76,28 @@ export function IndustryCard({ name, image, href, ...props }) {
 
 export function SupportCard({ name, image, href, desc, ...props }) {
 	return (
-		<div
-			className='relative flex flex-col col-span-1 h-full justify-between'
-			{...props}>
-			<div className='flex flex-row justify-between items-center gap-4'>
-				<div className='flex flex-col justify-between items-start'>
-					<h4 className='text-lg lg:text-xl font-semibold'>
-						{name}
-					</h4>
-					<p className='text-base'>{desc}</p>
+		<Link href='/contact'>
+			<div
+				className='relative flex flex-col col-span-1 h-full justify-between bg-white shadow-md rounded-md p-4'
+				{...props}>
+				<div className='flex flex-row justify-between items-center gap-4'>
+					<div className='flex flex-col justify-between items-start'>
+						<h4 className='text-lg lg:text-xl font-semibold'>
+							{name}
+						</h4>
+						<p className='text-base'>{desc}</p>
+					</div>
+					<Image
+						src={image}
+						alt={`${name}`}
+						width={64}
+						height={64}
+						className='size-12'
+					/>
 				</div>
-				<Image
-					src={image}
-					alt={`${name}`}
-					width={64}
-					height={64}
-					className='size-12'
-				/>
+				{/* <Button href={href}>Tìm hiểu thêm</Button> */}
 			</div>
-			{/* <Button href={href}>Tìm hiểu thêm</Button> */}
-		</div>
+		</Link>
 	)
 }
 
