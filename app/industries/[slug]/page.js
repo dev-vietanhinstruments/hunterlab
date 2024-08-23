@@ -6,16 +6,20 @@ import { INDUSTRIES } from '@/consts/industries'
 import Section from '@/components/Layout/Section'
 import Intro from '@/components/Layout/Intro'
 import SupportSection from '@/components/SupportSection'
+import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
+
 
 
 export async function generateStaticParams() {
 	return INDUSTRIES.map((industry) => ({
-		id: industry.id,
+		slug: `${toLowerCaseNonAccentVietnamese(industry.name).replace(/\s+/g, '-')}-i.${industry.id}`,
 	}))
 }
 
 export default function Page({ params }) {
-	const industry = INDUSTRIES.find((industry) => industry.id === params.id)
+	const id = params.slug.split('-i.')[1]
+
+	const industry = INDUSTRIES.find((industry) => industry.id === id)
 	const products = industry.products
 	const application = industry.application
 
@@ -53,13 +57,17 @@ export default function Page({ params }) {
 							const matchedProduct = PRODUCTS.find(
 								(prod) => prod.id === product
 							)
+
+							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
+								matchedProduct.name
+							).replace(/\s+/g, '-')}-p.${matchedProduct.id}`
 							return (
 								matchedProduct && (
 									<ProductCard
 										key={matchedProduct.id}
 										name={matchedProduct.name}
 										image={matchedProduct.image}
-										href={`/products/${matchedProduct.id}`}
+										href={productPath}
 									/>
 								)
 							)

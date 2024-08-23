@@ -11,6 +11,7 @@ import Section from '@/components/Layout/Section'
 import Intro from '@/components/Layout/Intro'
 import Button from '@/components/Button'
 import SupportSection from '@/components/SupportSection'
+import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
 export default function Home() {
 	return (
@@ -69,14 +70,17 @@ export default function Home() {
 						Cung cấp giải pháp đo màu cho nhiều lĩnh vực
 					</Section.Subtext>
 					<div className='grid grid-flow-row grid-cols-2 md:grid-cols-3 gap-6 w-full'>
-						{INDUSTRIES.map((industry, index) => (
-							<IndustryCard
-								key={index}
-								name={industry.name}
-								image={industry.icon}
-								href={`/industries/${industry.id}`}
-							/>
-						))}
+						{INDUSTRIES.map((industry, index) => {
+							const industryPath = `/industries/${toLowerCaseNonAccentVietnamese(industry.name).replace(/\s+/g, '-')}-i.${industry.id}`;
+							return (
+								<IndustryCard
+									key={index}
+									name={industry.name}
+									image={industry.icon}
+									href={industryPath}
+								/>
+							)
+						})}
 					</div>
 				</Section>
 				<Section className='mb-16 sm:mb-20'>

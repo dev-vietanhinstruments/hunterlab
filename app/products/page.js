@@ -7,9 +7,19 @@ import { PRODUCTS } from '@/consts/products'
 import Intro from '@/components/Layout/Intro'
 import Section from '@/components/Layout/Section'
 import SupportSection from '@/components/SupportSection'
-
+import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
 export default function Products() {
+	const productsOfCat1 = PRODUCTS.filter(
+		(product) => product.category === '1'
+	)
+	const productsOfCat2 = PRODUCTS.filter(
+		(product) => product.category === '2'
+	)
+	const productsOfCat3 = PRODUCTS.filter(
+		(product) => product.category === '3'
+	)
+
 	return (
 		<div className='flex flex-col relative'>
 			<Header />
@@ -22,44 +32,52 @@ export default function Products() {
 					className='pt-16 sm:pt-20 lg:pt-24'>
 					<Section.Heading>Máy đo quang phổ để bàn</Section.Heading>
 					<Section.Subtext>
-						HunterLab cung cấp các giải pháp đo màu cho protein thực
-						vật, sữa thực vật, thịt thực vật và nhiều loại thực phẩm
-						có nguồn gốc thực vật khác.
+						Máy đo màu và quang phổ để bàn của HunterLab mang lại độ
+						chính xác và linh hoạt tối ưu cho việc đo mẫu, bất kể
+						kích thước, hình dạng, hay kết cấu. Với khả năng đo màu
+						dưới các điều kiện ánh sáng khác nhau, thiết bị này
+						không chỉ phù hợp cho kiểm soát chất lượng mà còn cho
+						nghiên cứu và kiểm soát quy trình.
 					</Section.Subtext>
 					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-						{PRODUCTS.map(
-							(product, index) =>
-								product.category === '1' && (
-									<div key={index}>
-										<ProductCard
-											name={product.name}
-											image={product.image}
-											href={`/products/${product.id}`}
-										/>
-									</div>
-								)
-						)}
+						{productsOfCat1.map((product, index) => {
+							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
+								product.name
+							).replace(/\s+/g, '-')}-p.${product.id}`
+							return (
+								<div key={index}>
+									<ProductCard
+										name={product.name}
+										image={product.image}
+										href={productPath}
+									/>
+								</div>
+							)
+						})}
 					</div>
 				</Section>
 				<Section id='portable'>
 					<Section.Heading>Máy Đo Màu Di Động</Section.Heading>
 					<Section.Subtext>
-						Máy quang phổ cầm tay của chúng tôi cho phép bạn đo khi
-						đang di chuyển để có sự tiện lợi tối đa khi thử nghiệm.
+						Máy đo màu/quang phổ cầm tay HunterLab là công cụ lý
+						tưởng để đo màu mẫu di động, đáp ứng nhu cầu kiểm tra
+						chất lượng nhanh chóng và hiệu quả.
 					</Section.Subtext>
 					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-						{PRODUCTS.map(
-							(product, index) =>
-								product.category === '2' && (
-									<div key={index}>
-										<ProductCard
-											name={product.name}
-											image={product.image}
-											href={`/products/${product.id}`}
-										/>
-									</div>
-								)
-						)}
+						{productsOfCat2.map((product, index) => {
+							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
+								product.name
+							).replace(/\s+/g, '-')}-p.${product.id}`
+							return (
+								<div key={index}>
+									<ProductCard
+										name={product.name}
+										image={product.image}
+										href={productPath}
+									/>
+								</div>
+							)
+						})}
 					</div>
 				</Section>
 				<Section id='control'>
@@ -67,18 +85,20 @@ export default function Products() {
 						Thiết Bị và Phần Mềm Kiểm Soát Chất Lượng Màu
 					</Section.Heading>
 					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-						{PRODUCTS.map(
-							(product, index) =>
-								product.category === '3' && (
-									<div key={index}>
-										<ProductCard
-											name={product.name}
-											image={product.image}
-											href={`/products/${product.id}`}
-										/>
-									</div>
-								)
-						)}
+						{productsOfCat3.map((product, index) => {
+							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
+								product.name
+							).replace(/\s+/g, '-')}-p.${product.id}`
+							return (
+								<div key={index}>
+									<ProductCard
+										name={product.name}
+										image={product.image}
+										href={productPath}
+									/>
+								</div>
+							)
+						})}
 					</div>
 				</Section>
 				<Section>

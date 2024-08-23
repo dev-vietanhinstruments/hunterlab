@@ -10,16 +10,19 @@ import Button, { TagButton } from '@/components/Button'
 import Link from 'next/link'
 import { DocCard } from '@/components/Card'
 import SupportSection from '@/components/SupportSection'
+import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
 
 export async function generateStaticParams() {
 	return PRODUCTS.map((product) => ({
-		id: product.id,
+		slug: `${toLowerCaseNonAccentVietnamese(product.name).replace(/\s+/g, '-')}-p.${product.id}`,
 	}))
 }
 
 export default function Page({ params }) {
-	const product = PRODUCTS.find((product) => product.id === params.id)
+	const id = params.slug.split('-p.')[1]
+
+	const product = PRODUCTS.find((product) => product.id === id)
 	const category = CATEGORIES.find(
 		(category) => product.category === category.id
 	)
@@ -53,41 +56,67 @@ export default function Page({ params }) {
 							/>
 						</div>
 						<div className='flex flex-col justify-center flex-wrap md:col-span-6'>
-							<Link className='text-lg md:text-xl text-notation font-semibold mb-3' href={`/products#${category.tag}`}>
+							<Link
+								className='text-lg md:text-xl text-notation font-semibold mb-3'
+								href={`/products#${category.tag}`}>
 								{category.name}
 							</Link>
 							<h1 className='text-2xl md:text-3xl font-semibold mb-4 text-heading'>
 								{product.name}
 							</h1>
 							<div className='flex flex-row gap-2 flex-wrap text-lg lg:text-xl mb-4'>
-								{industryRecords.length ? industryRecords.map((industry, index) => (
-									<TagButton key={index} href={`/industries/${industry.id}`}>{industry.name}</TagButton>
-								)) : <TagButton href="">Khác</TagButton>}
+								{industryRecords.length ? (
+									industryRecords.map((industry, index) => {
+										const industryPath = `/industries/${toLowerCaseNonAccentVietnamese(
+											industry.name
+										).replace(/\s+/g, '-')}-i.${
+											industry.id
+										}`
+										return (
+											<TagButton
+												key={index}
+												href={industryPath}>
+												{industry.name}
+											</TagButton>
+										)
+									})
+								) : (
+									<TagButton href=''>Khác</TagButton>
+								)}
 							</div>
-							<Intro.List>
+							<Intro.List className='text-base lg:text-base'>
 								{product.features.map((item, index) => (
 									<li key={index}>{item}</li>
 								))}
 							</Intro.List>
-							<Button href="tel:0916424731" className='w-full text-center'>Liên hệ ngay</Button>
+							<Button
+								href='tel:0916424731'
+								className='w-full text-center'>
+								Liên hệ ngay
+							</Button>
 						</div>
 					</div>
 				</Intro>
 				<Section className='mt-8 sm:mt-12'>
 					<Section.Heading>Mô tả</Section.Heading>
-					<Section.Subtext className='mb-0'>{product.desc}</Section.Subtext>
+					<Section.Subtext className='mb-0'>
+						{product.desc}
+					</Section.Subtext>
 				</Section>
 				<Section>
 					<Section.Heading>Các thông số</Section.Heading>
 					{specifications.map((spec, index) => {
-						const descLines = spec.desc;
+						const descLines = spec.desc
 						return (
-							<Section.Detail key={index} title={spec.title}>
+							<Section.Detail
+								key={index}
+								title={spec.title}>
 								{descLines.map((line, i) => (
 									<p key={i}>{line}</p>
 								))}
 							</Section.Detail>
-						)})}
+						)
+					})}
 				</Section>
 				{assets.length ? (
 					<Section>
