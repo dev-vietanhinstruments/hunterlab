@@ -65,7 +65,7 @@ export const SUPPORTS = [
 		href: 'tel:0916424731',
 	},
 	{
-		name: 'Bảo hành',
+		name: 'Bảo trì, bảo hành',
 		icon: '/support/maintain.svg',
 		desc: 'Nhận thêm 3 tháng bảo hành khi đăng ký sản phẩm mới.',
 		href: 'tel:0916424731',

@@ -6,6 +6,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'www.hunterlab.com',
             },
+            {
+            protocol: 'https',
+            hostname: 'vietanh.vn',
+            },
         ],
     },
 };
