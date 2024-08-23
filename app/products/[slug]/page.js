@@ -12,6 +12,15 @@ import { DocCard } from '@/components/Card'
 import SupportSection from '@/components/SupportSection'
 import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
+export async function generateMetadata({ params }) {
+	const id = params.slug.split('-p.')[1]
+   
+	const product = PRODUCTS.find((product) => product.id === id)
+
+	return {
+	  title: product.name,
+	}
+}
 
 export async function generateStaticParams() {
 	return PRODUCTS.map((product) => ({

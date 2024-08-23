@@ -9,6 +9,11 @@ import Section from '@/components/Layout/Section'
 import SupportSection from '@/components/SupportSection'
 import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
+
+export const metadata = {
+	title: "Sản phẩm",
+};
+
 export default function Products() {
 	const productsOfCat1 = PRODUCTS.filter(
 		(product) => product.category === '1'

@@ -9,7 +9,9 @@ import Section from '@/components/Layout/Section'
 import SupportSection from '@/components/SupportSection'
 import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
-
+export const metadata = {
+	title: "Lĩnh vực",
+};
 
 export default function Page() {
 	return (

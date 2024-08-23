@@ -5,6 +5,9 @@ import Intro from '@/components/Layout/Intro'
 import Image from 'next/image'
 import SupportSection from '@/components/SupportSection'
 
+export const metadata = {
+	title: "Liên hệ",
+};
 
 export default function Page() {
 	return (

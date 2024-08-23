@@ -6,7 +6,11 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Thiết bị HunterLab - Phân phối bởi Việt Anh",
+  metadataBase: new URL("https://hunterlab-vietanh.vercel.app"),
+  title: {
+    default: "Thiết bị HunterLab - Phân phối bởi Việt Anh",
+    template: '%s | Thiết bị HunterLab - Phân phối bởi Việt Anh',
+  },
   description: "HunterLab tự tin là nhà sản xuất hàng đầu trong trong việc sản xuất và cung cấp các thiết bị đo màu. Tìm hiểu thêm về các giải pháp của HunterLab và nhận hỗ trợ tư vấn thêm từ Việt Anh.",
 };
 

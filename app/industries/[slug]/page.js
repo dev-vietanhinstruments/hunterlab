@@ -9,6 +9,15 @@ import SupportSection from '@/components/SupportSection'
 import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
 
 
+export async function generateMetadata({ params }) {
+	const id = params.slug.split('-i.')[1]
+   
+	const industry = INDUSTRIES.find((industry) => industry.id === id)
+
+	return {
+	  title: industry.name,
+	}
+}
 
 export async function generateStaticParams() {
 	return INDUSTRIES.map((industry) => ({

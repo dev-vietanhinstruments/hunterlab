@@ -7,6 +7,11 @@ import { PRODUCTS } from '@/consts/homepage'
 import ProductCard from '@/components/Card'
 import SupportSection from '@/components/SupportSection'
 
+
+export const metadata = {
+	title: "Về chúng tôi",
+};
+
 export default function Page() {
 	return (
 		<div className='flex flex-col relative'>
