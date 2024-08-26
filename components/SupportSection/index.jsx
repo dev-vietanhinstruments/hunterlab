@@ -4,7 +4,7 @@ import Section from '@/components/Layout/Section'
 
 export default function SupportSection() {
 	return (
-		<Section className='bg-white mb-0'>
+		<Section className='bg-white'>
 			<div className='grid gap-8 lg:gap-12 grid-cols-1 lg:grid-cols-3 w-full'>
 				{SUPPORTS.map((support, index) => (
 					<SupportCard

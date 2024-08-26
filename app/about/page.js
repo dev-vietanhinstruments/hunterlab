@@ -135,7 +135,7 @@ export default function Page() {
 						</div>
 					</div>
 				</Section>
-				<Section className='pb-16 sm:pb-20 lg:pb-24'>
+				<Section>
 					<Section.Heading>Thiết bị và giải pháp</Section.Heading>
 					<Section.Subtext>
 						Hiệu quả, tinh gọn và chính xác
