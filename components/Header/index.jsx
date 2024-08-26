@@ -33,7 +33,7 @@ export default function Header() {
 						<Link href="/">
 							<Image
 								className='w-auto h-8'
-								src='/logo_vietanh.png'
+								src='/logo_vietanh.webp'
 								alt='VietAnh Logo'
 								width={253}
 								height={62}
