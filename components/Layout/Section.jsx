@@ -20,7 +20,7 @@ Section.Heading = function Heading({ children, className, ...props }) {
 	return (
 		<h2
 			className={twMerge(
-				'text-2xl md:text-3xl font-semibold text-primary pl-4 border-l-4 border-primary mb-8',
+				'text-2xl md:text-3xl font-semibold text-primary pl-4 border-l-8 border-primary mb-8',
 				className
 			)}
 			{...props}>

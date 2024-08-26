@@ -76,28 +76,34 @@ export function IndustryCard({ name, image, href, ...props }) {
 
 export function SupportCard({ name, image, href, desc, ...props }) {
 	return (
-		<Link href='/contact'>
 			<div
-				className='relative flex flex-col col-span-1 h-full justify-between bg-white shadow-md rounded-md p-4'
+				className='flex flex-col col-span-1 h-full justify-between bg-white border-2 border-primary rounded-lg p-6'
 				{...props}>
-				<div className='flex flex-row justify-between items-center gap-4'>
-					<div className='flex flex-col justify-between items-start'>
+				<div className='flex flex-col justify-between items-start'>
+					<div className='flex flex-row w-full justify-between items-center mb-4'>
 						<h4 className='text-lg lg:text-xl font-semibold'>
 							{name}
 						</h4>
-						<p className='text-base'>{desc}</p>
+						<Image
+							src={image}
+							alt={`${name}`}
+							width={64}
+							height={64}
+							className='size-8'
+						/>
 					</div>
-					<Image
-						src={image}
-						alt={`${name}`}
-						width={64}
-						height={64}
-						className='size-12'
-					/>
+					<p className='text-base mb-4'>{desc}</p>
+					<Link className="group hover:font-semibold" href={href}>Tìm hiểu thêm 
+						<Image
+							src='/arrow-right.svg'
+							alt='Right arrow'
+							width={64}
+							height={64}
+							className='inline ml-2 size-5 group-hover:invert group-hover:translate-x-6 transition-all duration-300 ease-in-out'
+						/>
+					</Link>
 				</div>
-				{/* <Button href={href}>Tìm hiểu thêm</Button> */}
 			</div>
-		</Link>
 	)
 }
 
