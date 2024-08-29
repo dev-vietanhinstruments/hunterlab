@@ -35,8 +35,8 @@ export default function Header() {
 								className='w-auto h-8'
 								src='/logo_vietanh.webp'
 								alt='VietAnh Logo'
-								width={253}
-								height={62}
+								width={452}
+								height={78}
 								priority={true}
 							/>
 						</Link>
