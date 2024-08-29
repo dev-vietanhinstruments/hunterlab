@@ -11,6 +11,8 @@ import Link from 'next/link'
 import { DocCard } from '@/components/Card'
 import SupportSection from '@/components/SupportSection'
 import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
+import RenderMarkdownBlock from '@/components/RenderBlock'
+
 
 export async function generateMetadata({ params }) {
 	const id = params.slug.split('-p.')[1]
@@ -101,51 +103,27 @@ export default function Page({ params }) {
 							<Button
 								href='tel:0916424731'
 								className='w-full text-center'>
-								Liên hệ ngay
+								Liên hệ ngay: 0916 424 731
 							</Button>
 						</div>
 					</div>
 				</Intro>
 				<Section className='mt-8 sm:mt-12'>
 					<Section.Heading>Mô tả</Section.Heading>
-					<Section.Subtext className='mb-0'>
-						{product.desc}
-					</Section.Subtext>
+					<RenderMarkdownBlock className='mb-0' content={product.desc} />
 				</Section>
 				<Section>
 					<Section.Heading>Các thông số</Section.Heading>
 					{specifications.map((spec, index) => {
-						const descLines = spec.desc
 						return (
 							<Section.Detail
 								key={index}
 								title={spec.title}>
-								{descLines.map((line, i) => (
-									<p key={i}>{line}</p>
-								))}
+								<RenderMarkdownBlock content={spec.desc} />
 							</Section.Detail>
 						)
 					})}
 				</Section>
-				{assets.length ? (
-					<Section>
-						<Section.Heading>Hình ảnh</Section.Heading>
-						<div className='flex flex-col gap-2'>
-							{assets.map((asset, index) => (
-								<div key={index}>
-									<Image
-										width={0}
-										height={0}
-										src={asset}
-										alt={`Image ${index}`}
-										className='object-contain w-full h-auto'
-										sizes='100vw, 100vw'
-									/>
-								</div>
-							))}
-						</div>
-					</Section>
-				) : null}
 				<Section>
 					<Section.Heading>Tài liệu</Section.Heading>
 					<div className='flex flex-col gap-2'>
@@ -158,6 +136,25 @@ export default function Page({ params }) {
 						))}
 					</div>
 				</Section>
+				{assets.length ? (
+					<Section>
+						<Section.Heading>Hình ảnh</Section.Heading>
+						<div className='flex flex-col gap-2'>
+							{assets.map((asset, index) => (
+								<div key={index}>
+									<Image
+										width={0}
+										height={0}
+										src={asset}
+										alt={`Image ${index}`}
+										className='object-contain w-full h-auto rounded-md'
+										sizes='100vw, 100vw'
+									/>
+								</div>
+							))}
+						</div>
+					</Section>
+				) : null}
 				<SupportSection />
 			</main>
 			<Footer />
