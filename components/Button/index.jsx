@@ -34,7 +34,7 @@ export function FloatingButton({ href, className, children, ...props }) {
 	return (
 		<Link
 			className={twMerge(
-				'fixed bottom-12 right-6 rounded-full shadow-lg',
+				'rounded-full shadow-lg',
 				className
 			)}
 			href={href}
