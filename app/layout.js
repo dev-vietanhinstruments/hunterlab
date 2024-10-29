@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { FloatingButton } from './../components/Button/index';
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
               <span className='text-white text-sm pl-2'>0916424731</span>
       </FloatingButton>
       </div>
+      <Analytics />
       </body>
     </html>
   );
