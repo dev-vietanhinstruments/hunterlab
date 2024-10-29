@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'tablet': '640px',
-        'desktop': '992px',
+        'xs': '420px',
       },
       backgroundImage: {
         'homepage-intro': "url('/intro.webp')",
