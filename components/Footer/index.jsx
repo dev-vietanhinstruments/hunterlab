@@ -69,7 +69,7 @@ export default function Footer() {
 								/>
 							</svg>
 							<span className='font-medium ml-1 text-white'>Hotline: </span>
-							0916 424 731
+							0916-424-731
 						</Link>
 					</div>
 				</div>
