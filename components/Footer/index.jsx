@@ -86,9 +86,6 @@ export default function Footer() {
 							<Link href="/about" className='text-lg lg:text-xl text-white'>
 								Về chúng tôi
 							</Link>
-							<Link href="/news" className='text-lg lg:text-xl text-white'>
-								Tin tức
-							</Link>
 							<Link href="/contact" className='text-lg lg:text-xl text-white'>
 								Liên hệ
 							</Link>
