@@ -72,12 +72,12 @@ export const PRODUCTS = [
 		industries: ['1', '3', '4', '6'],
 		desc: 'Máy đo màu quang phổ thế hệ tiếp theo của Hunterlab- ColorFlex EZ giúp việc kiểm soát chất lượng màu đạt được độ hiệu quả cao nhất với thiết kế 45 ° / 0 ° cho độ chính xác tốt nhất trong việc so màu. Kết hợp tính linh hoạt, đơn giản và hiệu quả, ColorFlex EZ phản ánh gần 60 năm đổi mới của lĩnh vực đo màu trong một thiết bị nhỏ gọn, dễ sử dụng.',
 		features: [
-			'Máy so màu phản xạ của chất rắn và chất lỏng',
-			'Lưu trữ theo tiêu chuẩn sản phẩm với dung sai Pass / Fail',
-			'Thiết bị để bàn nhỏ gọn',
-			'Có thể được kết nối với máy in hoặc PC',
-			'Tương thích với phần mềm EasyMatch',
+			'HunterLab đã ngừng sản xuất các sản phẩm ColorFlex EZ kể từ ngày 31 tháng 10 năm 2024. Vui lòng truy cập trang ColorFlex L2 mới để tìm hiểu thêm về sản phẩm nâng cấp.',
 		],
+		ctaButton: {
+			label: 'TÌM HIỂU THÊM VỀ COLORFLEX L2',
+			href: '/products/may-do-mau-quang-pho-colorflex-l2-p.14',
+		},
 		specifications: [
 			{
 				title: 'Phương Pháp Đo Lường',
@@ -128,11 +128,12 @@ export const PRODUCTS = [
 		industries: ['2'],
 		desc: 'Máy đo màu ColorFlex EZ Coffee là một thiết bị đo màu cà phê rang xay, cà phê hạt sấy khô và cà phê bột hòa tan một cách chính xác và dễ sử dụng. Độ chính xác này đạt được bằng cách sử dụng góc 45º/0º, công nghệ đo lường duy nhất được chứng minh là đo màu theo cách mắt người nhìn thấy. ColorFlex EZ Coffee cung cấp dữ liệu đo lường cần thiết để đảm bảo chất lượng sản phẩm đồng nhất giữa các lô. Các thang màu cà phê được cung cấp trong phần mềm bao gồm: Chỉ số màu cà phê HunterLab (HCCI), Số SCAA và Phân loại độ rang SCAA. Ngoài khả năng đo màu cà phê chuyên dụng, ColorFlex EZ Coffee cũng có thể đo màu phản xạ của nhiều loại mẫu không phải cà phê – chất lỏng, chất bán rắn, bột và chất rắn sử dụng dữ liệu chỉ số màu Hunter L,a,b tiêu chuẩn và CIE Lab* màu sắc và phổ.',
 		features: [
-			'Bộ đầy đủ các tấm hiệu chuẩn và chuẩn đoán',
-			'Tấm chuyên cho cà phê để kiểm tra hiệu suất',
-			'1 hộp các đĩa mẫu cà phê bằng nhựa',
-			'Được hỗ trợ bởi bộ phận hỗ trợ khách hàng tốt nhất trong ngành',
+			'HunterLab đã ngừng sản xuất các sản phẩm ColorFlex EZ kể từ ngày 31 tháng 10 năm 2024. Vui lòng truy cập trang ColorFlex L2 mới để tìm hiểu thêm về sản phẩm nâng cấp.',
 		],
+		ctaButton: {
+			label: 'TÌM HIỂU THÊM VỀ COLORFLEX L2',
+			href: '/products/may-do-mau-quang-pho-colorflex-l2-p.14',
+		},
 		specifications: [
 			{
 				title: 'Phương Pháp Đo Lường',
@@ -191,12 +192,12 @@ export const PRODUCTS = [
 		industries: ['2'],
 		desc: 'Máy đo màu ColorFlex EZ Citrus dễ sử dụng được thiết kế đặc biệt để đo chính xác Citrus, Citrus Redness và Citrus Yellowness. Độ chính xác này đạt được bằng cách sử dụng hình học quang học 45º/0º, công nghệ đo lường duy nhất đã được chứng minh là đo màu theo cách mắt người nhìn thấy. Máy đo màu ColorFlex EZ Citrus bao gồm giá đỡ ống mẫu, giá đỡ đứng, kẹp và một O.J. bằng nhựa đã hiệu chuẩn. Thiết bị có màn hình lớn, dễ đọc và bàn phím kín. ColorFlex EZ Citrus chiếm rất ít không gian phòng thí nghiệm và rất dễ sử dụng. Trong thực tế, mẫu nước trái cây được đổ vào ống nghiệm hoặc ống có nắp đậy. Ống được lắp vào giá đỡ. Bằng cách nhấn một nút trên thiết bị, phép đo được thực hiện. CN (Citrus Number), CR (Citrus Redness) và CY (Citrus Yellowness) sẽ được hiển thị đồng thời. ColorFlex EZ Citrus có thể được kết nối với máy in nếu muốn in dữ liệu ra giấy.',
 		features: [
-			'Máy so màu phản xạ của chất rắn và chất lỏng',
-			'Lưu trữ theo tiêu chuẩn sản phẩm với dung sai Pass / Fail',
-			'Thiết bị để bàn nhỏ gọn',
-			'Có thể được kết nối với máy in hoặc PC',
-			'Tương thích với phần mềm EasyMatch',
+			'HunterLab đã ngừng sản xuất các sản phẩm ColorFlex EZ kể từ ngày 31 tháng 10 năm 2024. Vui lòng truy cập trang ColorFlex L2 mới để tìm hiểu thêm về sản phẩm nâng cấp.',
 		],
+		ctaButton: {
+			label: 'TÌM HIỂU THÊM VỀ COLORFLEX L2 CITRUS',
+			href: '/products/may-do-mau-quang-pho-colorflex-l2-citrus-p.16',
+		},
 		specifications: [
 			{
 				title: 'Phương Pháp Đo Lường',
@@ -247,14 +248,12 @@ export const PRODUCTS = [
 		industries: ['1', '2'],
 		desc: 'Máy đo màu ColorFlex EZ Tomato là một thiết bị đo màu dễ sử dụng, được thiết kế đặc biệt để đo chính xác màu sắc của cà chua trong tất cả các dạng sản phẩm đã qua xử lý – bao gồm nước sốt cà chua, xốt cà chua, tương cà, nước ép và cả cà chua tươi. Độ chính xác này được đạt được bằng cách sử dụng hình học quang học 45º/0º, là công nghệ đo duy nhất được chứng minh là có thể đo được màu sắc theo cách mà mắt người nhìn thấy. Bên cạnh đó, phần mềm cũng cung cấp các chỉ số màu Hunter L, a, b và CIE Lab*, cho phép bạn sử dụng ColorFlex EZ Tomato của mình để đo màu phản chiếu của nhiều loại mẫu không phải cà chua – chất lỏng, chất bán rắn, bột và chất rắn. Với hộp đựng thiết bị đặc biệt, chống nước trong đó có đầy đủ các dụng cụ cần thiết để bắt đầu đo giá trị màu sắc của cà chua ngay lập tức.',
 		features: [
-			'Thiết bị đo màu phản chiếu của chất rắn và chất lỏng',
-			'Lưu trữ sản phẩm theo tiêu chuẩn với dung sai đạt/không đạt',
-			'Hiển thị dữ liệu màu sắc, biểu đồ màu sắc, dữ liệu phổ và biểu đồ phổ',
-			'Đo đạc với hình học đo 45°/0°',
-			'Chiếm rất ít diện tích trên bàn làm việc',
-			'Có thể kết nối với máy in hoặc máy tính',
-			'Tương thích với phần mềm kiểm soát chất lượng EasyMatch QC trên máy tính.',
+			'HunterLab đã ngừng sản xuất các sản phẩm ColorFlex EZ kể từ ngày 31 tháng 10 năm 2024. Vui lòng truy cập trang ColorFlex L2 mới để tìm hiểu thêm về sản phẩm nâng cấp.',
 		],
+		ctaButton: {
+			label: 'TÌM HIỂU THÊM VỀ COLORFLEX L2 TOMATO',
+			href: '/products/may-do-mau-quang-pho-colorflex-l2-tomato-p.15',
+		},
 		specifications: [
 			{
 				title: 'Phương Pháp Đo Lường',
@@ -754,6 +753,145 @@ export const PRODUCTS = [
 		assets: [
 			'https://www.hunterlab.com/media/original_images/Data_Views.jpg',
 			'https://www.hunterlab.com/media/original_images/2D_color_plot.jpg',
+		],
+	},
+	{
+		id: '14',
+		name: 'Máy Đo Màu Quang Phổ ColorFlex L2',
+		image: '/products/ColorFlex-L2.webp',
+		category: '1',
+		industries: ['1', '2', '4', '6'],
+		desc: 'ColorFlex L2 là thiết bị đo màu cao cấp, nâng cấp từ dòng ColorFlex EZ 45º/0º, với thiết kế nhỏ gọn, bền bỉ và dễ sử dụng trong mọi môi trường sản xuất. Thiết bị đo chính xác nhiều loại mẫu như chất rắn, lỏng, bột, hạt và mẫu trong suốt, phù hợp cho các ngành thực phẩm, mỹ phẩm, nhựa và dược phẩm. Nhờ sử dụng nguồn sáng Xenon và hệ chiếu sáng 45°a:0°, ColorFlex L2 cho phép chuyển đổi dữ liệu từ ColorFlex EZ dễ dàng.<br>Đặc biệt, thiết bị hoạt động độc lập không cần PC, giúp tiết kiệm thời gian và tối ưu hiệu suất kiểm soát chất lượng. Với độ chính xác cao, ColorFlex L2 giúp giảm lãng phí, cải thiện quy trình QA/QC và nâng cao hình ảnh thương hiệu—trở thành giải pháp đo màu lý tưởng cho doanh nghiệp hiện đại.<br><br>**ColorFlex L2 mang đến trải nghiệm vượt trội với:**<br>**1. Giao diện thông minh hiện đại với màn hình cảm ứng màu.**<br>Bền bỉ & Hiệu quả: Đo màu chính xác chỉ trong vài giây, thiết kế kính công nghiệp chắc chắn, phù hợp cả trong môi trường khắc nghiệt.<br>**2. Phần mềm màu thế hệ mới – Essentials 2.0.**<br>Đo màu chính xác và đáng tin cậy chỉ trong vài giây, với giao diện thân thiện thế hệ mới. Phân tích liền mạch nhiều bộ dữ liệu ba kích thích và phổ. Sức mạnh vượt trội trong một nền tảng duy nhất.<br>**3. Khởi động trực quan, tự hướng dẫn.**<br>Tiết kiệm thời gian & Thân thiện người dùng: Sẵn sàng sử dụng ngay khi mở hộp với trình hướng dẫn tích hợp, hỗ trợ đào tạo nhanh, giảm thời gian thao tác và hạn chế lo ngại về đào tạo hay thay đổi nhân sự.',
+		features: [
+			'Nâng cao độ chính xác màu và trải nghiệm người dùng.',
+			'Tối ưu và tăng tốc kiểm soát chất lượng.',
+			'Thiết kế nhỏ gọn, bền bỉ, đáng tin cậy.',
+			'Đo được mẫu rắn, lỏng, bột, hạt, viên nén và bán trong suốt.',
+		],
+		specifications: [
+			{
+				title: 'Phương pháp đo lường',
+				desc: '**Nguyên lý đo:** Thiết bị quang phổ hai chùm tia, đo theo hướng cổng lên trên hoặc hướng cổng ra trước<br>**Hệ quang học:** Chiếu sáng vòng tròn 45 độ chiếu / 0 độ quan sát, theo tiêu chuẩn ASTM E1164<br>**Thiết bị đo quang phổ:** Hệ quang học kín; sử dụng mảng đi-ốt 256 phần tử và lưới nhiễu xạ cong có độ phân giải cao<br>**Đường kính cổng / Đường kính vùng đo:** Chiếu sáng 31,8 mm / Vùng đo 25,4 mm<br>**Thành phần phản xạ gương:** Đã loại bỏ<br>**Dải bước sóng:** Từ 400 đến 700 nanomet<br>**Độ phân giải phổ:** Nhỏ hơn 3 nanomet<br>**Độ rộng băng thông hiệu dụng:** 10 nanomet, dạng tam giác tương đương<br>**Khoảng cách báo cáo:** Cách nhau 10 nanomet<br>**Dải đo quang học:** Từ 0 đến 150 phần trăm<br>**Nguồn sáng:** Đèn nháy toàn phổ Xenon<br>**Thời gian đo:** 1 giây<br>**Tuổi thọ đèn:** Khoảng 10 năm (trung bình)<br>**Chiếu sáng:** Đèn Xenon được hiệu chuẩn tại nhà máy theo độ sáng, độ trắng và sắc độ<br>**Tiêu chuẩn tuân thủ:** CIE 15:2018, ASTM E1164, DIN 5033 phần 7 và JIS Z 8722 điều kiện C<br>**Truy xuất chuẩn đo:** Chuẩn của thiết bị được gán theo Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ, dựa trên hướng dẫn của CIE ấn phẩm 44 và ASTM E259',
+			},
+			{
+				title: 'Hiệu suất',
+				desc: '**Độ tương đồng giữa các thiết bị:** Màu sắc: ∆E*2000 < 0,15 D65/10 (trung bình) trên gạch chuẩn BCRA CCSII<br>**Độ lặp lại phép đo màu:** Màu sắc: ∆E* < 0,05 D65/10 (tối đa) trên gạch trắng',
+			},
+			{
+				title: 'Phần mềm tích hợp',
+				desc: '**Chế độ hiển thị dữ liệu:** Dữ liệu màu, biểu đồ phổ, chế độ xem đơn giản, biểu đồ màu theo không gian ba kích thước, cảnh báo đạt/không đạt màu, hiển thị thời gian và ngày, tự động đặt tên, tự động lưu, sao lưu dữ liệu, chụp ảnh mẫu bằng camera độ phân giải cao<br>**Chức năng của bộ nhớ ngoài:** Lưu dữ liệu công việc, hình ảnh mẫu, ảnh chụp màn hình và xuất cơ sở dữ liệu<br>**Tính năng khác:** Đánh giá đạt/không đạt, tính trung bình nhiều lần đo, thiết lập chế độ đo tự động nhiều lần<br>**Nguồn sáng chuẩn:** A, C, D50, D55, D65, D75, F02, F07, F11<br>**Góc quan sát:** 2 độ và 10 độ<br>**Thang đo màu:** L*a*b* theo CIE, thang Hunter Lab, LCh, Yxy, XYZ, Rd,a,b<br>**Khác biệt màu:** ∆L*a*b*, ∆Lab, ∆L*C*h, ∆Yxy, ∆XYZ, ∆E, ∆E*, ∆E*2000, ∆H, ∆C*, ∆Ecmc<br>**Chỉ số và thông số:** Độ trắng và sắc độ theo E313 (C/2°, C/10°, D65/2° hoặc D65/10°); Độ vàng theo E313 (C/2°, C/10°, D65/2° hoặc D65/10°); Độ vàng theo D1925 (C/2°); Độ sáng Y, tỷ lệ Z%, độ sáng tại 457 nm; Độ mờ, cường độ màu (trung bình và tại một bước sóng), thang độ xám, độ loang xám, chỉ số ánh sắc tương đương<br>**Bộ nhớ lưu trữ:** Tối đa 1 triệu bản ghi; dung lượng 8 GB<br>**Ngôn ngữ giao diện:** Hỗ trợ nhiều ngôn ngữ, có thể bổ sung theo nhu cầu',
+			},
+			{
+				title: 'Vật lý/ điện tử ',
+				desc: '**Kích thước:** Chiều cao: 16 cm; Chiều rộng: 21 cm; Chiều sâu: 24 cm; Khối lượng: 2,75 kg<br>**Màn hình hiển thị:** Màn hình cảm ứng 7 inch, độ phân giải cao 1280 x 800<br>**Cổng kết nối:** 2 cổng USB, cổng xuất hình ảnh HDMI, đầu vào cho bàn đạp điều khiển, cổng mạng LAN, cổng dịch vụ USB, nút vật lý thao tác/thực hiện đo<br>**Nguồn điện:** Điện áp 90 – 240 VAC, tần số 47 – 63 Hz, chuyển đổi sang nguồn cấp 24 VDC / 3,75A<br>**Điều kiện hoạt động:** Nhiệt độ 10°C – 30°C (50°F – 86°F), độ ẩm 10% – 90%, không ngưng tụ<br>**Điều kiện bảo quản:** Nhiệt độ –20°C – 65°C (–4°F – 149°F), độ ẩm 10% – 90%, không ngưng tụ<br>**Phụ kiện tiêu chuẩn:** Gạch trắng hiệu chuẩn có chứng nhận truy xuất nguồn gốc; Gạch xanh kiểm tra chẩn đoán; Tấm kính đen phản xạ; Tấm chặn cổng – đường kính 31,8 mm; Bộ nguồn điện (90W); Hướng dẫn khởi động nhanh',
+			},
+		],
+		documents: [
+			{
+				title: 'ColorFlex L2 Brochure',
+				href: 'https://hunterlab-production.s3.amazonaws.com/media/documents/ColorFlex_L2_Brochure_Updated.pdf',
+			},
+			{
+				title: 'ColorFlex L2 Specifications',
+				href: 'https://hunterlab-production.s3.amazonaws.com/media/documents/colorflex-l2-specs_klMqTw1.pdf',
+			},
+		],
+		assets: [
+			'https://hunterlab-production.s3.amazonaws.com/media/original_images/CFL2-Touchscreen-1.webp',
+			'https://hunterlab-production.s3.amazonaws.com/media/original_images/CFL2-StandAlone-1.webp',
+		],
+	},
+	{
+		id: '15',
+		name: 'Máy Đo Màu Quang Phổ ColorFlex L2 Tomato',
+		image: '/products/Home_Banner_CFL2_Tomato.webp',
+		category: '1',
+		industries: ['1', '2'],
+		desc: '**ColorFlex L2 Tomato – Giải Pháp Đo Màu Chuyên Biệt Cho Cà Chua Chế Biến**<br>ColorFlex L2 Tomato là thiết bị đo màu thế hệ mới, nâng cấp từ ColorFlex EZ Tomato, với thiết kế nhỏ gọn, bền bỉ và dễ sử dụng. Thiết bị đo chính xác màu sắc của cà chua ở mọi dạng: tươi, sốt, tương cà, nước ép và purée.<br>**Nguồn sáng & công nghệ đo:** Sử dụng cùng nguồn sáng Xenon và chiếu sáng 45°a:0° như phiên bản trước, ColorFlex L2 Tomato cho phép chuyển đổi dữ liệu liền mạch, không gián đoạn. Thiết bị giúp doanh nghiệp giảm lãng phí, tối ưu kiểm soát chất lượng, nâng cao hình ảnh thương hiệu và đạt mục tiêu phát triển bền vững.<br>**Giải pháp đo màu số 1 cho cà chua – HunterLab Tomato Standard:** HunterLab – đơn vị tiên phong trong chuẩn đo màu cà chua – cung cấp tấm chuẩn màu duy nhất truy xuất nguồn gốc trực tiếp từ tiêu chuẩn BCR và USDA gốc. Điều này đảm bảo kết quả đo màu đỏ của cà chua chính xác và đáng tin cậy nhất trên thị trường.<br>**Đầy đủ chỉ số & điểm đánh giá màu cà chua:** ColorFlex L2 Tomato đo chính xác tất cả các chỉ số quan trọng như TPS, TSS, TCS, TJS, a/b ratio, FTCI và Lycopene index — áp dụng cho mọi dạng cà chua: tươi, nước ép, tương cà, sốt và purée.',
+		features: [
+			'Đo màu chính xác cho mọi dạng cà chua: tươi, sốt, ketchup, nước ép, purée',
+			'Thiết kế nhỏ gọn, bền bỉ, tiết kiệm không gian',
+			'Không cần kết nối PC, vận hành linh hoạt',
+			'Giảm lãng phí, nâng cao chất lượng và hình ảnh thương hiệu',
+		],
+		specifications: [
+			{
+				title: 'Phương pháp đo lường',
+				desc: '**Nguyên lý đo:** Thiết bị quang phổ hai chùm tia, đo theo hướng cổng lên trên<br>**Hệ quang học:** Chiếu sáng vòng tròn 45 độ chiếu / 0 độ quan sát, theo tiêu chuẩn ASTM E1164<br>**Thiết bị đo quang phổ:** Hệ quang học kín; mảng đi-ốt 256 phần tử và lưới nhiễu xạ cong có độ phân giải cao<br>**Đường kính cổng / Vùng đo:** Chiếu sáng 31,8 mm (1,25 inch) / Vùng đo 25,4 mm (1 inch)<br>**Thành phần phản xạ gương:** Đã loại trừ<br>**Dải bước sóng:** Từ 400 đến 700 nanomet<br>**Độ phân giải phổ:** Nhỏ hơn 3 nanomet<br>**Độ rộng băng thông hiệu dụng:** 10 nanomet, dạng tam giác tương đương<br>**Khoảng cách báo cáo:** Cách nhau 10 nanomet<br>**Dải đo quang học:** Từ 0 đến 150 phần trăm<br>**Nguồn sáng:** Đèn Xenon nháy toàn phổ<br>**Thời gian đo:** 1 giây<br>**Tuổi thọ đèn:** Trung bình 10 năm<br>**Chiếu sáng:** Đèn Xenon được hiệu chuẩn tại nhà máy theo độ sáng, độ trắng và sắc độ<br>**Tuân thủ tiêu chuẩn:** CIE 15:2018, ASTM E1164, DIN 5033 phần 7 và JIS Z 8722 điều kiện C<br>**Truy xuất chuẩn đo:** Chuẩn thiết bị được gán theo Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ (NIST), theo hướng dẫn trong ấn phẩm CIE số 44 và tiêu chuẩn ASTM E259',
+			},
+			{
+				title: 'Hiệu suất',
+				desc: '**Độ tương đồng giữa các thiết bị:** Màu sắc: ∆E*2000 < 0,15 D65/10 (trung bình) trên gạch chuẩn BCRA CCSII<br>**Độ lặp lại phép đo màu:** Màu sắc: ∆E* < 0,05 D65/10 (tối đa) trên gạch trắng',
+			},
+			{
+				title: 'Phần mềm tích hợp',
+				desc: '**Chức năng bộ nhớ ngoài:** Dữ liệu công việc, hình ảnh mẫu, ảnh chụp màn hình và xuất cơ sở dữ liệu<br>**Tính năng khác:** Đạt/không đạt, tính trung bình nhiều lần đo, thiết lập đo tự động nhiều lần<br>**Nguồn sáng chuẩn:** A, C, D50, D55, D65, D75, F02, F07, F11<br>**Góc quan sát:** 2 độ và 10 độ<br>**Thang đo màu:** Lab* theo CIE, Hunter Lab, LCh, Yxy, XYZ, Rd,a,b<br>**Khác biệt màu:** ∆Lab*, ∆Lab, ∆LCh, ∆Yxy, ∆XYZ, ∆E, ∆E*, ∆E2000, ∆H, ∆C*, ∆Ecmc<br>**Chỉ số và thông số:** Độ trắng và sắc độ theo E313 (C/2°, C/10°, D65/2°, D65/10°), độ vàng theo E313 (C/2°, C/10°, D65/2°, D65/10°), độ vàng theo D1925 (C/2°), độ sáng Y, tỷ lệ Z%, độ sáng tại 457 nm, độ mờ, cường độ màu (trung bình và tại một bước sóng), thang độ xám, độ loang xám, chỉ số đồng sắc<br>**Chỉ số chuyên biệt cho cà chua:** Điểm số cà chua cô đặc, điểm số nước ép cà chua, điểm số sốt cà chua, điểm số tương cà, điểm số cà chua cắt hạt lựu, tỷ lệ a/b của cà chua, chỉ số lycopene, chỉ số màu cà chua tươi<br>**Bộ nhớ dữ liệu:** Tối đa 1 triệu bản ghi; 8 GB<br>**Ngôn ngữ:** Hỗ trợ đa ngôn ngữ và có thể mở rộng thêm khi cần',
+			},
+			{
+				title: 'Vật lý/ điện tử ',
+				desc: '**Kích thước:** Chiều cao: 16 cm; Chiều rộng: 21 cm; Chiều sâu: 24 cm; Khối lượng: 2,75 kg<br>**Màn hình hiển thị:** Màn hình cảm ứng 7 inch, độ phân giải cao 1280 x 800<br>**Cổng kết nối:** 2 cổng USB, cổng xuất hình ảnh HDMI, đầu vào cho bàn đạp điều khiển, cổng mạng LAN, cổng dịch vụ USB, nút vật lý thao tác/thực hiện đo<br>**Nguồn điện:** Điện áp 90 – 240 VAC, tần số 47 – 63 Hz, chuyển đổi sang nguồn cấp 24 VDC / 3,75A<br>**Điều kiện hoạt động:** Nhiệt độ 10°C – 30°C (50°F – 86°F), độ ẩm 10% – 90%, không ngưng tụ<br>**Điều kiện bảo quản:** Nhiệt độ –20°C – 65°C (–4°F – 149°F), độ ẩm 10% – 90%, không ngưng tụ<br>**Phụ kiện tiêu chuẩn:** Gạch trắng hiệu chuẩn có chứng nhận truy xuất nguồn gốc; Gạch xanh kiểm tra chẩn đoán; Tấm kính đen phản xạ; Tấm chặn cổng – đường kính 31,8 mm; Bộ nguồn điện (90W); Hướng dẫn khởi động nhanh',
+			},
+		],
+		documents: [
+			{
+				title: 'ColorFlex L2 Brochure',
+				href: 'https://hunterlab-production.s3.amazonaws.com/media/documents/ColorFlex_L2_Brochure_Updated.pdf',
+			},
+			{
+				title: 'ColorFlex L2 Specifications',
+				href: 'https://hunterlab-production.s3.amazonaws.com/media/documents/colorflex-l2-specs_klMqTw1.pdf',
+			},
+		],
+		assets: [
+			'https://hunterlab-production.s3.amazonaws.com/media/original_images/CFL2-tomato-Touchscreen-1.webp',
+			'https://hunterlab-production.s3.amazonaws.com/media/original_images/CFL2_Tomato-StandAlone-1.webp',
+		],
+	},
+	{
+		id: '16',
+		name: 'Máy Đo Màu Quang Phổ ColorFlex L2 Citrus',
+		image: '/products/CFL2_Citrus-Product_Page_Banner.original.png',
+		category: '1',
+		industries: ['2'],
+		desc: '**ColorFlex L2 Citrus – Thiết Bị Đo Màu Chuẩn Xác Cho Nước Ép Trái Cây:** ColorFlex L2 Citrus là phiên bản nâng cấp từ ColorFlex EZ Citrus, chuyên dùng để đo màu trong các sản phẩm nước ép cam, bưởi và chanh. Thiết bị đo chính xác các chỉ số CN (Citrus Number), CR (Citrus Redness) và CY (Citrus Yellowness) với độ tin cậy cao.<br>**Thiết kế & hiệu suất:** Với thiết kế nhỏ gọn, bền bỉ và không cần kết nối PC, ColorFlex L2 Citrus giúp tiết kiệm không gian, tối ưu hiệu suất và đảm bảo tính liên tục trong chuyển đổi từ phiên bản cũ. Thiết bị còn hỗ trợ doanh nghiệp giảm lãng phí, cải thiện kiểm soát chất lượng và nâng cao hình ảnh thương hiệu trong ngành thực phẩm – đồ uống.<br>**Tiêu chuẩn & phụ kiện chuyên dụng:** ColorFlex L2 Citrus hỗ trợ đo màu nhanh chóng và chính xác cho các sản phẩm họ cam quýt, nhờ bộ phụ kiện thiết kế riêng bao gồm chuẩn nước cam Calibrated Orange Juice 4 Standard và giá đỡ ống mẫu nước cam.<br>**Chỉ số đo màu:** Được tối ưu hóa cho nước cam, bưởi và chanh – cả tươi và cô đặc – thiết bị tích hợp đầy đủ các chỉ số quan trọng: Citrus Number (CN), Citrus Redness (CR) và Citrus Yellowness (CY), giúp kiểm soát chất lượng màu sắc nhanh chóng và hiệu quả.',
+		features: [
+			'Nhỏ gọn, tiết kiệm không gian',
+			'Đo màu CN, CR, CY chính xác cho nước cam, chanh, bưởi',
+			'Không cần kết nối PC, vận hành linh hoạt',
+			'Giảm lãng phí, nâng cao chất lượng',
+			'Hỗ trợ phát triển bền vững, tăng uy tín thương hiệu'
+		],
+		specifications: [
+			{
+				title: 'Phương pháp đo lường',
+				desc: '**Nguyên lý đo:** Thiết bị quang phổ hai chùm tia, đo theo hướng cổng ra phía trước.<br>**Hệ quang học:** Chiếu sáng vòng tròn 45 độ chiếu / 0 độ quan sát, theo tiêu chuẩn ASTM E1164.<br>**Thiết bị đo quang phổ:** Hệ quang học kín; mảng đi-ốt 256 phần tử và lưới nhiễu xạ holographic cong có độ phân giải cao.<br>**Đường kính cổng / Vùng đo:** Chiếu sáng 31,8 mm (1,25 inch) / Vùng đo 25,4 mm (1 inch).<br>**Thành phần phản xạ gương:** Đã loại trừ.<br>**Dải bước sóng:** Từ 400 đến 700 nanomet.<br>**Độ phân giải phổ:** Nhỏ hơn 3 nanomet.<br>**Độ rộng băng thông hiệu dụng:** 10 nanomet, dạng tam giác tương đương.<br>**Khoảng cách báo cáo:** Cách nhau 10 nanomet.<br>**Dải đo quang học:** Từ 0 đến 150 phần trăm.<br>**Nguồn sáng:** Đèn Xenon nháy toàn phổ.<br>**Thời gian đo:** 1 giây.<br>**Tuổi thọ đèn:** Trung bình 10 năm.<br>**Chiếu sáng:** Đèn Xenon đã được hiệu chuẩn tại nhà máy theo độ sáng, độ trắng và sắc độ.<br>**Tuân thủ tiêu chuẩn:** CIE 15:2018, ASTM E1164, DIN 5033 phần 7 và JIS Z 8722 điều kiện C.<br>**Truy xuất chuẩn đo:** Chuẩn thiết bị được gán theo Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ (NIST), theo hướng dẫn trong ấn phẩm CIE số 44 và tiêu chuẩn ASTM E259.',
+			},
+			{
+				title: 'Hiệu suất',
+				desc: '**Độ tương đồng giữa các thiết bị:** Màu sắc: ∆E*2000 < 0,15 D65/10 (trung bình) trên gạch chuẩn BCRA CCSII.<br>**Độ lặp lại phép đo màu:** Màu sắc: ∆E* < 0,05 D65/10 (tối đa) trên gạch trắng.',
+			},
+			{
+				title: 'Phần mềm tích hợp',
+				desc: '**Chế độ hiển thị dữ liệu:** Dữ liệu màu, biểu đồ phổ, chế độ xem đơn giản, bảng dữ liệu phổ, biểu đồ màu hai chiều, đánh giá đạt/không đạt màu, hiển thị thời gian và ngày, tự động đặt tên, tự động lưu, sao lưu dữ liệu.<br>**Chức năng của bộ nhớ ngoài:** Lưu dữ liệu công việc, ảnh chụp màn hình, xuất cơ sở dữ liệu.<br>**Tính năng khác:** Đánh giá đạt/không đạt, tính trung bình nhiều lần đo, thiết lập đo tự động nhiều lần, xuất dữ liệu tự động, kết nối mạng.<br>**Nguồn sáng chuẩn:** A, C, D50, D55, D65, D75, F02, F07, F11.<br>**Góc quan sát:** 2 độ và 10 độ.<br>**Thang đo màu:** Lab* theo CIE, thang Hunter Lab, LCh, Yxy, XYZ, Rd,a,b.<br>**Khác biệt màu:** ∆Lab*, ∆Lab, ∆LCh, ∆Yxy, ∆XYZ, ∆E, ∆E*, ∆E2000, ∆H, ∆C*, ∆Ecmc, dRdab.<br>**Chỉ số và thông số:** Độ trắng và sắc độ theo E313 (C/2°, C/10°, D65/2°, D65/10°); Độ vàng theo E313 (C/2°, C/10°, D65/2°, D65/10°); Độ vàng theo D1925 (C/2°); Độ sáng Y, tỷ lệ Z%, độ sáng tại 457 nm; Độ mờ, cường độ màu (trung bình và tại một bước sóng); Thang độ xám, độ loang xám, chỉ số đồng sắc.<br>**Mô hình màu cam (áp dụng riêng):** Chỉ số cam, độ đỏ của cam, độ vàng của cam.<br>**Bộ nhớ lưu trữ:** Tối đa 1 triệu bản ghi; dung lượng 8 GB.<br>**Ngôn ngữ:** Hỗ trợ nhiều ngôn ngữ và có thể bổ sung theo nhu cầu.',
+			},
+			{
+				title: 'Vật lý/ điện tử ',
+				desc: '**Kích thước:** Chiều cao: 16 cm; Chiều rộng: 21 cm; Chiều sâu: 24 cm; Khối lượng: 2,75 kg.<br>**Màn hình hiển thị:** Màn hình cảm ứng 7 inch, độ phân giải cao 1280 x 800.<br>**Cổng kết nối:** 2 cổng USB, cổng xuất hình ảnh HDMI, đầu vào cho bàn đạp điều khiển, cổng mạng LAN, cổng dịch vụ USB, nút vật lý thao tác/thực hiện đo.<br>**Nguồn điện:** Điện áp 90 – 240 VAC, tần số 47 – 63 Hz, chuyển đổi sang nguồn cấp 24 VDC / 3,75A.<br>**Điều kiện hoạt động:** Nhiệt độ 10°C – 30°C (50°F – 86°F), độ ẩm 10% – 90%, không ngưng tụ.<br>**Điều kiện bảo quản:** Nhiệt độ –20°C – 65°C (–4°F – 149°F), độ ẩm 10% – 90%, không ngưng tụ.<br>**Phụ kiện tiêu chuẩn:** Gạch trắng hiệu chuẩn có chứng nhận truy xuất nguồn gốc; Gạch xanh kiểm tra chẩn đoán; Tấm kính đen phản xạ; Tấm chặn cổng – đường kính 31,8 mm; Bộ nguồn điện (90W); Hướng dẫn khởi động nhanh.',
+			},
+		],
+		documents: [
+			{
+				title: 'ColorFlex L2 Citrus Brochure',
+				href: 'https://hunterlab-production.s3.amazonaws.com/media/documents/ColorFlex_L2_Citrus_Brochure.pdf',
+			},
+			{
+				title: 'ColorFlex L2 Citrus Specifications',
+				href: 'https://hunterlab-production.s3.amazonaws.com/media/documents/ColorFlex-L2-citrus-specs.pdf',
+			},
+		],
+		assets: [
+			'https://hunterlab-production.s3.amazonaws.com/media/original_images/CFL2-Citrus-Touchscreen-1.new.png',
+			'https://hunterlab-production.s3.amazonaws.com/media/original_images/cfl2_citrus_StandAlone_new.png',
 		],
 	},
 ]

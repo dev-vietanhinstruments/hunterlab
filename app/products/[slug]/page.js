@@ -95,16 +95,28 @@ export default function Page({ params }) {
 									<TagButton href=''>Khác</TagButton>
 								)}
 							</div>
+							{product.features.length > 1 ? (
 							<Intro.List className='text-base lg:text-base'>
 								{product.features.map((item, index) => (
 									<li key={index}>{item}</li>
 								))}
 							</Intro.List>
-							<Button
-								href='tel:0916424731'
-								className='w-full text-center'>
-								Liên hệ ngay: 0916 424 731
-							</Button>
+							) : (
+								<div>{product.features[0]}</div>
+							)}
+							{product.ctaButton ? (
+								<Button
+									href={product.ctaButton.href}
+									className='w-full text-center'>
+									{product.ctaButton.label}
+								</Button>
+							) : (
+								<Button
+									href='tel:0916424731'
+									className='w-full text-center'>
+									Liên hệ ngay: 0916 424 731
+								</Button>
+							)}
 						</div>
 					</div>
 				</Intro>
