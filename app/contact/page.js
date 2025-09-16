@@ -33,8 +33,7 @@ export default function Page() {
 						</h4>
 						<p>
 							<Link href='https://maps.app.goo.gl/iDS3PyH7ipczgTDs6'>
-								11A Nguyễn An, P. Thạnh Mỹ Lợi, Tp. Thủ Đức,
-								Tp.HCM
+								11A Nguyễn An, Khu phố 4, P. Cát Lái, Tp. HCM
 							</Link>
 						</p>
 						<p>
@@ -52,8 +51,7 @@ export default function Page() {
 						<h4 className='font-semibold mb-2'>Chi nhánh Hà Nội</h4>
 						<p>
 							<Link href='https://maps.app.goo.gl/Qr7NrhRN1EY9bEeU7'>
-								P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Trung
-								Văn, Q. Nam Từ Liêm, Hà Nội
+								P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Đại Mỗ, Tp. Hà Nội
 							</Link>
 						</p>
 						<p>
