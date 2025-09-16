@@ -27,7 +27,7 @@ export default function Footer() {
 							<span className='font-medium ml-1 text-white'>
 								Hồ Chí Minh:{' '}
 							</span>
-							11A Nguyễn An, P. Thạnh Mỹ Lợi, Tp. Thủ Đức, Tp. HCM
+							11A Nguyễn An, Khu phố 4, P. Cát Lái, Tp. HCM
 						</div>
 						<div>
 							<svg
@@ -42,7 +42,7 @@ export default function Footer() {
 								/>
 							</svg>
 							<span className='font-medium ml-1 text-white'>Hà Nội: </span>
-							P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Trung Văn, Q. Nam Từ Liêm, Hà Nội
+							P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Đại Mỗ, Tp. Hà Nội
 						</div>
 						<Link href='mailto:va@vietanh.vn'>
 							<svg
