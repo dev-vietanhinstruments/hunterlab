@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>{
       children}
       <div className="fixed bottom-4 right-4 lg:bottom-8 lg:right-8 flex flex-col gap-2 items-end">
-      <FloatingButton href="https://zalo.me/0916424731" className="p-0 bg-white relative w-fit">
+      <FloatingButton href="https://zalo.me/0937998390" className="p-0 bg-white relative w-fit">
         <Image
           src="/logo-zalo.svg"
           alt='zalo'
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           className='size-12'
         />
       </FloatingButton>
-      <FloatingButton href="tel:0916424731" className="p-0 bg-primary relative px-4 py-2">
+      <FloatingButton href="tel:0937998390" className="p-0 bg-primary relative px-4 py-2">
       <svg
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 24 24'
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
 									clipRule='evenodd'
 								/>
 							</svg>
-              <span className='text-white text-sm pl-2'>0916424731</span>
+              <span className='text-white text-sm pl-2'>0937998390</span>
       </FloatingButton>
       </div>
       <Analytics />

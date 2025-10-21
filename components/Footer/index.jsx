@@ -44,7 +44,7 @@ export default function Footer() {
 							<span className='font-medium ml-1 text-white'>Hà Nội: </span>
 							P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Đại Mỗ, Tp. Hà Nội
 						</div>
-						<Link href='mailto:va@vietanh.vn'>
+						<Link href='mailto:loan.ht@hunterlab.vn'>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 24 24'
@@ -54,9 +54,9 @@ export default function Footer() {
 								<path d='M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z' />
 							</svg>
 							<span className='font-medium ml-1 text-white'>Email: </span>
-							va@vietanh.vn
+							loan.ht@hunterlab.vn
 						</Link>
-						<Link href='tel:0916424731'>
+						<Link href='tel:0937998390'>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								viewBox='0 0 24 24'
@@ -69,7 +69,7 @@ export default function Footer() {
 								/>
 							</svg>
 							<span className='font-medium ml-1 text-white'>Hotline: </span>
-							0916-424-731
+							0937998390
 						</Link>
 					</div>
 				</div>

@@ -112,9 +112,9 @@ export default function Page({ params }) {
 								</Button>
 							) : (
 								<Button
-									href='tel:0916424731'
+									href='tel:0937998390'
 									className='w-full text-center'>
-									Liên hệ ngay: 0916 424 731
+									Liên hệ ngay: 0937998390
 								</Button>
 							)}
 						</div>

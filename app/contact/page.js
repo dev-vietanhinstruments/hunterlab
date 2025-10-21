@@ -38,12 +38,12 @@ export default function Page() {
 						</p>
 						<p>
 							Hotline:{' '}
-							<Link href='tel:0916424731'>0916 424 731</Link>
+							<Link href='tel:0937998390'>0937998390</Link>
 						</p>
 						<p>
 							Email:{' '}
-							<Link href='mailto:va@vietanh.vn'>
-								va@vietanh.vn
+							<Link href='mailto:loan.ht@hunterlab.vn'>
+								loan.ht@hunterlab.vn
 							</Link>
 						</p>
 					</div>
@@ -56,12 +56,12 @@ export default function Page() {
 						</p>
 						<p>
 							Hotline:{' '}
-							<Link href='tel:0916424731'>0916 424 731</Link>
+							<Link href='tel:0937998390'>0937998390</Link>
 						</p>
 						<p>
 							Email:{' '}
-							<Link href='mailto:va@vietanh.vn'>
-								va@vietanh.vn
+							<Link href='mailto:loan.ht@hunterlab.vn'>
+								loan.ht@hunterlab.vn
 							</Link>
 						</p>
 					</div>
