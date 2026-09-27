@@ -36,30 +36,22 @@ export default function Page() {
 								11A Nguyễn An, Khu phố 4, P. Cát Lái, Tp. HCM
 							</Link>
 						</p>
-						<p>
-							Hotline:{' '}
-							<Link href='tel:0937998390'>0937998390</Link>
-						</p>
-						<p>
-							Email:{' '}
-							<Link href='mailto:loan.ht@hunterlab.vn'>
-								loan.ht@hunterlab.vn
-							</Link>
-						</p>
 					</div>
-					<div className='text-lg lg:text-xl text-heading'>
+					<div className='text-lg lg:text-xl text-heading mb-8'>
 						<h4 className='font-semibold mb-2'>Chi nhánh Hà Nội</h4>
 						<p>
 							<Link href='https://maps.app.goo.gl/Qr7NrhRN1EY9bEeU7'>
 								P808, 8/F, Viwaseen Building 48 Tố Hữu, P. Đại Mỗ, Tp. Hà Nội
 							</Link>
 						</p>
+					</div>
+					<div className='text-lg lg:text-xl text-heading'>
 						<p>
-							Hotline:{' '}
+							- Hotline:{' '}
 							<Link href='tel:0937998390'>0937998390</Link>
 						</p>
 						<p>
-							Email:{' '}
+							- Email:{' '}
 							<Link href='mailto:loan.ht@hunterlab.vn'>
 								loan.ht@hunterlab.vn
 							</Link>

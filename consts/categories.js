@@ -14,4 +14,9 @@ export const CATEGORIES = [
         tag: 'control',
         name: 'Thiết Bị và Phần Mềm Kiểm Soát Chất Lượng Màu',
     },
+    {
+        id: '4',
+        tag: 'discontinued',
+        name: 'Dòng máy đã ngừng sản xuất',
+    },
 ]

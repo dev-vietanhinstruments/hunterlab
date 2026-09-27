@@ -24,7 +24,7 @@ export const STANDARDS = [
 export const PRODUCTS = [
     {
         name: "Máy Quang Phổ Để Bàn",
-        image: "/products/agera_spectrophotometer-hunterlab.png",
+        image: "/products/Agera_L2-HeroBanner_Image.webp",
         href: "/products#benchtop",
     },
     {

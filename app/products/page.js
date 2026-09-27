@@ -24,6 +24,9 @@ export default function Products() {
 	const productsOfCat3 = PRODUCTS.filter(
 		(product) => product.category === '3'
 	)
+	const productsOfCat4 = PRODUCTS.filter(
+		(product) => product.category === '4'
+	)
 
 	return (
 		<div className='flex flex-col relative'>
@@ -91,6 +94,28 @@ export default function Products() {
 					</Section.Heading>
 					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
 						{productsOfCat3.map((product, index) => {
+							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
+								product.name
+							).replace(/\s+/g, '-')}-p.${product.id}`
+							return (
+								<div key={index}>
+									<ProductCard
+										name={product.name}
+										image={product.image}
+										href={productPath}
+									/>
+								</div>
+							)
+						})}
+					</div>
+				</Section>
+				<Section id='discontinued'>
+					<Section.Heading>Dòng máy đã ngừng sản xuất</Section.Heading>
+					<Section.Subtext>
+						HunterLab đã ngừng sản xuất các dòng máy dưới đây. Tuy nhiên, thiết bị vẫn được hỗ trợ bảo trì và sửa chữa thông qua hệ thống dịch vụ của HunterLab. Đối với khách hàng có nhu cầu nâng cấp hệ thống đo màu, HunterLab hiện cung cấp thế hệ thiết bị L2 mới với công nghệ được cải tiến, khả năng đo màu chính xác, hiệu suất ổn định và nhiều tính năng hỗ trợ kiểm soát chất lượng hiện đại hơn.
+					</Section.Subtext>
+					<div className='grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+						{productsOfCat4.map((product, index) => {
 							const productPath = `/products/${toLowerCaseNonAccentVietnamese(
 								product.name
 							).replace(/\s+/g, '-')}-p.${product.id}`

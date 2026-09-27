@@ -45,7 +45,7 @@ export default function Page() {
 						<Image
 							width={0}
 							height={0}
-							src='https://www.hunterlab.com/media/original_images/image5.jpg'
+							src='/richard-hunter-goal.jpg'
 							alt='Richard Hunter goal'
 							className='object-contain w-full h-auto rounded-md'
 							sizes='100vw, 100vw'
@@ -117,7 +117,7 @@ export default function Page() {
 							<Image
 								width={0}
 								height={0}
-								src='https://www.hunterlab.com/media/original_images/image4.jpg'
+								src='/richard-hunter.jpg'
 								alt='Richard Hunter'
 								className='object-contain w-full h-auto rounded-md'
 								sizes='100vw, 100vw'
@@ -126,7 +126,7 @@ export default function Page() {
 							<Image
 								width={0}
 								height={0}
-								src='https://www.hunterlab.com/media/original_images/unnamed.jpg'
+								src='/richard-hunter-factory.jpg'
 								alt='Richard Hunter factory'
 								className='object-contain w-full h-auto rounded-md'
 								sizes='100vw, 100vw'

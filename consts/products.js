@@ -3,7 +3,7 @@ export const PRODUCTS = [
 		id: '1',
 		name: 'Máy Đo Màu Quang Phổ Hunterlab Agera',
 		image: '/products/agera_spectrophotometer-hunterlab.png',
-		category: '1',
+		category: '4',
 		industries: ['1', '3', '4', '6', '7', '8', '9'],
 		desc: 'Từ nhà sản xuất hàng đầu thế giới về công nghệ đo màu, Agera của Hunterlab mang đến hình ảnh đầy đủ về chất lượng ngoại hình mẫu của bạn. Agera mang đến các phép đo đồng thời về màu sắc phản chiếu, độ bóng trong một phép đo đơn giản. Đèn LED cung cấp độ chính xác màu sắc và độ lặp lại vượt trội. Máy đo độ bóng tích hợp cho kết quả chính xác cao phù hợp với tiêu chuẩn quốc tế. Camera 5 megapixel đảm bảo định vị mẫu thích hợp trong khi chụp và lưu trữ hình ảnh như một phần của bản ghi dữ liệu. Máy đo màu quang phổ Agera với giao diện người dùng hiện đại, phần mềm kiểm soát chất lượng mạnh mẽ và các tùy chọn quản lý dữ liệu hiện đại mang đến tính linh hoạt đặc biệt và dễ sử dụng.',
 		features: [
@@ -68,7 +68,7 @@ export const PRODUCTS = [
 		id: '2',
 		name: 'Máy Đo Màu Quang Phổ ColorFlex EZ',
 		image: '/products/colorflex-ez-spectrophotometer.png',
-		category: '1',
+		category: '4',
 		industries: ['1', '3', '4', '6'],
 		desc: 'Máy đo màu quang phổ thế hệ tiếp theo của Hunterlab- ColorFlex EZ giúp việc kiểm soát chất lượng màu đạt được độ hiệu quả cao nhất với thiết kế 45 ° / 0 ° cho độ chính xác tốt nhất trong việc so màu. Kết hợp tính linh hoạt, đơn giản và hiệu quả, ColorFlex EZ phản ánh gần 60 năm đổi mới của lĩnh vực đo màu trong một thiết bị nhỏ gọn, dễ sử dụng.',
 		features: [
@@ -124,7 +124,7 @@ export const PRODUCTS = [
 		id: '3',
 		name: 'Máy Đo Màu Cho Cà Phê ColorFlex EZ Coffee',
 		image: '/products/ColorFlex_EZ_Coffee_2.png',
-		category: '1',
+		category: '4',
 		industries: ['2'],
 		desc: 'Máy đo màu ColorFlex EZ Coffee là một thiết bị đo màu cà phê rang xay, cà phê hạt sấy khô và cà phê bột hòa tan một cách chính xác và dễ sử dụng. Độ chính xác này đạt được bằng cách sử dụng góc 45º/0º, công nghệ đo lường duy nhất được chứng minh là đo màu theo cách mắt người nhìn thấy. ColorFlex EZ Coffee cung cấp dữ liệu đo lường cần thiết để đảm bảo chất lượng sản phẩm đồng nhất giữa các lô. Các thang màu cà phê được cung cấp trong phần mềm bao gồm: Chỉ số màu cà phê HunterLab (HCCI), Số SCAA và Phân loại độ rang SCAA. Ngoài khả năng đo màu cà phê chuyên dụng, ColorFlex EZ Coffee cũng có thể đo màu phản xạ của nhiều loại mẫu không phải cà phê – chất lỏng, chất bán rắn, bột và chất rắn sử dụng dữ liệu chỉ số màu Hunter L,a,b tiêu chuẩn và CIE Lab* màu sắc và phổ.',
 		features: [
@@ -188,7 +188,7 @@ export const PRODUCTS = [
 		id: '4',
 		name: 'Máy Đo Màu Quang Phổ ColorFlex EZ Citrus',
 		image: '/products/ColorFlex_EZ_Citrus.png',
-		category: '1',
+		category: '4',
 		industries: ['2'],
 		desc: 'Máy đo màu ColorFlex EZ Citrus dễ sử dụng được thiết kế đặc biệt để đo chính xác Citrus, Citrus Redness và Citrus Yellowness. Độ chính xác này đạt được bằng cách sử dụng hình học quang học 45º/0º, công nghệ đo lường duy nhất đã được chứng minh là đo màu theo cách mắt người nhìn thấy. Máy đo màu ColorFlex EZ Citrus bao gồm giá đỡ ống mẫu, giá đỡ đứng, kẹp và một O.J. bằng nhựa đã hiệu chuẩn. Thiết bị có màn hình lớn, dễ đọc và bàn phím kín. ColorFlex EZ Citrus chiếm rất ít không gian phòng thí nghiệm và rất dễ sử dụng. Trong thực tế, mẫu nước trái cây được đổ vào ống nghiệm hoặc ống có nắp đậy. Ống được lắp vào giá đỡ. Bằng cách nhấn một nút trên thiết bị, phép đo được thực hiện. CN (Citrus Number), CR (Citrus Redness) và CY (Citrus Yellowness) sẽ được hiển thị đồng thời. ColorFlex EZ Citrus có thể được kết nối với máy in nếu muốn in dữ liệu ra giấy.',
 		features: [
@@ -244,7 +244,7 @@ export const PRODUCTS = [
 		id: '5',
 		name: 'Máy Đo Màu Quang Phổ ColorFlex EZ Tomato',
 		image: '/products/ColorFlex_EZ_Tomato_3390_2_sauce.png',
-		category: '1',
+		category: '4',
 		industries: ['1', '2'],
 		desc: 'Máy đo màu ColorFlex EZ Tomato là một thiết bị đo màu dễ sử dụng, được thiết kế đặc biệt để đo chính xác màu sắc của cà chua trong tất cả các dạng sản phẩm đã qua xử lý – bao gồm nước sốt cà chua, xốt cà chua, tương cà, nước ép và cả cà chua tươi. Độ chính xác này được đạt được bằng cách sử dụng hình học quang học 45º/0º, là công nghệ đo duy nhất được chứng minh là có thể đo được màu sắc theo cách mà mắt người nhìn thấy. Bên cạnh đó, phần mềm cũng cung cấp các chỉ số màu Hunter L, a, b và CIE Lab*, cho phép bạn sử dụng ColorFlex EZ Tomato của mình để đo màu phản chiếu của nhiều loại mẫu không phải cà chua – chất lỏng, chất bán rắn, bột và chất rắn. Với hộp đựng thiết bị đặc biệt, chống nước trong đó có đầy đủ các dụng cụ cần thiết để bắt đầu đo giá trị màu sắc của cà chua ngay lập tức.',
 		features: [
@@ -365,7 +365,7 @@ export const PRODUCTS = [
 		id: '7',
 		name: 'Máy Đo Màu Quang Phổ Hunterlab Vista',
 		image: '/products/vista-spectrophotometer.png',
-		category: '1',
+		category: '4',
 		industries: ['1', '2', '3', '4'],
 		desc: 'Vista® là máy đo màu quang phổ truyền ánh sáng khả kiến giàu tính năng, nhỏ gọn đo được cùng lúc màu sắc và độ mù của những mẫu trong suốt/trong mờ. Máy đo màu quang phổ truyền ánh sáng khả kiến giàu tính năng, nhỏ gọn đo được cùng lúc màu sắc và độ mù của những mẫu trong suốt/trong mờ. Được thiết kế nhằm đáp ứng nhu cầu của người dùng về tính đơn giản, sự chính xác, độ tin cậy và giá cả hợp lý, Vista có khả năng đo màu sắc và độ mù của nhiều loại mẫu trong một phép đo dễ dàng, trong khi vẫn cung cấp cho người dùng một giao diện trực quan và dễ sử dụng.',
 		features: [
@@ -893,5 +893,128 @@ export const PRODUCTS = [
 			'https://hunterlab-production.s3.amazonaws.com/media/original_images/CFL2-Citrus-Touchscreen-1.new.png',
 			'https://hunterlab-production.s3.amazonaws.com/media/original_images/cfl2_citrus_StandAlone_new.png',
 		],
+	},
+	{
+		id: '17',
+		name: 'Máy Đo Màu Quang Phổ HunterLab Agera L2',
+		image: '/products/Agera_L2-HeroBanner_Image.webp',
+		category: '1',
+		industries: ['3', '4', '5', '6', '7', '8', '9'],
+		desc: 'Công nghệ Visual Truth – Định lượng chính xác những gì mắt bạn nhìn thấy<br><br>Máy đo màu quang phổ Agera L2 với công nghệ Visual Truth được thiết kế để đo màu theo đúng cách mắt người cảm nhận dưới ánh sáng D65. Nhờ đó, kết quả đo khớp với thị giác, dù nơi làm việc có hay không có phòng soi màu D65 được kiểm soát.<br>Thêm vào đó, máy sử dụng hình học phản xạ 0°/45° chiếu sáng vòng (0/45 c), cho kết quả đo màu chính xác và lặp lại tốt, phù hợp với những ứng dụng yêu cầu quan trọng về sự đồng nhất về thị giác, tính nhất quán và độ tin cậy.<br><br>Agera L2 hoạt động như một trạm đo màu hoàn chỉnh, đủ sức chứa hàng triệu phép đo. Toàn bộ quy trình đo, phân tích, lưu trữ dữ liệu và lập báo cáo đều thực hiện ngay trên máy mà không cần PC bên ngoài.<br>Phần mềm Essentials L2 có giao diện rõ ràng, tối ưu cho thao tác cảm ứng. Người vận hành có thể ra quyết định nhanh mà không cần đào tạo nhiều, trong khi vẫn dùng được các tính năng nâng cao khi cần.<br><br>Agera L2 là giải pháp đo màu lý tưởng cho nhựa, nhựa tái chế, bao bì, vật liệu phản quang và vật liệu an toàn, dệt may, sơn và lớp phủ, dược phẩm, hóa dầu, giấy và các vật liệu liên quan, cùng mọi loại mẫu có độ phản xạ từ 20% trở xuống.',
+		features: [
+			'Nguồn sáng D65 thật, đạt chứng nhận CIE cấp A',
+			'Hình học 0°/45°c chiếu sáng vòng, độ chính xác cấp tham chiếu',
+			'Đo chính xác mẫu tối, độ phản xạ từ 20% trở xuống',
+			'Máy tính và bộ nhớ tích hợp sẵn',
+		],
+		specifications: [
+			{
+				title: 'Phương pháp đo lường',
+				desc: '**Nguyên lý đo:** Máy đo quang phổ phản xạ hai chùm tia / Máy đo độ bóng<br>**Hình học đo màu:** 0°/45°c (chiếu sáng vòng), ASTM E1164<br>**Độ bóng:** 60º<br>**Cách đo:** Cổng hướng lên hoặc cổng hướng về phía trước<br>**Thời gian đọc:** < 3 giây<br>**Chụp ảnh:** Độ phân giải cao, chiếu sáng D65, quan sát ảnh 45°/0°, chụp và xem lại ảnh<br>**Lỗ mở tấm cổng (màu):** XL - 53,97 mm (2,125 in), L - 28,57 mm (1,125 in), M - 17,47 mm (0,688 in)<br>**Vùng đo:**<br>• Màu: XLAV - 50,80 mm (2 in), LAV - 25,40 mm (1 in), MAV - 15,89 mm (0,625 in)<br>• Độ bóng: 8 mm (5/16 in)<br>**Dải chiếu sáng:** 360 nm - 700 nm<br>**Dải thu nhận:** 400 nm - 700 nm<br>**Thành phần phản xạ gương:** Loại trừ<br>**Độ phân giải phổ:** < 3 nm<br>**Băng thông hiệu dụng:** 10 nm, tương đương tam giác<br>**Bước báo cáo:** 10 nm<br>**Dải trắc quang:**<br>• Chế độ D65 Source: 0 đến 200 %<br>• Chế độ Agera Classic: 0 đến 150 %<br>• Chế độ Dark Performance: 0 đến 25 %<br>**Kiểm soát UV:** Bao gồm UV và loại trừ UV, tự động hiển thị và báo cáo dữ liệu so sánh. Hiệu chuẩn tại nhà máy, người dùng có thể hiệu chuẩn theo chuẩn huỳnh quang riêng.<br>**Nguồn sáng:** Dãy đèn LED toàn phổ, cân bằng<br>**Tuổi thọ LED:** 5 năm (thông thường)<br>**Bộ quang phổ:** Quang học kín; dãy diode 256 phần tử; cách tử toàn ký lõm độ phân giải cao<br>**Tiêu chuẩn đáp ứng:**<br>• Màu: CIE 15:2018, ASTM E1164, DIN 5033 Teil 7 và JIS Z 8722 Điều kiện C<br>• Độ bóng 60°: ASTM D523, ASTM D2457, ISO 2813, ISO 7668, JIS Z 874',
+			},
+			{
+				title: 'Hiệu suất',
+				desc: '**Độ đồng nhất giữa các thiết bị (IIA):**<br>• Màu: ΔE 2000 < 0,10 CIE L*a*b* (trung bình) trên bộ gạch CCSII (CERAM)<br>• Độ bóng: 0 - 100 ≤ 0,5 GU<br>**Độ lặp lại:**<br>• Màu: ΔE* < 0,03 CIE L*a*b* (tối đa) trên chuẩn thiết bị có chứng nhận<br>• Độ bóng: 0 - 100 GU: ≤ 0,1 GU',
+			},
+			{
+				title: 'Phần mềm tích hợp',
+				desc: '**Chế độ xem dữ liệu:** EZ View, bảng dữ liệu màu, đồ thị màu, dữ liệu phổ, đồ thị phổ, đồ thị sắc độ<br>**Tính năng khác:** Báo Đạt/Không đạt bằng màu, dấu ngày giờ, tự động đặt tên, tự động lưu, chụp ảnh bằng camera độ phân giải cao, đo lấy trung bình nhiều lần, đo tự động theo thời gian, sao lưu và khôi phục dữ liệu<br>**Tính năng ổ USB:** Xuất dữ liệu công việc, ảnh mẫu, ảnh chụp màn hình và cơ sở dữ liệu<br>**Nguồn sáng chuẩn:** A, C, D50, D55, D65, D75, F02, F07, F11<br>**Góc quan sát chuẩn:** 2° và 10°<br>**Thang màu:** CIE L*a*b*, Hunter Lab, CIE L*C*h, CIE Yxy, CIE XYZ<br>**Thang sai khác màu:** ΔL*a*b*, ΔLab, ΔL*C*h, ΔYxy, ΔXYZ<br>**Chỉ số và thông số đo:** Chỉ số trắng E313, chỉ số trắng Ganz, sắc thái E313, sắc thái Ganz, độ vàng E313, chỉ số vàng D1925, độ sáng Y, Z%, độ sáng 457 nm, Baking Contrast Units, ASTM E1349, độ đen (My, Mc, dM) và độ xám (Gy, Gc, dG) theo ISO 18314-3<br>**Chỉ số sai khác màu:** ΔE*, ΔE, ΔC*, ΔE CMC, ΔE 2000, dC*, dH*, cường độ tại độ hấp thụ cực đại, cường độ có trọng số, metamerism, thang xám đánh giá sự thay đổi màu (Grey Scale Color), thang xám đánh giá sự dây màu (Grey Scale Stain), Shade Number 555<br>**Ngôn ngữ:** Hỗ trợ nhiều ngôn ngữ, có thể bổ sung thêm khi cần<br>**Lưu trữ dữ liệu:** 32 GB (> 4 triệu bản ghi kèm hình ảnh)<br>**FDA Title 21 CFR Part 11:** Hồ sơ điện tử và chữ ký điện tử',
+			},
+			{
+				title: 'Kết nối I/O',
+				desc: '**Cổng USB:** Kết nối máy in, bàn phím, chuột. Mặt trước (1 cổng), mặt sau (2 cổng).<br>**Ethernet RJ45:** In trực tiếp đến máy in độc lập hoặc máy in mạng. Truyền dữ liệu đến hệ thống LIMS và SPC.<br>**Đầu vào ngoài:** Công tắc chân từ xa hoặc thiết bị đóng ngắt tiếp điểm tương tự<br>**Hỗ trợ truy cập từ xa:** Kích hoạt qua công cụ hỗ trợ trên internet',
+			},
+			{
+				title: 'Vật lý / điện tử ',
+				desc: '**Kích thước cảm biến:**<br>• Cao: 28 cm (11 in)<br>• Rộng: 22 cm (8,75 in)<br>• Sâu: 31 cm (12,25 in)<br>• Trọng lượng: 7,7 kg (17 lb)<br>**Màn hình:** Màn hình cảm ứng điện dung 7", độ phân giải cao (1280 x 800)<br>**Giao diện:** 3 cổng USB, cổng xuất hình HDMI, cổng công tắc chân, cổng Ethernet, cổng USB dịch vụ, nút bấm đo/thao tác vật lý tiện lợi<br>**Nguồn điện:** Đầu vào 100 đến 240 VAC, 47 đến 63 Hz, qua bộ nguồn đa năng @ 24 VDC (3,75 A, 90 W)<br>**Môi trường hoạt động:** 10° đến 40 °C (50° đến 104 °F), độ ẩm 10 % đến 90 % RH, không ngưng tụ<br>**Môi trường lưu kho:** -20° đến 65 °C (-5° đến 150 °F), độ ẩm 10 % đến 90 % RH, không ngưng tụ<br>**Thành phần hệ thống:**<br>• Cảm biến Agera L2<br>• Tấm cổng XL - 53,97 mm (2,125 in), L - 28,57 mm (1,125 in), M - 17,47 mm (0,688 in)<br>• Chuẩn thiết bị có chứng nhận truy xuất nguồn gốc NIST<br>• Chuẩn kính đen dùng cho chuẩn hóa cả màu và độ bóng<br>• Chuẩn kiểm tra chẩn đoán<br>• Bộ nguồn đa năng 100V - 240V<br>• Hướng dẫn khởi động nhanh Agera L2<br>• Hướng dẫn sử dụng Agera L2 (bản điện tử)',
+			},
+		],
+		documents: [],
+		assets: [],
+	},
+	{
+		id: '18',
+		name: 'Máy Đo Màu Quang Phổ HunterLab Vista L2',
+		image: '/products/Vista-L2-Coffee-HeroBanner-Instrument.webp',
+		category: '1',
+		industries: ['1', '2', '3', '4', '5'],
+		desc: 'Vista L2 giúp nhà sản xuất đáp ứng các tiêu chuẩn quy định và duy trì chất lượng đồng nhất trong suốt quá trình sản xuất. Máy đo cả màu truyền qua và độ đục trong một bước, giúp ra quyết định nhanh hơn, đơn giản hóa quy trình, nâng cao hiệu quả, giảm sai sót của người vận hành và hỗ trợ công tác QC, QA đạt kết quả tốt hơn.<br><br>**Không cần máy tính:** Vista L2 hoạt động như một trạm đo màu hoàn chỉnh, với khả năng xử lý và bộ nhớ tích hợp đủ cho hàng triệu phép đo. Máy không cần PC bên ngoài để đo, phân tích, lưu trữ dữ liệu hay lập báo cáo.<br><br>**Linh hoạt và sẵn sàng đáp ứng tiêu chuẩn:** Vista L2 hỗ trợ Pt-Co/Hazen/APHA, màu Gardner, Haze %, Opalescence, độ truyền qua tổng Y, Saybolt, độ hấp thụ, dữ liệu phổ CIE, LOVIBOND®, AOCS, Dược điển (Pharmacopoeia) và nhiều thang khác, đáp ứng yêu cầu của các ngành công nghiệp trên toàn cầu.<br><br>Vista L2 dùng để đo màu dầu ăn, đồ uống, hóa dầu, dược phẩm sinh học, phôi nhựa và nhiều loại mẫu khác. Với các ngành có quy định bắt buộc về hồ sơ điện tử, hãy chọn Vista L2-ER.',
+		features: [
+			'Đo quang phổ truyền qua ánh sáng khả kiến',
+			'Đo đồng thời màu và độ đục (haze) chỉ trong một bước',
+			'Đo mẫu lỏng và rắn trong suốt, trong mờ',
+			'Kết quả chính xác, lặp lại tốt, giúp kiểm tra độ tinh khiết sản phẩm',
+			'Thao tác trực quan, ít bảo trì, giúp giảm chi phí',
+		],
+		specifications: [
+			{
+				title: 'Phương pháp đo lường',
+				desc: '**Nguyên lý đo:** Máy đo quang phổ hai chùm tia<br>**Hình học:** Tt/0° hoặc Td/0° theo ASTM 1164, CIE 15:2018<br>**Chiều dài đường truyền quang:** Tối đa 100 mm<br>**Thời gian đo:** 2,5 giây<br>**Thời gian đo kèm độ đục:** 5 giây<br>**Khoảng cách giữa các lần đo:** Tối thiểu 3 giây<br>**Kích thước cổng/Vùng đo:** 11 mm (0,43 in) chiếu sáng / 9,8 mm (0,39 in) đo<br>**Chế độ truyền qua:** Tt (TTRAN – truyền qua tổng), Td (RTRAN – truyền qua khuếch tán) và độ đục (Haze)',
+			},
+			{
+				title: 'Thông số kỹ thuật',
+				desc: '**Số lần chớp sáng mỗi phép đo:** 4 lần<br>**Chiều dài đường truyền quang:** Tối đa 100 mm<br>**Dải chiếu sáng và dải đo:** 400 nm - 710 nm<br>**Độ phân giải phổ:** < 3 nm<br>**Băng thông hiệu dụng:** 10 nm, tương đương tam giác<br>**Bước báo cáo:** 10 nm<br>**Dải trắc quang:** 0 đến 150 %<br>**Độ phân giải trắc quang:** 0,003 % (báo cáo 0,01 %)<br>**Tiêu chuẩn đáp ứng:**<br>- Đo màu: CIE 15:2018, ASTM E1164, DIN 5033 Teil 7 và JIS Z 8722 Điều kiện E, G<br>- Độ đục: ASTM D1003<br>**Nguồn sáng:** Dãy đèn LED toàn phổ, cân bằng<br>**Tuổi thọ LED:** 5 năm (thông thường)<br>**Đường kính cầu tích phân:** 76 mm (3 in)<br>**Lớp phủ cầu tích phân:** Spectralon™<br>**Bộ quang phổ:** Dãy diode 256 phần tử; cách tử toàn ký lõm độ phân giải cao',
+			},
+			{
+				title: 'Hiệu suất',
+				desc: '**Độ đồng nhất giữa các thiết bị (IIA):**<br>• Màu: ΔE 2000 < 0,10 CIE L*a*b* (trung bình) trên bộ gạch CCSII (CERAM)<br>• Độ bóng: 0 - 100 ≤ 0,5 GU<br>**Độ lặp lại:**<br>• Màu: ΔE* < 0,03 CIE L*a*b* (tối đa) trên chuẩn thiết bị có chứng nhận<br>• Độ bóng: 0 - 100 GU: ≤ 0,1 GU',
+			},
+			{
+				title: 'Phần mềm tích hợp',
+				desc: '**Chế độ hiển thị dữ liệu:** EZ View, Bảng dữ liệu màu (Color Data Table), Biểu đồ màu (Color Plot), Dữ liệu phổ (Spectral Data), Biểu đồ phổ (Spectral Plot), Biểu đồ xu hướng (Trend Plot).<br><br>**Các tính năng khác:** Hiển thị màu Pass/Fail, ghi dấu thời gian và ngày tháng, tự động đặt tên, tự động lưu và sao lưu dữ liệu.<br><br>**Chỉ số và thông số đo:** APHA/PtCo/Hazen, ADMI, Saybolt, Gardner, ASTM D1500, Iodine, EBC, ASBC, ASBC Turbidity, Chinese Acid Wash, Lovibond® RYBN, AOCS RY, AOCS Cc 13d-55 Chlorophyll Concentration, FAC, YI E313 Yellowness, YI D1925, WI E313, CIE Y Transmission, US Pharmacopeia, Japanese Pharmacopeia, EU Pharmacopeia, Chinese Pharmacopeia EP, Opalescence, Haze, NTU, ICUMSA và OffHue.<br><br>**Hệ màu:** CIE L*a*b*, Hunter Lab, CIE L*C*h, CIE Yxy, CIE XYZ.<br><br>**Thang sai khác màu:** ΔL*a*b*, ΔLab, ΔL*C*h, ΔYxy, ΔXYZ.<br><br>**Chỉ số sai khác màu:** ΔE*, ΔE, ΔECMC (l:c), CIE ΔE 2000.<br><br>**Bộ nhớ dữ liệu:** 32 GB, lưu trữ hơn 4 triệu bản ghi dữ liệu kèm hình ảnh.<br><br>**Nguồn sáng chuẩn:** D65, C, A, D50, D55, D75, F02, F07, F11, TL84, ULT30, ULT35.<br><br>**Góc quan sát chuẩn:** 2° và 10°.<br><br>**Ngôn ngữ:** Hỗ trợ nhiều ngôn ngữ và có thể bổ sung thêm khi cần.<br><br>**Màn hình:** Màn hình cảm ứng, độ phân giải cao 1280 × 800.<br><br>**Phần mềm trên máy tính:** Tương thích với EasyMatch Quality Central.<br><br>**FDA Title 21 CFR Part 11:** Hỗ trợ các yêu cầu về hồ sơ điện tử và chữ ký điện tử theo FDA 21 CFR Part 11.',
+			},
+			{
+				title: 'Kết nối I/O',
+				desc: '**Kết nối USB:** Hỗ trợ kết nối với bàn phím, chuột, USB flash và máy quét mã vạch/mã QR.<br>**Cổng USB mặt trước:** USB 2.0 hai chiều, hỗ trợ xuất/nhập dữ liệu qua USB flash.<br>**Ethernet RJ45:** Cho phép in trực tiếp qua máy in mạng, đồng thời truyền dữ liệu đến hệ thống LIMS và SPC',
+			},
+			{
+				title: 'Vật lý / điện tử ',
+				desc: '**Kích thước thiết bị:**<br>**Chiều cao:** 177,8 mm (7,0 in.)<br>**Chiều rộng:** 485,8 mm (19,125 in.)<br>**Chiều sâu:** 228,6 mm (9,0 in.)<br>**Khối lượng:** 6,35 kg (14,0 lbs)<br>**Khoang đo truyền qua:**<br>**Chiều cao:** 108,0 mm (4,25 in.)*<br>**Chiều rộng:** 101,6 mm (4,0 in.)<br>**Chiều sâu:** 187,3 mm (7,375 in.) khi đóng nắp*<br>* Nắp có thể tháo rời, cho phép mở khoang mẫu ở ba phía: phía trên, phía trước và phía sau, thuận tiện khi đo các mẫu có kích thước lớn.<br>**Khoảng cách từ đáy đến cổng đo:**<br>63,5 mm (2,5 in.)<br><br>**Yêu cầu nguồn điện:**<br>100–240 VAC, 47–63 Hz, 60 W<br><br>**Điều kiện môi trường:**<br>**Môi trường vận hành:** 10–40°C (50–104°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br>**Môi trường bảo quản:** -21–66°C (-5–150°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br><br>**Phụ kiện tiêu chuẩn:**<br>Chứng nhận phù hợp (Certificate of Compliance)<br>Bộ nguồn<br>Hướng dẫn khởi động nhanh Vista<br>Bút cảm ứng<br>USB flash<br>Khăn vệ sinh',
+			},
+		],
+		documents: [],
+		assets: [],
+	},
+	{
+		id: '19',
+		name: 'Máy Đo Màu Quang Phổ HunterLab Vista L2- ER',
+		image: '/products/Vista_L2-ER-HeroBanner_Instrument_Image.webp',
+		category: '1',
+		industries: ['1', '4', '5'],
+		desc: 'Vista L2-ER, mỗi kết quả đo màu đều được ghi lại kèm đầy đủ thông tin đi kèm: người vận hành, số serial thiết bị, thông tin hiệu chuẩn hoặc chuẩn hóa liên quan, cùng ngày giờ đo. Toàn bộ kết quả được lưu thành hồ sơ điện tử có bảo vệ trong EasyMatch Essentials L2-ER và ghi vào nhật ký kiểm tra (audit trail) đã khóa, có dấu ngày giờ tự động. Khi thanh tra viên yêu cầu, hệ thống có thể tái xuất các hồ sơ này ở dạng người đọc được lẫn dạng điện tử.<br><br>**Quyền truy cập:** Cũng được kiểm soát chặt chẽ. Chỉ người dùng đã xác thực mới đăng nhập được, và vai trò của từng người quyết định họ được làm gì trên máy. Tính năng quản lý mật khẩu cùng chữ ký điện tử đã khóa gắn mỗi lần phê duyệt với một người cụ thể. Kết hợp với khả năng xuất dữ liệu có truy xuất nguồn gốc, hệ thống hỗ trợ doanh nghiệp tuân thủ các quy định về hồ sơ điện tử.<br><br>**Trong vận hành hằng ngày:** Mỗi chuyên viên phân tích có thể thiết lập chế độ xem dữ liệu theo nhu cầu riêng. Ngay khi có kết quả đo, Vista L2-ER tự động đánh giá Đạt hoặc Không đạt dựa trên tiêu chuẩn kỹ thuật của doanh nghiệp.<br><br>Vista L2-ER là máy đo màu quang phổ truyền qua, dùng để đo màu chất lỏng trong suốt và trong mờ. Máy được thiết kế cho các ngành sản xuất có quy định như dược phẩm, hóa dầu, công nghệ sinh học, thực phẩm và hóa chất.',
+		features: [
+			'Đo màu và độ đục (haze/turbidity) cho các ngành có quy định',
+			'Phần mềm EasyMatch Essentials L2-ER có tính năng hồ sơ điện tử',
+			'Hỗ trợ tuân thủ FDA 21 CFR Part 11',
+			'Thiết kế cho môi trường EU GMP Annex 11 và MHLW ERES của Nhật Bản',
+		],
+		specifications: [
+			{
+				title: 'Phương pháp đo lường',
+				desc: '**Nguyên lý đo:** Máy đo quang phổ hai chùm tia<br>**Hình học:** Tt/0° hoặc Td/0° theo ASTM 1164, CIE 15:2018<br>**Chiều dài đường truyền quang:** Tối đa 100 mm<br>**Thời gian đo:** 2,5 giây<br>**Thời gian đo kèm độ đục:** 5 giây<br>**Khoảng cách giữa các lần đo:** Tối thiểu 3 giây<br>**Kích thước cổng/Vùng đo:** 11 mm (0,43 in) chiếu sáng / 9,8 mm (0,39 in) đo<br>**Chế độ truyền qua:** Tt (TTRAN – truyền qua tổng), Td (RTRAN – truyền qua khuếch tán) và độ đục (Haze)',
+			},
+			{
+				title: 'Thông số kỹ thuật',
+				desc: '**Số lần chớp sáng mỗi phép đo:** 4 lần<br>**Chiều dài đường truyền quang:** Tối đa 100 mm<br>**Dải chiếu sáng và dải đo:** 400 nm - 710 nm<br>**Độ phân giải phổ:** < 3 nm<br>**Băng thông hiệu dụng:** 10 nm, tương đương tam giác<br>**Bước báo cáo:** 10 nm<br>**Dải trắc quang:** 0 đến 150 %<br>**Độ phân giải trắc quang:** 0,003 % (báo cáo 0,01 %)<br>**Tiêu chuẩn đáp ứng:**<br>- Đo màu: CIE 15:2018, ASTM E1164, DIN 5033 Teil 7 và JIS Z 8722 Điều kiện E, G<br>- Độ đục: ASTM D1003<br><br>**Nguồn sáng:** Dãy đèn LED toàn phổ, cân bằng<br>**Tuổi thọ LED:** 5 năm (thông thường)<br>**Đường kính cầu tích phân:** 76 mm (3 in)<br>**Lớp phủ cầu tích phân:** Spectralon™<br>**Bộ quang phổ:** Dãy diode 256 phần tử; cách tử toàn ký lõm độ phân giải cao',
+			},
+			{
+				title: 'Hiệu suất',
+				desc: '**Độ lặp lại màu:** < 0,02 ΔE* khi đo không khí<br>**Độ lặp lại phổ:** Độ lệch chuẩn trong phạm vi 0,1 % T<br><br>**Độ đồng nhất giữa các thiết bị (IIA):**<br>- ΔE* < 0,15 (trung bình) (bộ kính lọc truyền qua)<br>- ΔE* < 0,25 (tối đa) (bộ kính lọc truyền qua)<br>- ± 0,30% khi đo mẫu Haze 10%',
+			},
+			{
+				title: 'Phần mềm tích hợp',
+				desc: '**Chế độ hiển thị dữ liệu:**<br>EZ View, Bảng dữ liệu màu (Color Data Table), Biểu đồ màu (Color Plot), Dữ liệu phổ (Spectral Data), Biểu đồ phổ (Spectral Plot), Biểu đồ xu hướng (Trend Plot).<br><br>**Các tính năng khác:**<br>Hiển thị màu Pass/Fail, ghi dấu thời gian và ngày tháng, tự động đặt tên, tự động lưu và sao lưu dữ liệu.<br><br>**Chỉ số và thông số đo:**<br>APHA/PtCo/Hazen, ADMI, Saybolt, Gardner, ASTM D1500, Iodine, EBC, ASBC, ASBC Turbidity, Chinese Acid Wash, Lovibond® RYBN, AOCS RY, AOCS Cc 13d-55 Chlorophyll Concentration, FAC, YI E313 Yellowness, YI D1925, WI E313, CIE Y Transmission, US Pharmacopeia, Japanese Pharmacopeia, EU Pharmacopeia, Chinese Pharmacopeia EP, Opalescence, Haze, NTU, ICUMSA và OffHue.<br><br>**Hệ màu:**<br>CIE L*a*b*, Hunter Lab, CIE L*C*h, CIE Yxy, CIE XYZ.<br><br>**Thang sai khác màu:**<br>ΔL*a*b*, ΔLab, ΔL*C*h, ΔYxy, ΔXYZ.<br><br>**Chỉ số sai khác màu:**<br>ΔE*, ΔE, ΔECMC (l:c), CIE ΔE 2000.<br><br>**Bộ nhớ dữ liệu:**<br>32 GB, lưu trữ hơn 4 triệu bản ghi dữ liệu kèm hình ảnh.<br><br>**Nguồn sáng chuẩn:**<br>D65, C, A, D50, D55, D75, F02, F07, F11, TL84, ULT30, ULT35.<br><br>**Góc quan sát chuẩn:**<br>2° và 10°.<br><br>**Ngôn ngữ:**<br>Hỗ trợ nhiều ngôn ngữ và có thể bổ sung thêm khi cần.<br><br>**Màn hình:**<br>Màn hình cảm ứng, độ phân giải cao 1280 × 800.<br><br>**Phần mềm trên máy tính:**<br>Tương thích với EasyMatch Quality Central.<br><br>**FDA Title 21 CFR Part 11:**<br>Hỗ trợ các yêu cầu về hồ sơ điện tử và chữ ký điện tử theo FDA 21 CFR Part 11.',
+			},
+			{
+				title: 'Kết nối I/O',
+				desc: '**Kết nối USB:**<br>Hỗ trợ kết nối với bàn phím, chuột, USB flash và máy quét mã vạch/mã QR.<br><br>**Cổng USB mặt trước:**<br>USB 2.0 hai chiều, hỗ trợ xuất/nhập dữ liệu qua USB flash.<br><br>**Ethernet RJ45:**<br>Cho phép in trực tiếp qua máy in mạng, đồng thời truyền dữ liệu đến hệ thống LIMS và SPC.',
+			},
+			{
+				title: 'Vật lý / điện tử ',
+				desc: '**Kích thước thiết bị:**<br><br>Chiều cao: 177,8 mm (7,0 in.)<br>Chiều rộng: 485,8 mm (19,125 in.)<br>Chiều sâu: 228,6 mm (9,0 in.)<br>Khối lượng: 6,35 kg (14,0 lbs)<br><br>**Khoang đo truyền qua**<br>Chiều cao: 108,0 mm (4,25 in.)*<br>Chiều rộng: 101,6 mm (4,0 in.)<br>Chiều sâu: 187,3 mm (7,375 in.) khi đóng nắp*<br><br>* Nắp có thể tháo rời, cho phép mở khoang mẫu ở ba phía: phía trên, phía trước và phía sau, thuận tiện khi đo các mẫu có kích thước lớn.<br><br>**Khoảng cách từ đáy đến cổng đo:**<br>63,5 mm (2,5 in.)<br><br>**Yêu cầu nguồn điện**<br><br>100–240 VAC, 47–63 Hz, 60 W<br><br>**Điều kiện môi trường**<br><br>**Môi trường vận hành:**<br>10–40°C (50–104°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br><br>**Môi trường bảo quản:**<br>-21–66°C (-5–150°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br><br>**Phụ kiện tiêu chuẩn**<br>Chứng nhận phù hợp (Certificate of Compliance)<br>Bộ nguồn<br>Hướng dẫn khởi động nhanh Vista<br>Bút cảm ứng<br>USB flash<br>Khăn vệ sinh',
+			},
+		],
+		documents: [],
+		assets: [],
 	},
 ]
