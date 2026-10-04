@@ -340,25 +340,25 @@ export const PRODUCTS = [
 		documents: [
 			{
 				title: 'Aeros Brochure',
-				href: 'https://www.hunterlab.com/media/documents/Aeros_Brochure.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Aeros_Brochure.pdf',
 			},
 			{
 				title: 'Aeros User Manual',
-				href: 'https://www.hunterlab.com/media/documents/Users_Manual_for_Aeros_A60-1018-193_2.0.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Aeros_Users_Manual.pdf',
 			},
 			{
 				title: 'Aeros Quick Start Guide',
-				href: 'https://www.hunterlab.com/media/documents/aeros-quick-start-guide.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Aeros_Quick_Start_Guide.pdf',
 			},
 			{
 				title: 'Aeros Specifications',
-				href: 'https://www.hunterlab.com/media/documents/Aeros_Specifications.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Aeros__Specifications.pdf',
 			},
 		],
 		assets: [
-			'https://www.hunterlab.com/media/original_images/aeros-standardization.png',
-			'https://www.hunterlab.com/media/original_images/aeros-color-data-table.png',
-			'https://www.hunterlab.com/media/original_images/aeros-connection-ports.png',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/aeros-standardization.png',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/aeros-color-data-table.png',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/aeros-connection-ports.png',
 		],
 	},
 	{
@@ -477,18 +477,18 @@ export const PRODUCTS = [
 	},
 	{
 		id: '9',
-		name: 'Máy Đo Màu Di Động MiniScan EZ 4500',
+		name: 'Máy Đo Màu Di Động MiniScan EZ 4500L',
 		image: '/products/miniscan-ez-spectrophotometer.png',
 		category: '2',
 		industries: ['1', '3', '6', '7', '8', '9'],
-		desc: 'Máy đo màu di động MiniScan EZ 4500 có thiết kế 45 ° / 0 ° với màn hình lớn, trọng lượng nhẹ và được thiết kế công thái học để thao tác bằng một tay. Với phần mềm tích hợp bao gồm hầu hết các thang màu và chỉ số phản xạ công nghiệp chính. MiniScan EZ 4500 cho phép các nhà sản xuất đánh giá dễ dàng và chính xác chất lượng sản phẩm của mình.Hình học 45 ° / 0 ° với chế độ xem khu vực rộng lớn.',
+		desc: 'Dễ sử dụng. Nhỏ gọn. Hiệu suất nâng cao.<br><br>Máy đo màu di động MiniScan EZ 4500L là máy đo quang phổ cầm tay được ưa chuộng nhất của HunterLab. Máy sử dụng hình học chiếu sáng 45° và quan sát 0° (45°/0°) với vùng đo lớn: cổng đo 31,8 mm và vùng đo 25 mm.<br><br>Với thiết kế cầm tay, người vận hành chỉ cần thao tác bằng một tay và dùng đầu ngón tay cái để điều hướng các chức năng. Máy hiển thị dữ liệu màu, dữ liệu chênh lệch màu, biểu đồ màu, dữ liệu quang phổ, chênh lệch dữ liệu quang phổ, biểu đồ quang phổ và biểu đồ chênh lệch quang phổ. Ngoài ra, máy có thể tính trung bình tối đa 20 lần đo mẫu.<br><br>Nhờ phần mềm tích hợp sẵn trên máy, MiniScan EZ 4500L giúp nhà sản xuất đánh giá chất lượng sản phẩm dễ dàng và chính xác.',
 		features: [
-			'Trọng lượng nhẹ với tay cầm bọc cao su tạo sự thoải mái cho người vận hành',
-			'Thao tác dễ dàng bằng một tay, điều hướng bằng đầu ngón tay cái của các chức năng',
-			'Màn hình LCD lớn, dễ đọc',
-			'Hiển thị dữ liệu màu, dữ liệu chênh lệch màu, biểu đồ màu, dữ liệu quang phổ, chênh lệch dữ liệu quang phổ, biểu đồ quang phổ, biểu đồ chênh lệch quang phổ',
-			'Bao gồm tất cả các thang màu và chỉ số thường được sử dụng',
-			'Lưu trữ 100 tiêu chuẩn và 800 phép đo mẫu',
+			'Hình học 45°/0° với vùng đo lớn',
+			'Nhỏ gọn, trọng lượng nhẹ, tay cầm bọc cao su',
+			'Thao tác dễ dàng bằng một tay',
+			'Màn hình LCD đồ họa lớn, dễ đọc',
+			'Đầy đủ các thang màu và chỉ số thông dụng',
+			'Lưu trữ 100 mẫu chuẩn và 800 phép đo mẫu',
 		],
 		specifications: [
 			{
@@ -497,11 +497,11 @@ export const PRODUCTS = [
 			},
 			{
 				title: 'Thông số kỹ thuật',
-				desc: '**Phạm vi quang phổ:** 400 nm - 700 nm<br><br>**Độ phân giải bước sóng:** \\< 3 nm<br><br>**Băng thông hiệu dụng:** 10 nm tam giác tương đương<br><br>**Khoảng thời gian báo cáo:** 10 nm<br><br>**Phạm vi quang học:** 0 đến 150 %<br><br>**Độ phân giải quang học:** 0.003 % (0.01 % được báo cáo)<br><br>**Nguồn sáng:** Đèn Xenon xung<br><br>**Số lần nháy đèn mỗi lần đo:** 1 lần nháy<br><br>**Tuổi thọ đèn:** \\> 1 triệu lần nháy<br><br>**Thời gian đo:** \\< 1 giây từ lúc nhấn nút đến lúc đo, 2 giây từ lúc nhấn nút đến lúc hiển thị dữ liệu<br><br>**Khoảng thời gian tối thiểu giữa các lần đo:** 3 giây<br><br>**Tuân thủ tiêu chuẩn:** CIE 15:2004, ISO 7724/1, ASTM E1164, DIN 5033 Phần 7 và JIS Z 8722 Điều kiện C<br><br>**Độ truy vết tiêu chuẩn:** tuân theo Viện Tiêu chuẩn và Công nghệ Quốc gia (NIST) dựa trên các phương pháp được mô tả trong CIE Publication 44 và ASTM E259.',
+				desc: '**Phạm vi quang phổ:** 400 nm - 700 nm<br><br>**Độ phân giải bước sóng:** \\< 3 nm<br><br>**Băng thông hiệu dụng:** 10 nm, tương đương tam giác<br><br>**Bước báo cáo:** 10 nm<br><br>**Dải trắc quang:** 0 đến 150 %<br><br>**Độ phân giải quang học:** 0.003 % (0.01 % được báo cáo)<br><br>**Nguồn sáng:** Đèn Xenon xung<br><br>**Số lần nháy đèn mỗi lần đo:** 1 lần nháy<br><br>**Tuổi thọ đèn:** \\> 1 triệu lần nháy<br><br>**Thời gian đo:** \\< 1 giây từ lúc nhấn nút đến lúc đo, 2 giây từ lúc nhấn nút đến lúc hiển thị dữ liệu<br><br>**Khoảng thời gian tối thiểu giữa các lần đo:** 3 giây<br><br>**Tuân thủ tiêu chuẩn:** CIE 15:2004, ISO 7724/1, ASTM E1164, DIN 5033 Phần 7 và JIS Z 8722 Điều kiện C<br><br>**Độ truy vết tiêu chuẩn:** tuân theo Viện Tiêu chuẩn và Công nghệ Quốc gia (NIST) dựa trên các phương pháp được mô tả trong CIE Publication 44 và ASTM E259.',
 			},
 			{
 				title: 'Hiệu suất',
-				desc: '**Sự đồng nhất giữa các thiết bị đo màu (IIA):**<br>- ∆E*< 0.15 CIE L*a*b* (Avg) trên bộ gạch BCRA II<br>- ∆E*< 0.25 CIE L*a*b* (Max) trên bộ gạch BCRA II<br><br>**Khả năng tái tạo màu:** ∆E*< 0.05 CIE L*a*b* trên gạch trắng (20 Lần đo).',
+				desc: '**Sự đồng nhất giữa các thiết bị đo màu (IIA):**<br>- ∆E*< 0.15 CIE L*a*b* (Avg) trên bộ gạch BCRA II<br>- ∆E*< 0.25 CIE L*a*b* (Max) trên bộ gạch BCRA II<br><br>**Độ lặp lại màu (20 lần đo):** ΔE* < 0,05 CIE L*a*b* trên gạch trắng',
 			},
 			{
 				title: 'Phần mềm tích hợp',
@@ -515,41 +515,41 @@ export const PRODUCTS = [
 		documents: [
 			{
 				title: 'MiniScan EZ User Manual',
-				href: 'https://www.hunterlab.com/media/documents/users_manual_for_miniscan_ez.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/MiniScan-EZ_Users_Manual.pdf',
 			},
 			{
 				title: 'MiniScan EZ Brochure',
-				href: 'https://www.hunterlab.com/media/documents/miniscan-ez-brochure.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/MiniScan-EZ_Brochure.pdf',
 			},
 			{
 				title: 'MiniScan EZ Quick Start Guide',
-				href: 'https://www.hunterlab.com/media/documents/miniscan-ez-quick-start-guide.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/MiniScan-EZ_Quick_Start_Guide.pdf',
 			},
 			{
 				title: 'MiniScan EZ Specifications',
-				href: 'https://www.hunterlab.com/media/documents/MiniScan_EZ_Specifications.pdf',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/MiniScan-EZ_Specifications.pdf',
 			},
 		],
 		assets: [
-			'https://www.hunterlab.com/media/original_images/miniscan-ez-data-display.png',
-			'https://www.hunterlab.com/media/original_images/miniscan-ez-configurations.png',
-			'https://www.hunterlab.com/media/original_images/miniscan-ez-handle-thumb-tip-control.png',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/miniscan-ez-data-display.png',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/miniscan-ez-configurations.png',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/miniscan-ez-handle-thumb-tip-control.png',
 		],
 	},
 	{
 		id: '10',
-		name: 'Máy Đo Màu Di Động MiniScan EZ 4000',
+		name: 'Máy Đo Màu Quang Phổ Di Động HunterLab MiniScan EZ 4000L',
 		image: '/products/miniscan-ez-spectrophotometer.png',
 		category: '2',
-		industries: ['1', '3', '6', '7', '8', '9'],
-		desc: 'Máy đo màu di động MiniScan EZ 4000 có màn hình lớn, trọng lượng nhẹ và được thiết kế công thái học để thao tác bằng một tay. Với phần mềm tích hợp bao gồm hầu hết các thang màu và chỉ số phản xạ công nghiệp chính. MiniScan EZ 4000 cho phép các nhà sản xuất đánh giá dễ dàng và chính xác chất lượng sản phẩm của mình.',
+		industries: ['3', '6', '8'],
+		desc: 'Dễ sử dụng. Nhỏ gọn. Hiệu suất nâng cao.<br><br>Máy đo màu di động MiniScan EZ 4000L là máy đo quang phổ/máy đo màu chiếu sáng khuếch tán với vùng đo lớn. Máy có cổng đo 25 mm và vùng đo 20 mm, lý tưởng cho nhiều loại mẫu khác nhau. MiniScan EZ 4000L đặc biệt hữu ích khi cần giảm ảnh hưởng của độ bóng hoặc kết cấu bề mặt mẫu lên kết quả đo.<br><br>Với thiết kế cầm tay, người vận hành chỉ cần thao tác bằng một tay và dùng đầu ngón tay cái để điều hướng các chức năng. Máy hiển thị dữ liệu màu, dữ liệu chênh lệch màu, biểu đồ màu, dữ liệu quang phổ, chênh lệch dữ liệu quang phổ, biểu đồ quang phổ và biểu đồ chênh lệch quang phổ. Ngoài ra, máy có thể tính trung bình tối đa 20 lần đo mẫu.<br><br>Nhờ phần mềm tích hợp sẵn trên máy, MiniScan EZ 4000L giúp nhà sản xuất đánh giá chất lượng sản phẩm dễ dàng và chính xác.',
 		features: [
-			'Trọng lượng nhẹ với tay cầm bọc cao su tạo sự thoải mái cho người vận hành',
-			'Thao tác dễ dàng bằng một tay, điều hướng bằng đầu ngón tay cái của các chức năng',
-			'Màn hình LCD lớn, dễ đọc',
-			'Hiển thị dữ liệu màu, dữ liệu chênh lệch màu, biểu đồ màu, dữ liệu quang phổ, chênh lệch dữ liệu quang phổ, biểu đồ quang phổ, biểu đồ chênh lệch quang phổ',
-			'Bao gồm tất cả các thang màu và chỉ số thường được sử dụng',
-			'Lưu trữ 100 tiêu chuẩn và 800 phép đo mẫu',
+			'Thiết kế cầu tích phân với vùng đo lớn',
+			'Nhỏ gọn, trọng lượng nhẹ, tay cầm bọc cao su',
+			'Thao tác dễ dàng bằng một tay',
+			'Màn hình LCD đồ họa lớn, dễ đọc',
+			'Đầy đủ các thang màu và chỉ số thông dụng',
+			'Lưu trữ 100 mẫu chuẩn và 800 phép đo mẫu',
 		],
 		specifications: [
 			{
@@ -558,11 +558,11 @@ export const PRODUCTS = [
 			},
 			{
 				title: 'Thông số kỹ thuật',
-				desc: '**Phạm vi quang phổ:** 400 nm - 700 nm<br><br>**Độ phân giải bước sóng:** < 3 nm<br><br>**Băng thông hiệu dụng:** 10 nm tam giác tương đương<br><br>**Khoảng thời gian báo cáo:** 10 nm<br><br>**Phạm vi quang học:** 0 đến 150 %<br><br>**Độ phân giải quang học:** 0.003 % (0.01 % được báo cáo)<br><br>**Nguồn sáng:** Đèn Xenon xung<br><br>**Số lần nháy đèn mỗi lần đo:** 1 lần nháy<br><br>**Tuổi thọ đèn:** > 1 triệu lần nháy<br><br>**Thời gian đo:** < 1 giây từ lúc nhấn nút đến lúc đo, 2 giây từ lúc nhấn nút đến lúc hiển thị dữ liệu<br><br>**Khoảng thời gian tối thiểu giữa các lần đo:** 3 giây<br><br>**Tuân thủ tiêu chuẩn:** CIE 15:2004, ISO 7724/1, ASTM E1164, DIN 5033 Phần 7 và JIS Z 8722 Điều kiện C<br><br>**Độ truy vết tiêu chuẩn:** tuân theo Viện Tiêu chuẩn và Công nghệ Quốc gia (NIST) dựa trên các phương pháp được mô tả trong CIE Publication 44 và ASTM E259.',
+				desc: '**Phạm vi quang phổ:** 400 nm - 700 nm<br><br>**Độ phân giải bước sóng:** < 3 nm<br><br>**Băng thông hiệu dụng:** 10 nm, tương đương tam giác<br><br>**Bước báo cáo:** 10 nm<br><br>**Dải trắc quang:** 0 đến 150 %<br><br>**Độ phân giải quang học:** 0.003 % (0.01 % được báo cáo)<br><br>**Nguồn sáng:** Đèn Xenon xung<br><br>**Số lần nháy đèn mỗi lần đo:** 1 lần nháy<br><br>**Tuổi thọ đèn:** > 1 triệu lần nháy<br><br>**Thời gian đo:** < 1 giây từ lúc nhấn nút đến lúc đo, 2 giây từ lúc nhấn nút đến lúc hiển thị dữ liệu<br><br>**Khoảng thời gian tối thiểu giữa các lần đo:** 3 giây<br><br>**Tuân thủ tiêu chuẩn:** CIE 15:2004, ISO 7724/1, ASTM E1164, DIN 5033 Phần 7 và JIS Z 8722 Điều kiện C<br><br>**Độ truy vết tiêu chuẩn:** tuân theo Viện Tiêu chuẩn và Công nghệ Quốc gia (NIST) dựa trên các phương pháp được mô tả trong CIE Publication 44 và ASTM E259.',
 			},
 			{
 				title: 'Hiệu suất',
-				desc: '**Sự đồng nhất giữa các thiết bị đo màu (IIA):**<br>- ∆E*\\< 0.15 CIE L*a*b* (Avg) trên bộ gạch BCRA II<br>- ∆E*\\< 0.25 CIE L*a*b* (Max) trên bộ gạch BCRA II<br><br>**Khả năng tái tạo màu:** ∆E*\\< 0.05 CIE L*a*b* trên gạch trắng (20 Lần đo).',
+				desc: '**Sự đồng nhất giữa các thiết bị đo màu (IIA):**<br>- ∆E*\\< 0.15 CIE L*a*b* (Avg) trên bộ gạch BCRA II<br>- ∆E*\\< 0.25 CIE L*a*b* (Max) trên bộ gạch BCRA II<br><br>**Độ lặp lại màu (20 lần đo):** ∆E*\\< 0,05 CIE L*a*b* trên gạch trắng',
 			},
 			{
 				title: 'Phần mềm tích hợp',
@@ -709,14 +709,12 @@ export const PRODUCTS = [
 		image: '/products/easymatch-qc-product.png',
 		category: '3',
 		industries: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
-		desc: 'EasyMatch QC rất dễ sử dụng và có thể được cài đặt để chỉ hiển thị thông tin bạn muốn. EasyMatch QC mang đến khả năng gần như vô hạn để trình bày và so sánh thông tin màu sắc của bạn. Dữ liệu màu và dữ liệu quang phổ được hiển thị bằng số ở dạng bảng tính hoặc đồ họa dưới dạng biểu đồ màu, biểu đồ quang phổ và biểu đồ xu hướng. Màn hình EZ View được đơn giản hóa chỉ hiển thị dữ liệu tiêu chuẩn và mẫu cuối cùng được đo và đạt/không đạt (tuỳ chọn). Color Render mô phỏng trực quan màu sắc trên màn hình máy tính của bạn. EasyMatch QC có khả năng lưu giữ hồ sơ điện tử. Phiên bản phần mềm này bảo vệ và duy trì hồ sơ đầy đủ và chính xác, giới hạn quyền truy cập hệ thống, thực hiện kiểm tra quyền hạn và bao gồm chữ ký điện tử. Nó đáp ứng các yêu cầu phần mềm để tuân thủ 21 CFR Part 11. EasyMatch QC có các ngôn ngữ tiếng Trung, tiếng Anh, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Ý, tiếng Nhật, tiếng Nga và tiếng Tây Ban Nha và tương thích với tất cả các hệ điều hành hiện tại của Microsoft.',
+		desc: 'EasyMatch QC hiển thị dữ liệu màu và dữ liệu quang phổ dạng số trong bảng tính, hoặc dạng đồ họa với biểu đồ màu, biểu đồ quang phổ và biểu đồ xu hướng. Màn hình EZ View rút gọn chỉ hiển thị dữ liệu của mẫu chuẩn, mẫu vừa đo và kết quả Đạt/Không đạt (tùy chọn). Tính năng Color Render mô phỏng trực quan màu sắc ngay trên màn hình máy tính.<br><br>Dữ liệu được quản lý theo tệp công việc (job). Có thể tạo job riêng cho từng khách hàng hoặc từng sản phẩm, mỗi job chứa một hoặc nhiều mẫu chuẩn. Mỗi mẫu chuẩn gắn được với số lượng mẫu đo không giới hạn, nhờ đó lưu giữ được lịch sử quy trình theo thời gian. Các màn hình do người dùng tự thiết lập có thể lưu thành template, sau đó mở lại để tạo job mới dễ dàng.<br><br>EasyMatch QC có phiên bản hỗ trợ lưu trữ hồ sơ điện tử. Phiên bản này bảo vệ và lưu giữ hồ sơ đầy đủ, chính xác, tự động tạo nhật ký truy vết (audit trail) và có chữ ký điện tử, đáp ứng các yêu cầu phần mềm để tuân thủ 21 CFR Part 11. Phần mềm có sẵn các ngôn ngữ tiếng Trung, tiếng Anh, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Ý, tiếng Nhật, tiếng Nga, tiếng Tây Ban Nha và tương thích với tất cả hệ điều hành Microsoft hiện hành.',
 		features: [
-			'Nhiều chế độ xem dữ liệu có thể định tuỳ chỉnh',
-			'Đơn giản hóa việc lưu trữ và gọi lại dữ liệu',
-			'Cơ sở dữ liệu có thể tìm kiếm đầy đủ',
-			'Các trường công thức cho phép tính toán các chỉ số tùy chỉnh',
-			'Người quản lý người dùng với các đặc quyền truy cập tùy chỉnh',
-			'Khả năng tùy chỉnh báo cáo in',
+			'Đo màu và độ đục (haze/turbidity) cho các ngành có quy định',
+			'Phần mềm EasyMatch Essentials L2-ER có tính năng hồ sơ điện tử',
+			'Hỗ trợ tuân thủ FDA 21 CFR Part 11',
+			'Thiết kế cho môi trường EU GMP Annex 11 và MHLW ERES của Nhật Bản',
 		],
 		specifications: [
 			{
@@ -900,7 +898,7 @@ export const PRODUCTS = [
 		image: '/products/Agera_L2-HeroBanner_Image.webp',
 		category: '1',
 		industries: ['3', '4', '5', '6', '7', '8', '9'],
-		desc: 'Công nghệ Visual Truth – Định lượng chính xác những gì mắt bạn nhìn thấy<br><br>Máy đo màu quang phổ Agera L2 với công nghệ Visual Truth được thiết kế để đo màu theo đúng cách mắt người cảm nhận dưới ánh sáng D65. Nhờ đó, kết quả đo khớp với thị giác, dù nơi làm việc có hay không có phòng soi màu D65 được kiểm soát.<br>Thêm vào đó, máy sử dụng hình học phản xạ 0°/45° chiếu sáng vòng (0/45 c), cho kết quả đo màu chính xác và lặp lại tốt, phù hợp với những ứng dụng yêu cầu quan trọng về sự đồng nhất về thị giác, tính nhất quán và độ tin cậy.<br><br>Agera L2 hoạt động như một trạm đo màu hoàn chỉnh, đủ sức chứa hàng triệu phép đo. Toàn bộ quy trình đo, phân tích, lưu trữ dữ liệu và lập báo cáo đều thực hiện ngay trên máy mà không cần PC bên ngoài.<br>Phần mềm Essentials L2 có giao diện rõ ràng, tối ưu cho thao tác cảm ứng. Người vận hành có thể ra quyết định nhanh mà không cần đào tạo nhiều, trong khi vẫn dùng được các tính năng nâng cao khi cần.<br><br>Agera L2 là giải pháp đo màu lý tưởng cho nhựa, nhựa tái chế, bao bì, vật liệu phản quang và vật liệu an toàn, dệt may, sơn và lớp phủ, dược phẩm, hóa dầu, giấy và các vật liệu liên quan, cùng mọi loại mẫu có độ phản xạ từ 20% trở xuống.',
+		desc: 'Công nghệ Visual Truth - Định lượng chính xác những gì mắt bạn nhìn thấy<br><br>Máy đo màu quang phổ Agera L2 với công nghệ Visual Truth được thiết kế để đo màu theo đúng cách mắt người cảm nhận dưới ánh sáng D65. Nhờ đó, kết quả đo khớp với thị giác, dù nơi làm việc có hay không có phòng soi màu D65 được kiểm soát.<br>Thêm vào đó, máy sử dụng hình học phản xạ 0°/45° chiếu sáng vòng (0/45 c), cho kết quả đo màu chính xác và lặp lại tốt, phù hợp với những ứng dụng yêu cầu quan trọng về sự đồng nhất về thị giác, tính nhất quán và độ tin cậy.<br><br>Agera L2 hoạt động như một trạm đo màu hoàn chỉnh, đủ sức chứa hàng triệu phép đo. Toàn bộ quy trình đo, phân tích, lưu trữ dữ liệu và lập báo cáo đều thực hiện ngay trên máy mà không cần PC bên ngoài.<br>Phần mềm Essentials L2 có giao diện rõ ràng, tối ưu cho thao tác cảm ứng. Người vận hành có thể ra quyết định nhanh mà không cần đào tạo nhiều, trong khi vẫn dùng được các tính năng nâng cao khi cần.<br><br>Agera L2 là giải pháp đo màu lý tưởng cho nhựa, nhựa tái chế, bao bì, vật liệu phản quang và vật liệu an toàn, dệt may, sơn và lớp phủ, dược phẩm, hóa dầu, giấy và các vật liệu liên quan, cùng mọi loại mẫu có độ phản xạ từ 20% trở xuống.',
 		features: [
 			'Nguồn sáng D65 thật, đạt chứng nhận CIE cấp A',
 			'Hình học 0°/45°c chiếu sáng vòng, độ chính xác cấp tham chiếu',
@@ -929,7 +927,16 @@ export const PRODUCTS = [
 				desc: '**Kích thước cảm biến:**<br>• Cao: 28 cm (11 in)<br>• Rộng: 22 cm (8,75 in)<br>• Sâu: 31 cm (12,25 in)<br>• Trọng lượng: 7,7 kg (17 lb)<br>**Màn hình:** Màn hình cảm ứng điện dung 7", độ phân giải cao (1280 x 800)<br>**Giao diện:** 3 cổng USB, cổng xuất hình HDMI, cổng công tắc chân, cổng Ethernet, cổng USB dịch vụ, nút bấm đo/thao tác vật lý tiện lợi<br>**Nguồn điện:** Đầu vào 100 đến 240 VAC, 47 đến 63 Hz, qua bộ nguồn đa năng @ 24 VDC (3,75 A, 90 W)<br>**Môi trường hoạt động:** 10° đến 40 °C (50° đến 104 °F), độ ẩm 10 % đến 90 % RH, không ngưng tụ<br>**Môi trường lưu kho:** -20° đến 65 °C (-5° đến 150 °F), độ ẩm 10 % đến 90 % RH, không ngưng tụ<br>**Thành phần hệ thống:**<br>• Cảm biến Agera L2<br>• Tấm cổng XL - 53,97 mm (2,125 in), L - 28,57 mm (1,125 in), M - 17,47 mm (0,688 in)<br>• Chuẩn thiết bị có chứng nhận truy xuất nguồn gốc NIST<br>• Chuẩn kính đen dùng cho chuẩn hóa cả màu và độ bóng<br>• Chuẩn kiểm tra chẩn đoán<br>• Bộ nguồn đa năng 100V - 240V<br>• Hướng dẫn khởi động nhanh Agera L2<br>• Hướng dẫn sử dụng Agera L2 (bản điện tử)',
 			},
 		],
-		documents: [],
+		documents: [
+			{
+				title: 'Agera L2 Brochue',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Agera-L2_Brochure.pdf',
+			},
+			{
+				title: 'Agera L2 User\'s Manual',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Agera-L2_Users_Manual.pdf ',
+			},
+		],
 		assets: [],
 	},
 	{
@@ -972,7 +979,16 @@ export const PRODUCTS = [
 				desc: '**Kích thước thiết bị:**<br>**Chiều cao:** 177,8 mm (7,0 in.)<br>**Chiều rộng:** 485,8 mm (19,125 in.)<br>**Chiều sâu:** 228,6 mm (9,0 in.)<br>**Khối lượng:** 6,35 kg (14,0 lbs)<br>**Khoang đo truyền qua:**<br>**Chiều cao:** 108,0 mm (4,25 in.)*<br>**Chiều rộng:** 101,6 mm (4,0 in.)<br>**Chiều sâu:** 187,3 mm (7,375 in.) khi đóng nắp*<br>* Nắp có thể tháo rời, cho phép mở khoang mẫu ở ba phía: phía trên, phía trước và phía sau, thuận tiện khi đo các mẫu có kích thước lớn.<br>**Khoảng cách từ đáy đến cổng đo:**<br>63,5 mm (2,5 in.)<br><br>**Yêu cầu nguồn điện:**<br>100–240 VAC, 47–63 Hz, 60 W<br><br>**Điều kiện môi trường:**<br>**Môi trường vận hành:** 10–40°C (50–104°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br>**Môi trường bảo quản:** -21–66°C (-5–150°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br><br>**Phụ kiện tiêu chuẩn:**<br>Chứng nhận phù hợp (Certificate of Compliance)<br>Bộ nguồn<br>Hướng dẫn khởi động nhanh Vista<br>Bút cảm ứng<br>USB flash<br>Khăn vệ sinh',
 			},
 		],
-		documents: [],
+		documents: [
+			{
+				title: 'Vista L2 Brochue',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Vista-L2_Brochure.pdf',
+			},
+			{
+				title: 'L2 User\'s Manual',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Vista-L2_Users_Manual.pdf',
+			},
+		],
 		assets: [],
 	},
 	{
@@ -1014,7 +1030,42 @@ export const PRODUCTS = [
 				desc: '**Kích thước thiết bị:**<br><br>Chiều cao: 177,8 mm (7,0 in.)<br>Chiều rộng: 485,8 mm (19,125 in.)<br>Chiều sâu: 228,6 mm (9,0 in.)<br>Khối lượng: 6,35 kg (14,0 lbs)<br><br>**Khoang đo truyền qua**<br>Chiều cao: 108,0 mm (4,25 in.)*<br>Chiều rộng: 101,6 mm (4,0 in.)<br>Chiều sâu: 187,3 mm (7,375 in.) khi đóng nắp*<br><br>* Nắp có thể tháo rời, cho phép mở khoang mẫu ở ba phía: phía trên, phía trước và phía sau, thuận tiện khi đo các mẫu có kích thước lớn.<br><br>**Khoảng cách từ đáy đến cổng đo:**<br>63,5 mm (2,5 in.)<br><br>**Yêu cầu nguồn điện**<br><br>100–240 VAC, 47–63 Hz, 60 W<br><br>**Điều kiện môi trường**<br><br>**Môi trường vận hành:**<br>10–40°C (50–104°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br><br>**Môi trường bảo quản:**<br>-21–66°C (-5–150°F), độ ẩm tương đối 10–90% RH, không ngưng tụ.<br><br>**Phụ kiện tiêu chuẩn**<br>Chứng nhận phù hợp (Certificate of Compliance)<br>Bộ nguồn<br>Hướng dẫn khởi động nhanh Vista<br>Bút cảm ứng<br>USB flash<br>Khăn vệ sinh',
 			},
 		],
-		documents: [],
+		documents: [
+			{
+				title: 'Vista L2 - ER Brochue',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Vista-L2-ER_Brochure.pdf',
+			},
+			{
+				title: 'Vista L2 - ER Specifications',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/Vista-L2-ER_Specifications.pdf',
+			},
+		],
 		assets: [],
+	},
+	{
+		id: '20',
+		name: 'EasyMatch® Quality Central: Phần Mềm Kiểm Soát Chất Lượng Màu',
+		image: '/products/EasyMatchQuality-BannerImage-Rev2.webp',
+		category: '3',
+		industries: [],
+		desc: 'Trải nghiệm thế hệ kiểm soát màu mới với EasyMatch® Quality Central, lớp phần mềm hạ tầng của nền tảng Essentials L2 từ HunterLab. Phần mềm giúp giám sát và kiểm soát toàn diện các thiết bị đo màu cùng mọi hoạt động kiểm soát chất lượng màu. Dữ liệu được bảo mật, việc tuân thủ trở nên đơn giản, và thiết bị đo luôn là nguồn dữ liệu gốc không thể bị làm sai lệch.<br><br>Không còn cảnh đi tìm tệp dữ liệu trên từng thiết bị, hệ thống hay địa điểm. Mọi kết quả nằm trong một bức tranh tổng thể, giúp phát hiện xu hướng nhanh hơn và tự tin ra quyết định. Phần mềm tích hợp liền mạch với SQL, LIMS, Excel và các hệ thống doanh nghiệp, biến kết quả kiểm tra chất lượng thành thông tin giá trị cho hoạt động kinh doanh. Dữ liệu từ EasyMatch QC cũ vẫn dùng tiếp được, giúp việc chuyển đổi không bị gián đoạn. EasyMatch Quality Central hỗ trợ 21 CFR Part 11 cho các máy Vista L2 và Agera L2 có giấy phép ER còn hiệu lực.<br><br>**Thiết lập một lần, áp dụng cho nhiều thiết bị**<br>Chỉ cần tạo và kiểm tra bộ thiết lập đo màu (Workspace) một lần trên máy tính, rồi gửi đến một hoặc nhiều thiết bị. Nhờ vậy, mọi dây chuyền, ca làm việc và nhà máy đều đo màu theo cùng một thiết lập.<br><br>**Dữ liệu an toàn, hỗ trợ tuân thủ 21 CFR Part 11**<br>Mỗi người dùng chỉ thao tác trong phạm vi được phân quyền, thiết bị đo phải được xác thực và mọi thay đổi đều được ghi lại đầy đủ trong nhật ký truy vết (audit trail). Việc quản lý và chứng minh tuân thủ vì thế đơn giản hơn.<br><br>**Đồng bộ dữ liệu theo thời gian thực**<br>Dữ liệu luôn được đồng bộ, kể cả khi mạng không ổn định. Khi mất kết nối, thiết bị vẫn đo bình thường và lưu dữ liệu tại chỗ. Khi có mạng trở lại, kết quả đo và Workspace tự động đồng bộ, không gián đoạn, không mất dữ liệu.',
+		features: [
+			'Phần mềm kiểm soát chất lượng màu tiên tiến nhất của HunterLab',
+			'Quản lý tập trung dữ liệu màu từ nhiều thiết bị',
+			'Bảo mật, hỗ trợ tuân thủ 21 CFR Part 11',
+			'Đồng bộ dữ liệu theo thời gian thực',
+		],
+		specifications: [],
+		documents: [
+			{
+				title: 'User\'s Manual forEasyMatch Quality Central',
+				href: 'https://hunterlab-prod.s3.amazonaws.com/media/documents/EasyMatch-Quality-Central_Users_Manual.pdf',
+			},
+		],
+		assets: [
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/EMQC-Centralized-Workflows-1.webp',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/EMQC-Remote-Deployment-You-Can-Trust-1.webp',
+			'https://hunterlab-prod.s3.amazonaws.com/media/original_images/EMQC-Consistent-Operator-Experience-1.webp',
+		],
 	},
 ]

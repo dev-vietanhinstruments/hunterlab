@@ -1,6 +1,6 @@
 export const BANNERS = [
-	'/banners/banner_1.png',
-	'/banners/banner_3.png',
+	'/banners/5.png',
+	'/banners/6.png',
 ]
 
 export const STANDARDS = [
@@ -23,12 +23,12 @@ export const STANDARDS = [
 
 export const PRODUCTS = [
     {
-        name: "Máy Quang Phổ Để Bàn",
+        name: "Máy Đo Màu Quang Phổ Để Bàn",
         image: "/products/Agera_L2-HeroBanner_Image.webp",
         href: "/products#benchtop",
     },
     {
-        name: "Máy Quang Phổ Cầm Tay",
+        name: "Máy Đo Màu Quang Phổ Di Động",
         image: "/products/miniscan-ez-spectrophotometer.png",
 		href: "/products#portable",
     },

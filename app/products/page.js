@@ -38,7 +38,7 @@ export default function Products() {
 				<Section
 					id='benchtop'
 					className='pt-16 sm:pt-20 lg:pt-24'>
-					<Section.Heading>Máy đo quang phổ để bàn</Section.Heading>
+					<Section.Heading>Máy Đo Màu Quang Phổ Để Bàn</Section.Heading>
 					<Section.Subtext>
 						Máy đo màu và quang phổ để bàn của HunterLab mang lại độ
 						chính xác và linh hoạt tối ưu cho việc đo mẫu, bất kể
@@ -65,7 +65,7 @@ export default function Products() {
 					</div>
 				</Section>
 				<Section id='portable'>
-					<Section.Heading>Máy Đo Màu Di Động</Section.Heading>
+					<Section.Heading>Máy Đo Màu Quang Phổ Di Động</Section.Heading>
 					<Section.Subtext>
 						Máy đo màu/quang phổ cầm tay HunterLab là công cụ lý
 						tưởng để đo màu mẫu di động, đáp ứng nhu cầu kiểm tra
@@ -110,7 +110,7 @@ export default function Products() {
 					</div>
 				</Section>
 				<Section id='discontinued'>
-					<Section.Heading>Dòng máy đã ngừng sản xuất</Section.Heading>
+					<Section.Heading>Dòng Máy Đã Ngừng Sản Xuất</Section.Heading>
 					<Section.Subtext>
 						HunterLab đã ngừng sản xuất các dòng máy dưới đây. Tuy nhiên, thiết bị vẫn được hỗ trợ bảo trì và sửa chữa thông qua hệ thống dịch vụ của HunterLab. Đối với khách hàng có nhu cầu nâng cấp hệ thống đo màu, HunterLab hiện cung cấp thế hệ thiết bị L2 mới với công nghệ được cải tiến, khả năng đo màu chính xác, hiệu suất ổn định và nhiều tính năng hỗ trợ kiểm soát chất lượng hiện đại hơn.
 					</Section.Subtext>
@@ -132,7 +132,7 @@ export default function Products() {
 					</div>
 				</Section>
 				<Section>
-					<Section.Heading>Tài liệu</Section.Heading>
+					<Section.Heading>Tài Liệu</Section.Heading>
 					<div className='flex flex-col gap-2'>
 						<DocCard
 							title='Màu sắc và hình thức'

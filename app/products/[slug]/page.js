@@ -124,7 +124,7 @@ export default function Page({ params }) {
 					<Section.Heading>Mô tả</Section.Heading>
 					<RenderMarkdownBlock className='mb-0' content={product.desc} />
 				</Section>
-				<Section>
+				{specifications.length > 0 && (<Section>
 					<Section.Heading>Các thông số</Section.Heading>
 					{specifications.map((spec, index) => {
 						return (
@@ -135,7 +135,7 @@ export default function Page({ params }) {
 							</Section.Detail>
 						)
 					})}
-				</Section>
+				</Section>)}
 				<Section>
 					<Section.Heading>Tài liệu</Section.Heading>
 					<div className='flex flex-col gap-2'>

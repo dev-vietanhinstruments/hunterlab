@@ -14,6 +14,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'vietanh.vn',
             },
+            {
+            protocol: 'https',
+            hostname: 'hunterlab-prod.s3.amazonaws.com',
+            },
         ],
     },
 };

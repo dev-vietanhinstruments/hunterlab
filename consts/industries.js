@@ -92,7 +92,7 @@ export const INDUSTRIES = [
 	},
 	{
 		id: '6',
-		name: 'Xây dựng',
+		name: 'Vật liệu xây dựng',
 		icon: '/industries/building.svg',
 		cover: 'https://live.staticflickr.com/3132/3174431207_44705860a6_b.jpg',
 		application: {
