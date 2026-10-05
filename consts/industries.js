@@ -19,7 +19,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại thực phẩm khác',
 			],
 		},
-		products: ['1', '2', '5', '6', '7', '9', '10', '11', '12', '13'],
+		products: ['6', '9', '11', '12', '14', '15', '18', '19'],
 	},
 	{
 		id: '2',
@@ -38,7 +38,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại đồ uống khác',
 			],
 		},
-		products: ['3', '4', '5', '6', '7', '12', '13'],
+		products: ['6', '12', '14', '15', '16', '18'],
 	},
 	{
 		id: '3',
@@ -55,7 +55,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại nhựa khác',
 			],
 		},
-		products: ['1', '2', '7', '8', '9', '10', '11', '12', '13'],
+		products: ['8', '9', '10', '11', '12', '17', '18'],
 	},
 	{
 		id: '4',
@@ -72,7 +72,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại hóa phẩm khác',
 			],
 		},
-		products: ['1', '2', '6', '7', '12'],
+		products: ['6', '14', '17', '18', '19'],
 	},
 	{
 		id: '5',
@@ -88,7 +88,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại dược phẩm khác',
 			],
 		},
-		products: ['6', '12', '13'],
+		products: ['6', '12', '17', '18', '19'],
 	},
 	{
 		id: '6',
@@ -106,7 +106,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại vật liệu xây dựng khác',
 			],
 		},
-		products: ['1', '2', '6', '8', '9', '10', '11', '12'],
+		products: ['6', '8', '9', '10', '11', '14', '17'],
 	},
 	{
 		id: '7',
@@ -122,7 +122,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại lớp phủ khác',
 			],
 		},
-		products: ['1', '9', '10', '11', '12'],
+		products: ['9', '11', '17'],
 	},
 	{
 		id: '8',
@@ -139,7 +139,7 @@ export const INDUSTRIES = [
 				'Và nhiều loại giấy khác',
 			],
 		},
-		products: ['1', '9', '10', '11', '12', '13'],
+		products: ['9', '10', '11', '12', '17'],
 	},
 	{
 		id: '9',
@@ -154,6 +154,6 @@ export const INDUSTRIES = [
 				'Và nhiều loại chất liệu khác',
 			],
 		},
-		products: ['1', '8', '9', '10', '11', '12'],
+		products: ['8', '9', '11', '17'],
 	},
 ]

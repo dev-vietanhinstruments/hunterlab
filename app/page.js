@@ -9,31 +9,25 @@ import { INDUSTRIES } from '@/consts/industries'
 import { PartnersCarousel } from '@/components/Carousel'
 import Section from '@/components/Layout/Section'
 import Intro from '@/components/Layout/Intro'
-import Button from '@/components/Button'
 import SupportSection from '@/components/SupportSection'
 import toLowerCaseNonAccentVietnamese from '@/utils/nonAccentVietnamese'
+import Image from 'next/image'
+
 
 export default function Home() {
 	return (
 		<div className='flex flex-col relative'>
 			<Header />
 			<main>
-				<Intro className='bg-homepage-intro h-[calc(100vh-124px)] sm:h-[560px] px-4'>
-					<div className='flex flex-col w-full max-w-[1024px] justify-center items-center px-4'>
-						<h1 className='text-4xl sm:text-5xl lg:text-6xl font-semibold text-white mb-8'>
-							HunterLab
-						</h1>
-						<p className='text-xl lg:text-2xl text-center text-white mb-5'>
-							Với hơn 70 năm kinh nghiệm, HunterLab tự tin là nhà
-							sản xuất hàng đầu trong việc sản xuất và cung cấp
-							các thiết bị đo màu.
-						</p>
-						<Button
-							className='text-white border-2 border-white hover:text-primary hover:bg-white'
-							href='/about'>
-							Tìm hiểu thêm
-						</Button>
-					</div>
+				<Intro className='block p-0 sm:p-0 lg:p-0 overflow-hidden'>
+					<Image
+						width={1400}
+						height={486}
+						src='/banners/banner.png'
+						alt='Hunterlab'
+						className='w-full h-auto rounded-md'
+						priority={true}
+					/>
 				</Intro>
 				<Section className='mt-8 sm:mt-12'>
 					<Section.Heading>Đáp ứng các tiêu chuẩn</Section.Heading>

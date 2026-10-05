@@ -708,7 +708,7 @@ export const PRODUCTS = [
 		name: 'EasyMatch QC: Phần Mềm Kiểm Soát Chất Lượng Màu',
 		image: '/products/easymatch-qc-product.png',
 		category: '3',
-		industries: ['1', '2', '3', '4', '5', '6', '7', '8', '9'],
+		industries: [],
 		desc: 'EasyMatch QC hiển thị dữ liệu màu và dữ liệu quang phổ dạng số trong bảng tính, hoặc dạng đồ họa với biểu đồ màu, biểu đồ quang phổ và biểu đồ xu hướng. Màn hình EZ View rút gọn chỉ hiển thị dữ liệu của mẫu chuẩn, mẫu vừa đo và kết quả Đạt/Không đạt (tùy chọn). Tính năng Color Render mô phỏng trực quan màu sắc ngay trên màn hình máy tính.<br><br>Dữ liệu được quản lý theo tệp công việc (job). Có thể tạo job riêng cho từng khách hàng hoặc từng sản phẩm, mỗi job chứa một hoặc nhiều mẫu chuẩn. Mỗi mẫu chuẩn gắn được với số lượng mẫu đo không giới hạn, nhờ đó lưu giữ được lịch sử quy trình theo thời gian. Các màn hình do người dùng tự thiết lập có thể lưu thành template, sau đó mở lại để tạo job mới dễ dàng.<br><br>EasyMatch QC có phiên bản hỗ trợ lưu trữ hồ sơ điện tử. Phiên bản này bảo vệ và lưu giữ hồ sơ đầy đủ, chính xác, tự động tạo nhật ký truy vết (audit trail) và có chữ ký điện tử, đáp ứng các yêu cầu phần mềm để tuân thủ 21 CFR Part 11. Phần mềm có sẵn các ngôn ngữ tiếng Trung, tiếng Anh, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Ý, tiếng Nhật, tiếng Nga, tiếng Tây Ban Nha và tương thích với tất cả hệ điều hành Microsoft hiện hành.',
 		features: [
 			'Đo màu và độ đục (haze/turbidity) cho các ngành có quy định',

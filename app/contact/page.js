@@ -19,8 +19,8 @@ export default function Page() {
 					<Image
 						width={1400}
 						height={486}
-						src='/vietanh-contact.png'
-						alt='VietAnh'
+						src='/banners/banner.png'
+						alt='Hunterlab'
 						className='w-full h-auto rounded-md'
 						priority={true}
 					/>
