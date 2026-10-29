@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { FloatingButton } from './../components/Button/index';
 import Image from "next/image";
@@ -18,6 +19,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-9VES47474P"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9VES47474P');
+          `}
+        </Script>
+      </head>
       <body className={inter.className}>{
       children}
       <div className="fixed bottom-4 right-4 lg:bottom-8 lg:right-8 flex flex-col gap-2 items-end">
